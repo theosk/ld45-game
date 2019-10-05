@@ -6,6 +6,7 @@ CONST
     STATE_INTRO_ID = 0;
     STATE_DIALOG_ID = 1;
     STATE_BATTLE_ID = 2;
+    STATE_MAP_ID = 3;
     
 GLOBAL
 
@@ -49,6 +50,11 @@ struct dialog;
     int chosen_answer = 0;
     
 end
+
+struct map;
+    int ui_id;
+end
+
 
 int img_bg;
 int img_logo;

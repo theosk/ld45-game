@@ -4,6 +4,7 @@ include "src/globals.prg";
 
 include "src/state_dialog.prg";
 include "src/state_battle.prg";
+include "src/state_map.prg";
 
 include "src/scripts/intro.prg";
 include "src/scripts/merchant_attack.prg";
@@ -21,6 +22,7 @@ BEGIN
 
   
     state_dialog();
+    state_map();
     game.state = STATE_DIALOG_ID;
     frame(2000);
 

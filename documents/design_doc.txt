@@ -40,8 +40,28 @@ b) Let them kill each other and loot the corpses (get lots of money and a dagger
 
 You learn most of the guards have left to join the war. As a consequence, bandits and pirates roam freely.
 
-The town is hiding a legendary treasure, and the pirates are after it.
+Mandatory bosses:
+- Bandit boss
+- 
 
+Main quest:
+- Bandit attacks merchant
+- Town: head to the inn after the travel.
+- Inn: learn about bandits, pirates and such
+- Castle: you need to defeat the bandit boss
+- Defeated bandit boss: go back to the castle
+- Castle: evil creatures (orcs, demons) are attacking. You need magic to defeat them. Find the 3 ancient crystal fragments.
+  the king hands you the crystal detector.
+-- Fragment 1: in the shore
+-- Fragment 2: in the forest
+-- Fragment 3: in the mountain
+- Castle: the kings takes the crystals and turns into a powerful demon, then runs away.
+- Demon's lair: here you fight the king.
+- Castle:
+-- Good ending: if you married your love interest, you can become the new king.
+-- Regular ending: if you are not married, your love interest will save you from trial for killing the king.
+-- Regular ending: if no love interest, but merchant is saved, he helps you escape.
+-- Bad ending: if no love interest exists and merchant is dead, you are sentenced to death. But hey, you saved the world!.
 
 
 ---------
