@@ -1,0 +1,56 @@
+
+
+MVP Game states and systems:
+- Floating text dialogs
+- Scenarios
+- Main quest
+- Simple inventory (get quest items, and a screen to check them)
+
+Nice to have Game states:
+- Quest journal
+- Combat (some actions with cooldown time)
+- Basic automatic Level up
+- Magic
+- Shop (improve weapon and armor)
+- Companions
+- Buy business
+- Side quests
+- Advanced Dialog Screen
+- yes/no screens
+- Simple interactive level up (all stats +1, select 1 skill to improve)
+- Advanced Level up (select stats to improve)
+
+-----
+Story
+-----
+Centuries, the twelve elemental crystals were spread across the world. Their magic was meant to be used for the greater good.
+Countless wars ensued, and most of them were destroyed. Today, two of them remain: the thunder crystal and the blood shard, and
+two opposing factions fight for supremacy, sweeping most of the world in the process.
+You were barely able to leave your hometown before it was destroyed. Without any luggage or goods, your boat heads to unknown lands,
+hoping the war will not have arrived there.
+
+First scene: Bandit shore
+you wake up in the shore. You have nothing. You see a bandit attacking a merchant. Both are injuried. You will:
+a) Hurry up and fight the bandit (get a dagger as a reward)
+b) Let them kill each other and loot the corpses (get lots of money and a dagger)
+
+You learn most of the guards have left to join the war. As a consequence, bandits and pirates roam freely.
+
+The town is hiding a legendary treasure, and the pirates are after it.
+
+
+
+---------
+Locations
+---------
+# Bandit shore
+
+# Downtown
+
+
+
+
+----------
+Characters
+----------
+Merchant: 
