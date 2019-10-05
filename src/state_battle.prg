@@ -13,12 +13,17 @@ BEGIN
     game.state = STATE_DIALOG_ID;
     frame(2000);
 
+    state_dialog_putline("", 100);
+    state_dialog_putline("Battle against " + enemy_name + " begins!", 1000);
+    state_dialog_putline("", 100);
+    
     loop
         state_battle_turn();
         frame(5000);
         
         if (battle.player_health == 0)
             // LOST
+            state_dialog_putline(enemy_name + " has defeated you!", 1000);
             state_dialog_putline("You just LOST the battle!!!", 1000);
             state_dialog_putline("You retreat. Better luck next time.", 1000);
             result = 0;
@@ -27,6 +32,7 @@ BEGIN
 
         if (battle.enemy_health == 0)
             // WON
+            state_dialog_putline(enemy_name + " is defeated!", 1000);
             state_dialog_putline("You just WON the battle!!!", 1000);
             result = 1;
             break;

@@ -6,8 +6,11 @@ BEGIN
     state_dialog_ask("Will you fight the bandit?");
     if(dialog.chosen_answer == 1)
         // Save the merchant
+        state_battle_start("Bandit", 0);
+        quests.saveMerchant = STATUS_ENDED;
     else 
         // Let the merchant die
+        quests.saveMerchant = STATUS_FAILED;
     end
 
         state_dialog_clear();
@@ -32,3 +35,16 @@ BEGIN
     state_dialog_putline("You see a dagger on the ground, conveniently near.", 400);
     state_dialog_putline("Or you could let them kill each other and steal their goods...", 400);    
 END
+
+FUNCTION script_merchant_attack_text_ended()
+
+BEGIN
+    // TODO
+END
+
+FUNCTION script_merchant_attack_text_failed()
+
+BEGIN
+    // TODO
+END
+

@@ -27,7 +27,6 @@ BEGIN
     logo();
     script_intro();
     script_merchant_attack();
-    state_battle_start("Bandit", 0);
 
     loop
         if (key(_esc)) break; end

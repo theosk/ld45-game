@@ -1,10 +1,14 @@
 
 
 MVP Game states and systems:
-- Floating text dialogs
+- Simple text dialogs [done]
+- yes/no screens [done]
 - Scenarios
 - Main quest
-- Simple inventory (get quest items, and a screen to check them)
+- Destination map
+- Simple inventory 
+    (get quest items, and a screen to check them)
+- Simple Battles [done]
 
 Nice to have Game states:
 - Quest journal
@@ -16,7 +20,7 @@ Nice to have Game states:
 - Buy business
 - Side quests
 - Advanced Dialog Screen
-- yes/no screens
+
 - Simple interactive level up (all stats +1, select 1 skill to improve)
 - Advanced Level up (select stats to improve)
 
