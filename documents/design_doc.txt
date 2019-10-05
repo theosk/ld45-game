@@ -43,9 +43,43 @@ The town is hiding a legendary treasure, and the pirates are after it.
 ---------
 Locations
 ---------
-# Bandit shore
+# [START] The shore
+- TO: the forest (unlocked after visiting)
 
-# Downtown
+# The forest
+- TO: bandit camp (unlocked after visiting)
+- TO: the shore
+- TO: the town streets (unlocked afer visiting)
+
+# The town
+
+# The bandit camp (unlocked in town)
+- killing bandits give small gold amount
+
+# Bandit boss cave (unlocked after beating 10 bandits)
+- unlocks new destinations
+
+# Orc settlement (unlocked after beating bandit boss)
+- killing orcs gives medium gold amounts
+
+# Orc treasure chamber (unlocked after beating 10 orcs)
+
+
+# Secret treasure area
+- There is a pirate treasure here. You need the map.
+reward: lots of coins. +1 Amulet
+
+Combats:
+automatic. Every turn a dice is thrown and a random sentence is printed.
+1d6 + extra stats
+items give you extra score
+each enemy has a minimum score to be hit (otherwise, you are hit).
+Bandit: 2
+Bandit boss: 4
+French orcs: 3
+French orc boss: 5
+
+
 
 
 
