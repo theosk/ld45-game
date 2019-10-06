@@ -7,7 +7,27 @@ CONST
     STATE_DIALOG_ID = 1;
     STATE_BATTLE_ID = 2;
     STATE_MAP_ID = 3;
+
+    LOCATION_NONE = -1;
+    LOCATION_SHORE = 0;
+    LOCATION_WOODS = 1;
+    LOCATION_TOWN = 2;
+    LOCATION_BANDIT_CAMP = 3;
+    LOCATION_BANDIT_BOSS = 4;
+    LOCATION_ORC_SETTLEMENT = 5;
+    LOCATION_ORC_TREASURE_ROOM = 6;
+    LOCATION_DEMON_FIELDS = 7;
+    LOCATION_DEMON_LAIR = 8;
+    LOCATION_INN = 9;
+    LOCATION_JEWEL_SHOP = 10;
+    LOCATION_WEAPON_SHOP = 11;
+    LOCATION_MOUNTAIN = 12;
+    LOCATION_CASTLE = 13;
     
+
+    // MAIN quests
+    STATUS_SHORE_VISITED = 1;
+    STATUS_WOODS_VISITED = 2;
 GLOBAL
 
 struct game;
@@ -53,8 +73,25 @@ end
 
 struct map;
     int ui_id;
+    string text_location = "";
+    string text_inventory = "";
+    int text_reset_count = 60*2;
+    int area_unlocked[999];
+    int next_destination = LOCATION_NONE;
 end
 
 
 int img_bg;
+int img_bg_map;
 int img_logo;
+int img_marker_unknown;
+int img_marker[999];
+int img_marker_frame;
+
+struct snd;
+    int hit[7];
+    int win;
+    int coin;
+    int select;
+    int ask;
+end

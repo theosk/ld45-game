@@ -54,8 +54,10 @@ END
 FUNCTION state_dialog_waitkey()
 
 BEGIN
+    sound_play(snd.ask);
     x = write(game.font, 600, 460, 8, "Press Space to continue...");
     repeat frame; until(key(_space));
+    sound_play(snd.select);
     repeat frame; until(!key(_space));
     delete_text(x);
 END
@@ -107,7 +109,7 @@ BEGIN
     text = text +  " [Y/N]";
     wait_text_id = write(game.font, dialog.text_offset_x, 460, 6, text);
     dialog.answered = 0;
-
+    sound_play(snd.ask);
     repeat
         if (key(_y))
             dialog.answered = 1;
@@ -119,6 +121,7 @@ BEGIN
         end
         frame; 
     until(dialog.answered);
+    sound_play(snd.select);
     repeat frame; until(!key(_y) && !key(_n));
     delete_text(wait_text_id);
     

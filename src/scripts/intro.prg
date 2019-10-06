@@ -1,20 +1,6 @@
-/*
-Centuries, the twelve elemental crystals were spread across
-the world. Their magic was meant to be used for the greater
-good.
-Countless wars ensued, and most of them were destroyed. Today,
-two of them remain: the thunder crystal and the blood shard,
-and two opposing factions fight for supremacy, sweeping most
-of the world in the process.
-You were barely able to leave your hometown before it was
-destroyed. Without any luggage or goods, your boat heads to
-unknown lands, hoping the war will not have arrived there.
-*/
-
-
 FUNCTION script_intro()
-
 BEGIN
+    game.state = STATE_DIALOG_ID;
     script_intro_text();
     state_dialog_ask("Do you need to read all this again?");
     if(dialog.chosen_answer == 1)
@@ -27,6 +13,8 @@ BEGIN
         state_dialog_putline("And so, your adventure begins...", 2000);
     end
     state_dialog_clear();
+    game.state = STATE_MAP_ID;
+    map.area_unlocked[LOCATION_SHORE] = 1;
 END
 
 FUNCTION script_intro_text();

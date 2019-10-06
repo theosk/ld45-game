@@ -23,6 +23,7 @@ BEGIN
         
         if (battle.player_health == 0)
             // LOST
+            sound_play(snd.hit[3]);
             state_dialog_putline(enemy_name + " has defeated you!", 1000);
             state_dialog_putline("You just LOST the battle!!!", 1000);
             state_dialog_putline("You retreat. Better luck next time.", 1000);
@@ -32,8 +33,10 @@ BEGIN
 
         if (battle.enemy_health == 0)
             // WON
+            sound_play(snd.win);
             state_dialog_putline(enemy_name + " is defeated!", 1000);
             state_dialog_putline("You just WON the battle!!!", 1000);
+            state_battle_generate_reward();
             result = 1;
             break;
         end
@@ -51,7 +54,13 @@ PRIVATE
     int roll;
 
 BEGIN
-    roll = rand(1, 6); // TODO: Add modifiers
+    sound_play(snd.hit[rand(0,6)]);
+    roll = rand(1, 6);
+    if(inventory.sword) roll += rand(1,6); end
+    if(inventory.amulet) roll++; end
+    if(inventory.weddingRing) roll++; end
+    if(inventory.shield) roll++; end
+
     if (roll > battle.enemy_power)
         // Player hits
         state_battle_generateline("PLAYER", battle.enemy_name);
@@ -79,7 +88,7 @@ BEGIN
             end
 
         case 2:
-            state_dialog_putline(attacker_name + " overpowers" + target_name);
+            state_dialog_putline(attacker_name + " overpowers " + target_name);
             end
 
         case 3:
@@ -115,4 +124,15 @@ BEGIN
             end
         
     END
+END
+
+function state_battle_generate_reward()
+PRIVATE
+    int sum;
+BEGIN
+    sum = rand(1,6); //1d6
+    sum += battle.enemy_power * rand(1,6);
+    inventory.gold += sum;
+    sound_play(snd.coin);
+    state_dialog_putline("Coins obtained: " + itoa(sum), 1000);
 END

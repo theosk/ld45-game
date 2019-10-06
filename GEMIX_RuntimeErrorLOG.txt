@@ -1,0 +1,4 @@
+ERROR 192: Efecto de sonido no válido (PCM, WAV, MP2, MP3, OGG).
+LOCATION: 
+PARAMETER: 1
+VALUE: asswts/sound/hit1.wav
