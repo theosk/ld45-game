@@ -19,7 +19,7 @@ BEGIN
         state_dialog_putline("Yeah, let's get out of here...", 400);        
     end
 
-    if (quests.killed_demons >=4 && !map.area_unlocked[LOCATION_ORC_TREASURE_ROOM])
+    if (quests.killed_demons >=4 && !map.area_unlocked[LOCATION_DEMON_LAIR])
         script_place_demon_fields_end_text();
     end
 

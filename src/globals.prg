@@ -47,6 +47,7 @@ struct quests;
 
     int killed_bandits = 0;
     int killed_orcs = 0;
+    int killed_demons = 0;
 end
 
 struct inventory;
