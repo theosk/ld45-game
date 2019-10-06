@@ -28,6 +28,12 @@ CONST
     // MAIN quests
     STATUS_SHORE_VISITED = 1;
     STATUS_WOODS_VISITED = 2;
+    STATUS_TOWN_VISITED = 3;
+    STATUS_INN_VISITED = 4;
+    STATUS_BANDITS_DEFEATED = 5;
+    STATUS_FRAGMENTS_SEARCH = 6;
+    STATUS_DEMON_KING = 7;
+    STATUS_DEMON_DEFEATED = 8;
 GLOBAL
 
 struct game;
@@ -38,6 +44,9 @@ end
 struct quests;
     int main = STATUS_START;
     int saveMerchant = STATUS_START;
+
+    int killed_bandits = 0;
+    int killed_orcs = 0;
 end
 
 struct inventory;
@@ -48,6 +57,9 @@ struct inventory;
     int weddingRing = 0; // +1 attack
     int shield = 0; // + 1 attack for some reason
     int treasureMap = 0;
+    int mountainFragment = 0;
+    int shoreFragment = 0;
+    int forestFragment = 0;
 end
 
 struct battle;
@@ -80,9 +92,17 @@ struct map;
     int next_destination = LOCATION_NONE;
 end
 
+struct shops
+    price_sword = 100;
+    price_ring = 500;
+end
+
 
 int img_bg;
 int img_bg_map;
+int img_bg_dialog;
+int img_bg_intro;
+int img_bg_bandit_intro;
 int img_logo;
 int img_marker_unknown;
 int img_marker[999];

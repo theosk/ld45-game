@@ -89,7 +89,7 @@ Locations
 # Orc treasure chamber (unlocked after beating 10 orcs)
 
 
-# Secret treasure area
+# Secret treasure area (the shore again)
 - There is a pirate treasure here. You need the map.
 reward: lots of coins. +1 Amulet
 

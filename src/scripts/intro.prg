@@ -2,16 +2,8 @@ FUNCTION script_intro()
 BEGIN
     game.state = STATE_DIALOG_ID;
     script_intro_text();
-    state_dialog_ask("Do you need to read all this again?");
-    if(dialog.chosen_answer == 1)
-        state_dialog_putline("", 400);
-        state_dialog_putline("Ok, here we go again...", 400);
-        state_dialog_putline("", 400);
-        script_intro();
-    else 
-        state_dialog_putline("", 400);
-        state_dialog_putline("And so, your adventure begins...", 2000);
-    end
+    state_dialog_putline("", 400);
+    state_dialog_putline("And so, your adventure begins...", 2000);
     state_dialog_clear();
     game.state = STATE_MAP_ID;
     map.area_unlocked[LOCATION_SHORE] = 1;

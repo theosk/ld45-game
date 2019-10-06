@@ -9,7 +9,18 @@ include "src/state_map.prg";
 include "src/scripts/intro.prg";
 include "src/scripts/shore.prg";
 include "src/scripts/merchant_attack.prg";
-
+include "src/scripts/place_town.prg";
+include "src/scripts/place_inn.prg";
+include "src/scripts/place_jewel_shop.prg";
+include "src/scripts/place_weapon_shop.prg";
+include "src/scripts/place_castle.prg";
+include "src/scripts/place_bandit_camp.prg";
+include "src/scripts/place_bandit_boss.prg";
+include "src/scripts/place_orc_settlement.prg";
+include "src/scripts/place_orc_treasure_room.prg";
+include "src/scripts/place_demon_lair.prg";
+include "src/scripts/place_demon_fields.prg";
+include "src/scripts/place_mountain.prg";
 
 BEGIN
 
@@ -31,6 +42,7 @@ BEGIN
     script_intro();
 
     loop
+        if (inventory.gold > 9999) inventory.gold = 9999; end
         if (key(_esc)) break; end
         frame;
     end
@@ -71,6 +83,9 @@ BEGIN
     game.font = fnt_load("assets/font.fnt"); 
     img_bg = image_load("assets/images/bg.png");
     img_bg_map = image_load("assets/images/map.png");
+    img_bg_intro = image_load("assets/images/bg_intro.png");
+    img_bg_bandit_intro = image_load("assets/images/bg_bandit_intro.png");
+    img_bg_dialog = img_bg_intro;
     img_logo = image_load("assets/images/logo.png");
 
     mouse.graph = image_load("assets/images/pointer.png");
@@ -93,15 +108,6 @@ BEGIN
     img_marker[LOCATION_MOUNTAIN] = image_load("assets/images/location_mountain.png");
     img_marker[LOCATION_CASTLE] = image_load("assets/images/location_castle.png");
 
-
-    /*
-    struct snd;
-    int hit[7];
-    int win;
-    int coin;
-    int select;
-end
-*/
     snd.hit[0] = sound_load("assets/sound/hit1.wav");
     snd.hit[1] = sound_load("assets/sound/hit2.wav");
     snd.hit[2] = sound_load("assets/sound/hit3.wav");

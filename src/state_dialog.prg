@@ -1,6 +1,7 @@
 PROCESS state_dialog()
 
 PRIVATE hidden;
+    int current_bg;
 
 BEGIN
     while (game.state != STATE_DIALOG_ID) frame; end
@@ -9,6 +10,11 @@ BEGIN
 
 
     loop
+        if (!hidden && current_bg != img_bg_dialog)
+            current_bg = img_bg_dialog;
+            put_screen(0, img_bg_dialog);
+        end
+
         if(game.state != STATE_DIALOG_ID && !hidden)
             hidden = 1;
             state_dialog_hide();
@@ -91,13 +97,13 @@ END
 FUNCTION state_dialog_show()
 
 BEGIN
-    graph = img_bg;
+    graph = img_bg_dialog;
     clear_screen();
     x = 320;
     y = 240;
     from size = 0 to 100; frame(20); end
 
-    put_screen(0, img_bg);
+    put_screen(0, img_bg_dialog);
 END
 
 FUNCTION state_dialog_ask(string text)

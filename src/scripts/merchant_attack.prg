@@ -2,20 +2,50 @@
 FUNCTION script_merchant_attack()
 
 BEGIN
-    script_merchant_attack_text();
-    state_dialog_ask("Will you fight the bandit?");
-    if(dialog.chosen_answer == 1)
-        // Save the merchant
-        state_battle_start("the bandit", 0);
-        quests.saveMerchant = STATUS_ENDED;
-    else 
-        // Let the merchant die
-        quests.saveMerchant = STATUS_FAILED;
+    if(quests.main ==  STATUS_FRAGMENTS_SEARCH)
+        if (!inventory.forestFragment)
+            script_woods_text();
+        else
+            state_dialog_putline("You should be finding the other fragments...", 400);
+            state_dialog_waitkey();
+        end
+
+        game.state = STATE_MAP_ID;
+        return;
     end
 
-    inventory.dagger = 1;
+    switch (quests.saveMerchant)
+        case STATUS_START:
+            img_bg_dialog = img_bg_bandit_intro;
+            script_merchant_attack_text();
+            state_dialog_ask("Will you fight the bandit?");
+            img_bg_dialog = img_bg_intro;
+            if(dialog.chosen_answer == 1)
+                // Save the merchant
+                state_battle_start("the bandit", 0);
+                script_merchant_attack_text_ended();
+                quests.saveMerchant = STATUS_ENDED;
+            else 
+                // Let the merchant die
+                script_merchant_attack_text_failed();
+                quests.saveMerchant = STATUS_FAILED;
+            end
+
+            inventory.dagger = 1;
+            quests.main = STATUS_WOODS_VISITED;
+        end
+
+        default:
+            state_dialog_putline("You get to the forest.", 400);
+            state_dialog_putline("There's nothing going on here right now...", 400);
+            state_dialog_putline("You do some backflips and leave.", 400);
+            state_dialog_waitkey();
+        end
+
+    end
 
     state_dialog_clear();
+    map.area_unlocked[LOCATION_TOWN] = 1;
     game.state = STATE_MAP_ID;
 END
 
@@ -42,12 +72,71 @@ END
 FUNCTION script_merchant_attack_text_ended()
 
 BEGIN
-    // TODO
+    state_dialog_clear();
+    state_dialog_putline("The bandit falls to the ground, dead.", 400);
+    state_dialog_putline("You turn to the merchant, expecting some kind of gratitude.", 400);
+    state_dialog_putline("even if it's just a ''thank you''.", 400);
+
+    state_dialog_putline("", 400);
+    state_dialog_putline("[Merchant]: ''Step back, filthy peasant! You may have saved my", 400);
+    state_dialog_putline("stuff, but you still stink.''", 400);
+
+    state_dialog_putline("", 400);
+    state_dialog_putline("You look at that asshole perplexed, still holding your dagger.", 400);
+    state_dialog_putline("He notices that and is scared again.", 400);
+    state_dialog_putline("[Merchant]: ''But... you know... I was carrying so much gold.", 400);
+    state_dialog_putline("And now I get to keep it all. I'm thankful for what you did", 400);
+    state_dialog_putline("so if you ever come to the city, feel free to visit my store!", 400);
+    state_dialog_putline("I'll let you buy whatever you want at a regular price, I'll just", 400);
+    state_dialog_putline("pretend you are not a smelly loser!''", 400);
+ 
+  
+    state_dialog_putline("", 400);
+    state_dialog_putline("He walks away. You should head to the town, you need a rest.", 400);
+
+    state_dialog_waitkey();
+    state_dialog_clear();
 END
 
 FUNCTION script_merchant_attack_text_failed()
 
 BEGIN
-    // TODO
+    state_dialog_putline("", 400);
+    state_dialog_putline("You hide behind some bushes and wait while they fight.", 400);
+    state_dialog_putline("The merchant swings his dagger and fails to land a hit.", 400);
+    state_dialog_putline("The bandit proceeds to stab the merchant countless times.", 400);
+    state_dialog_putline("They both die shortly after due to their wounds.", 400);
+
+    state_dialog_putline("", 400);
+    state_dialog_putline("You approach the merchant and inspect the body.", 400);
+    state_dialog_putline("He was still barely alive. He tries to talk, only to drown", 400);
+    state_dialog_putline("in his own blood.", 400);
+    
+    state_dialog_putline("", 400);
+    state_dialog_putline("You pick up a dagger.", 400);
+    sound_play(snd.win);
+
+    state_dialog_putline("You find 400 coins in his bags.", 400);
+    inventory.gold += 400;
+    sound_play(snd.coin);
+
+    state_dialog_waitkey();
+    state_dialog_clear();
+END
+
+
+FUNCTION script_woods_text()
+
+BEGIN
+    state_dialog_putline("", 400);
+    state_dialog_putline("You search for the fire fragment. You find it.", 400);
+    state_dialog_putline("That was easy. Here, have some coins too!", 400);
+    sound_play(snd.coin);
+    state_dialog_putline("You get 10 coins just because!.", 400);
+    inventory.gold +=10;
+    inventory.forestFragment = 1;
+
+    state_dialog_waitkey();
+    state_dialog_clear();
 END
 

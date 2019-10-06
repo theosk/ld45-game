@@ -58,7 +58,7 @@ BEGIN
     state_map_place(66, 380, LOCATION_ORC_TREASURE_ROOM, "Orc treasure room");
     state_map_place(590, 320, LOCATION_DEMON_LAIR, "Demon's lair");
     state_map_place(488, 392, LOCATION_DEMON_FIELDS, "Demon fields");
-    state_map_place(488, 392, LOCATION_MOUNTAIN, "Mountain");
+    state_map_place(540, 170, LOCATION_MOUNTAIN, "Mountain");
 
     loop
         frame;
@@ -138,6 +138,54 @@ BEGIN
             script_merchant_attack();
         end
 
+        case LOCATION_TOWN:
+            script_place_town();
+        end
+
+        case LOCATION_INN:
+            script_place_inn();
+        end
+
+        case LOCATION_BANDIT_CAMP:
+            script_place_bandit_camp();
+        end
+
+        case LOCATION_BANDIT_BOSS:
+            script_place_bandit_boss();
+        end
+
+        case LOCATION_ORC_SETTLEMENT:
+            script_place_orc_settlement();
+        end
+
+        case LOCATION_ORC_TREASURE_ROOM:
+            script_place_orc_treasure_room();
+        end
+
+        case LOCATION_DEMON_FIELDS:
+            script_place_demon_fields();
+        end
+
+        case LOCATION_DEMON_LAIR:
+            script_place_demon_lair();
+        end
+
+        case LOCATION_JEWEL_SHOP:
+            script_place_jewel_shop();
+        end
+
+        case LOCATION_WEAPON_SHOP:
+            script_place_weapon_shop();
+        end
+
+        case LOCATION_MOUNTAIN:
+            script_place_mountain();
+        end
+
+        case LOCATION_CASTLE:
+            script_place_castle();
+        end
+
     end
 
     map.next_destination = LOCATION_NONE;
@@ -145,7 +193,7 @@ END
 
 FUNCTION state_map_update_inventory_text()
 BEGIN
-    map.text_inventory = "I have: " + itoa(inventory.gold) + " coins";
+    map.text_inventory = "You have: " + itoa(inventory.gold) + " coins";
     if(inventory.dagger != 0)
         map.text_inventory += ", a dagger";
     end
@@ -170,6 +218,9 @@ BEGIN
         map.text_inventory += ", a wedding ring";
     end
 
+    if(inventory.treasureMap != 0)
+        map.text_inventory += ", a map";
+    end
 
     map.text_inventory = upper(map.text_inventory);
 

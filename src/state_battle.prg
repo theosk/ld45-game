@@ -11,7 +11,7 @@ BEGIN
     battle.player_health = 5;
 
     game.state = STATE_DIALOG_ID;
-    frame(2000);
+    if(!mouse.right) frame(2000); end
 
     state_dialog_putline("", 100);
     state_dialog_putline("Battle against " + enemy_name + " begins!", 1000);
@@ -19,14 +19,14 @@ BEGIN
     
     loop
         state_battle_turn();
-        frame(5000);
+        if(!mouse.right) frame(5000); end
         
         if (battle.player_health == 0)
             // LOST
             sound_play(snd.hit[3]);
-            state_dialog_putline(enemy_name + " has defeated you!", 1000);
-            state_dialog_putline("You just LOST the battle!!!", 1000);
-            state_dialog_putline("You retreat. Better luck next time.", 1000);
+            state_dialog_putline(enemy_name + " has defeated you!", 400);
+            state_dialog_putline("You just LOST the battle!!!", 400);
+            state_dialog_putline("You retreat. Better luck next time.", 200);
             result = 0;
             break;
         end
@@ -34,8 +34,8 @@ BEGIN
         if (battle.enemy_health == 0)
             // WON
             sound_play(snd.win);
-            state_dialog_putline(enemy_name + " is defeated!", 1000);
-            state_dialog_putline("You just WON the battle!!!", 1000);
+            state_dialog_putline(enemy_name + " is defeated!", 400);
+            state_dialog_putline("You just WON the battle!!!", 200);
             state_battle_generate_reward();
             result = 1;
             break;
@@ -134,5 +134,5 @@ BEGIN
     sum += battle.enemy_power * rand(1,6);
     inventory.gold += sum;
     sound_play(snd.coin);
-    state_dialog_putline("Coins obtained: " + itoa(sum), 1000);
+    state_dialog_putline("Coins obtained: " + itoa(sum), 200);
 END
