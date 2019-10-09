@@ -80,7 +80,7 @@ END
 FUNCTION load_assets()
 
 BEGIN
-    game.font = load_fnt("assets/font.fnt"); 
+    game.font = load_fnt("assets/font-fenix.fnt"); 
     img_bg = load_png("assets/images/bg.png");
     img_bg_map = load_png("assets/images/map.png");
     img_bg_intro = load_png("assets/images/bg_intro.png");
