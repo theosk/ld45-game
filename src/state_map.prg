@@ -7,8 +7,8 @@ BEGIN
     map.ui_id = state_map_ui();
     hidden = 0;
 
-    write(game.font, 320, 460, 4, map.text_location, 1);
-    write(0, 320, 8, 1, map.text_inventory, 1);
+    write_string(game.font, 320, 460, 4, &map.text_location);
+    write_string(0, 320, 8, 1, &map.text_inventory);
     state_map_update_inventory_text();
 
     loop
@@ -126,7 +126,7 @@ END
 FUNCTION state_map_travel(location)
 
 BEGIN
-    sound_play(snd.select);
+    play_wav(snd.select, 0, 0);
     game.state = STATE_DIALOG_ID;
 
     switch(location) // TODO: Functions to check which script to call for every location based on quest variables
@@ -222,6 +222,6 @@ BEGIN
         map.text_inventory += ", a map";
     end
 
-    map.text_inventory = upper(map.text_inventory);
+    map.text_inventory = ucase(map.text_inventory);
 
 END

@@ -13,9 +13,9 @@ BEGIN
     game.state = STATE_DIALOG_ID;
     if(!mouse.right) frame(2000); end
 
-    state_dialog_putline("", 100);
-    state_dialog_putline("Battle against " + enemy_name + " begins!", 1000);
-    state_dialog_putline("", 100);
+    dialog_putline("", 100);
+    dialog_putline("Battle against " + enemy_name + " begins!", 1000);
+    dialog_putline("", 100);
     
     loop
         state_battle_turn();
@@ -23,19 +23,19 @@ BEGIN
         
         if (battle.player_health == 0)
             // LOST
-            sound_play(snd.hit[3]);
-            state_dialog_putline(enemy_name + " has defeated you!", 400);
-            state_dialog_putline("You just LOST the battle!!!", 400);
-            state_dialog_putline("You retreat. Better luck next time.", 200);
+            play_wav(snd.hit[3], 0, 0);
+            dialog_putline(enemy_name + " has defeated you!", 400);
+            dialog_putline("You just LOST the battle!!!", 400);
+            dialog_putline("You retreat. Better luck next time.", 200);
             result = 0;
             break;
         end
 
         if (battle.enemy_health == 0)
             // WON
-            sound_play(snd.win);
-            state_dialog_putline(enemy_name + " is defeated!", 400);
-            state_dialog_putline("You just WON the battle!!!", 200);
+            play_wav(snd.win, 0, 0);
+            dialog_putline(enemy_name + " is defeated!", 400);
+            dialog_putline("You just WON the battle!!!", 200);
             state_battle_generate_reward();
             result = 1;
             break;
@@ -54,7 +54,7 @@ PRIVATE
     int roll;
 
 BEGIN
-    sound_play(snd.hit[rand(0,6)]);
+    play_wav(snd.hit[rand(0,6)], 0, 0);
     roll = rand(1, 6);
     if(inventory.sword) roll += rand(1,6); end
     if(inventory.amulet) roll++; end
@@ -80,47 +80,47 @@ BEGIN
     x = rand(0, 10);
     switch (x)
         case 0:
-            state_dialog_putline(attacker_name + " hits " + target_name);
+            dialog_putline(attacker_name + " hits " + target_name, 0);
             end
 
         case 1:
-            state_dialog_putline(attacker_name + " slashes " + target_name);
+            dialog_putline(attacker_name + " slashes " + target_name, 0);
             end
 
         case 2:
-            state_dialog_putline(attacker_name + " overpowers " + target_name);
+            dialog_putline(attacker_name + " overpowers " + target_name, 0);
             end
 
         case 3:
-            state_dialog_putline(attacker_name + " bites " + target_name);
+            dialog_putline(attacker_name + " bites " + target_name, 0);
             end
 
         case 4:
-            state_dialog_putline(attacker_name + " kicks " + target_name + " in the butt");
+            dialog_putline(attacker_name + " kicks " + target_name + " in the butt", 0);
             end
 
         case 5:
-            state_dialog_putline(target_name + " trips and takes damage");
+            dialog_putline(target_name + " trips and takes damage", 0);
             end
 
         case 6:
-            state_dialog_putline(attacker_name + " slaps " + target_name);
+            dialog_putline(attacker_name + " slaps " + target_name, 0);
             end
 
         case 7:
-            state_dialog_putline(target_name + " has digestive issues and takes damage");
+            dialog_putline(target_name + " has digestive issues and takes damage", 0);
             end
 
         case 8:
-            state_dialog_putline(attacker_name + " shouts really hard and damages " + target_name);
+            dialog_putline(attacker_name + " shouts really hard and damages " + target_name, 0);
             end
 
         case 9:
-            state_dialog_putline(attacker_name + " sets a trap and " + target_name + " steps in it");
+            dialog_putline(attacker_name + " sets a trap and " + target_name + " steps in it", 0);
             end
 
         case 10:
-            state_dialog_putline(attacker_name + " gives " + target_name + " some poisonous cake");
+            dialog_putline(attacker_name + " gives " + target_name + " some poisonous cake", 0);
             end
         
     END
@@ -133,6 +133,6 @@ BEGIN
     sum = rand(1,6); //1d6
     sum += battle.enemy_power * rand(1,6);
     inventory.gold += sum;
-    sound_play(snd.coin);
-    state_dialog_putline("Coins obtained: " + itoa(sum), 200);
+    play_wav(snd.coin, 0, 0);
+    dialog_putline("Coins obtained: " + itoa(sum), 200);
 END

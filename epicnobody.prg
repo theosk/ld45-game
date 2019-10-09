@@ -25,9 +25,9 @@ include "src/scripts/place_mountain.prg";
 BEGIN
 
     //VIRTUALRESOLUTION_SET(1280, 1024, 1, 0); 
-    mode_set(640, 480, 32);
+    set_mode(640, 480, 16);
     
-    window_set_title("Epic story of a nobody");
+    set_title("Epic story of a nobody");
     set_fps(60, 0);
 
     load_assets();
@@ -64,7 +64,7 @@ BEGIN
         y = 200 + 0.01* sin(timer*1000);
         frame; 
     until(key(_space) || mouse.left);
-    sound_play(snd.ask);
+    play_wav(snd.ask, 0, 0);
     delete_text(z);
 
     from size = 100 to 0;
@@ -80,44 +80,44 @@ END
 FUNCTION load_assets()
 
 BEGIN
-    game.font = fnt_load("assets/font.fnt"); 
-    img_bg = image_load("assets/images/bg.png");
-    img_bg_map = image_load("assets/images/map.png");
-    img_bg_intro = image_load("assets/images/bg_intro.png");
-    img_bg_bandit_intro = image_load("assets/images/bg_bandit_intro.png");
+    game.font = load_fnt("assets/font.fnt"); 
+    img_bg = load_png("assets/images/bg.png");
+    img_bg_map = load_png("assets/images/map.png");
+    img_bg_intro = load_png("assets/images/bg_intro.png");
+    img_bg_bandit_intro = load_png("assets/images/bg_bandit_intro.png");
     img_bg_dialog = img_bg_intro;
-    img_logo = image_load("assets/images/logo.png");
+    img_logo = load_png("assets/images/logo.png");
 
-    mouse.graph = image_load("assets/images/pointer.png");
-    map_set_center(0, mouse.graph, 9, 11);
-    img_marker_unknown = image_load("assets/images/marker_unknown.png");
-    img_marker_frame = image_load("assets/images/marker_frame.png");
+    mouse.graph = load_png("assets/images/pointer.png");
+    set_center(0, mouse.graph, 9, 11);
+    img_marker_unknown = load_png("assets/images/marker_unknown.png");
+    img_marker_frame = load_png("assets/images/marker_frame.png");
 
-    img_marker[LOCATION_SHORE] = image_load("assets/images/location_shore.png");
-    img_marker[LOCATION_WOODS] = image_load("assets/images/location_woods.png");
-    img_marker[LOCATION_TOWN] = image_load("assets/images/location_town.png");
-    img_marker[LOCATION_BANDIT_CAMP] = image_load("assets/images/location_bandit_camp.png");
-    img_marker[LOCATION_BANDIT_BOSS] = image_load("assets/images/location_bandit_leader.png");
-    img_marker[LOCATION_ORC_SETTLEMENT] = image_load("assets/images/location_orc_settlement.png");
-    img_marker[LOCATION_ORC_TREASURE_ROOM] = image_load("assets/images/location_orc_treasure.png");
-    img_marker[LOCATION_DEMON_FIELDS] = image_load("assets/images/location_demon_fields.png");
-    img_marker[LOCATION_DEMON_LAIR] = image_load("assets/images/location_demon_lord.png");
-    img_marker[LOCATION_INN] = image_load("assets/images/location_inn.png");
-    img_marker[LOCATION_JEWEL_SHOP] = image_load("assets/images/location_jewel_store.png");
-    img_marker[LOCATION_WEAPON_SHOP] = image_load("assets/images/location_weapon_store.png");
-    img_marker[LOCATION_MOUNTAIN] = image_load("assets/images/location_mountain.png");
-    img_marker[LOCATION_CASTLE] = image_load("assets/images/location_castle.png");
+    img_marker[LOCATION_SHORE] = load_png("assets/images/location_shore.png");
+    img_marker[LOCATION_WOODS] = load_png("assets/images/location_woods.png");
+    img_marker[LOCATION_TOWN] = load_png("assets/images/location_town.png");
+    img_marker[LOCATION_BANDIT_CAMP] = load_png("assets/images/location_bandit_camp.png");
+    img_marker[LOCATION_BANDIT_BOSS] = load_png("assets/images/location_bandit_leader.png");
+    img_marker[LOCATION_ORC_SETTLEMENT] = load_png("assets/images/location_orc_settlement.png");
+    img_marker[LOCATION_ORC_TREASURE_ROOM] = load_png("assets/images/location_orc_treasure.png");
+    img_marker[LOCATION_DEMON_FIELDS] = load_png("assets/images/location_demon_fields.png");
+    img_marker[LOCATION_DEMON_LAIR] = load_png("assets/images/location_demon_lord.png");
+    img_marker[LOCATION_INN] = load_png("assets/images/location_inn.png");
+    img_marker[LOCATION_JEWEL_SHOP] = load_png("assets/images/location_jewel_store.png");
+    img_marker[LOCATION_WEAPON_SHOP] = load_png("assets/images/location_weapon_store.png");
+    img_marker[LOCATION_MOUNTAIN] = load_png("assets/images/location_mountain.png");
+    img_marker[LOCATION_CASTLE] = load_png("assets/images/location_castle.png");
 
-    snd.hit[0] = sound_load("assets/sound/hit1.wav");
-    snd.hit[1] = sound_load("assets/sound/hit2.wav");
-    snd.hit[2] = sound_load("assets/sound/hit3.wav");
-    snd.hit[3] = sound_load("assets/sound/hit4.wav");
-    snd.hit[4] = sound_load("assets/sound/hit5.wav");
-    snd.hit[5] = sound_load("assets/sound/hit6.wav");
-    snd.hit[6] = sound_load("assets/sound/hit7.wav");
-    snd.win = sound_load("assets/sound/win.wav");
-    snd.coin = sound_load("assets/sound/coin.wav");
-    snd.select = sound_load("assets/sound/select.wav");
-    snd.ask = sound_load("assets/sound/ask.wav");
+    snd.hit[0] = load_wav("assets/sound/hit1.wav");
+    snd.hit[1] = load_wav("assets/sound/hit2.wav");
+    snd.hit[2] = load_wav("assets/sound/hit3.wav");
+    snd.hit[3] = load_wav("assets/sound/hit4.wav");
+    snd.hit[4] = load_wav("assets/sound/hit5.wav");
+    snd.hit[5] = load_wav("assets/sound/hit6.wav");
+    snd.hit[6] = load_wav("assets/sound/hit7.wav");
+    snd.win = load_wav("assets/sound/win.wav");
+    snd.coin = load_wav("assets/sound/coin.wav");
+    snd.select = load_wav("assets/sound/select.wav");
+    snd.ask = load_wav("assets/sound/ask.wav");
 
 END

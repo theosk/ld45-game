@@ -16,14 +16,14 @@ END
 FUNCTION script_place_town_first_time_text()
 
 BEGIN
-    state_dialog_putline("You finally reach the town.", 400);
-    state_dialog_putline("The guards at the gate look at you and let you in.", 400);
+    dialog_putline("You finally reach the town.", 400);
+    dialog_putline("The guards at the gate look at you and let you in.", 400);
     state_dialog_waitkey();
     state_dialog_clear();
 
-    state_dialog_putline("This place feels safer than anything you have visited before.", 400);
-    state_dialog_putline("It's midnight. The pubs are crowded. You see some shops.", 400);
-    state_dialog_putline("You keep walking until you find the inn.", 400);
+    dialog_putline("This place feels safer than anything you have visited before.", 400);
+    dialog_putline("It's midnight. The pubs are crowded. You see some shops.", 400);
+    dialog_putline("You keep walking until you find the inn.", 400);
     state_dialog_waitkey();
     state_dialog_clear();
 
