@@ -1,0 +1,8 @@
+CSG 
+---
+
+version inicial del generador de sprites.
+
+* las graficas son generadas en el directorio 
+ preview
+

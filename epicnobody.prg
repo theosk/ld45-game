@@ -61,7 +61,7 @@ BEGIN
     z = write(game.font, 320, 360, 4, "- Press SPACE or LMB -");
 
     repeat 
-        y = 200 + 0.01* sin(timer*1000);
+        y = 200 + 10* sin(timer*1000);
         frame; 
     until(key(_space) || mouse.left);
     play_wav(snd.ask, 0, 0);

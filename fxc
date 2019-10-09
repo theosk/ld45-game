@@ -1,0 +1,4 @@
+#!/bin/sh
+../bin/fxc.exe $*
+cat ../bin/stdout.txt
+rm ../bin/stdout.txt

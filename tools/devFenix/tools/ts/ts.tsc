@@ -1,0 +1,23 @@
+TILE STUDIO
+
+[Recent Projects]
+D:\temp\scroll fenix\ts\examples\my_fenix_project.tsp
+D:\temp\scroll fenix\prg\my_fenix_project.tsp
+D:\temp\scroll fenix\ts\examples\Worms.tsp
+D:\temp\scroll fenix\ts\examples\DrawingExamples.tsp
+D:\internet\agosto\29\ts\examples\Charlie.tsp
+D:\temp\scroll fenix\my_tile_studio_project.tsp
+D:\internet\agosto\29\ts\examples\Sint.tsp
+D:\internet\agosto\29\ts\examples\Worms.tsp
+D:\internet\agosto\29\ts\examples\DrawingExamples.tsp
+
+[Window]
+X=-4
+Y=-4
+W=1032
+H=748
+
+[Settings]
+Trans=$FF00FF
+Replace=$FF04FF
+

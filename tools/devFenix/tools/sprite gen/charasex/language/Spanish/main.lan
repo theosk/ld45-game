@@ -1,0 +1,119 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; Terms for CHARAS.EX
+;
+; | stands for new line
+;
+Background
+Grupo 1
+Grupo 2
+Grupo 3
+Grupo 4
+AVISO!|Color en el fondo esta usado|por personaje
+Bora Grupo
+No peude abrir ventana
+Importar Imagene
+Salva Recourco
+Abrir Recourco
+Salir
+No lo puede abrir.
+No lo puede salvar.
+Se te acabado la memoria .
+Archivo destruido.
+Abrir...
+salvar...
+Crear imagenes
+Salvar insima del archivo?
+Cambios perdidos!|Siera en serio?
+Linea detras del personaje|(solo articulo)
+mueve
+rojo
+verde
+azul
+Link spin
+Salve imagen
+Borar
+Azul
+Amarillo
+Verde
+Violeta
+Naranja
+Rosado
+Rojo
+Cian
+Negro
+Gris
+Blanco
+Personalizado
+Original
+Cuerpo
+Cabeza
+Cabello
+Ropa
+Articulo 1
+Articulo 2
+Articulo 3
+Izquierdo
+Medio
+Derecho
+Methodo 1 (max)
+Methodo 1 (mid)
+Methodo 2 (max)
+Methodo 2 (mid)
+Articulo
+Abrir collecion
+Archivo salvado.
+Cerrar
+Ayuda
+Archivo
+Abrir nuevo recourco
+Acerca de...
+Collecion
+Lenguage
+Charas Equipo
+Manual
+Trabajo en progresso.
+Preestreno
+Zom
+Copiar al clipboard
+Copiar del clipboard
+No puede copiar del clipboard.
+Copiar a imagen
+Gracias a
+Abrir personaje
+Salvar personaje
+CharSet-generator
+Copiar a charset
+CharSet esta lleno!
+Por favor escoje en el fondo.
+Multi-Select range
+Fondo Automatico
+Pestanear
+;Short for back
+F
+;Short for right
+D
+;short for front
+E
+;short for left
+I
+Patas-Pequeno-Correcion
+Importar del clipboard grupado
+Importar imagen de luchar
+Pose 1
+Pose 2
+Pose 3
+Exportar al imagen de luchar
+Convertir personaje al set activo.
+Zoom factor
+Did you know?
+Previous
+Next
+Don't show me this again

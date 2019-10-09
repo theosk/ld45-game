@@ -1,0 +1,21 @@
+<NotepadPlus>
+    <InternalCommands />
+    <Macros>
+        <Macro name="Trim Trailing and save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="Run VideoGame" Ctrl="no" Alt="no" Shift="no" Key="117">$(NPP_DIRECTORY)\..\bin\correr.bat &quot;$(FULL_CURRENT_PATH)&quot; &quot;$(CURRENT_DIRECTORY)\$(NAME_PART)&quot; &quot;$(CURRENT_DIRECTORY)&quot;</Command>
+        <Command name="Run in debug mode" Ctrl="no" Alt="no" Shift="no" Key="118">$(NPP_DIRECTORY)\..\bin\correrd.bat &quot;$(FULL_CURRENT_PATH)&quot; &quot;$(CURRENT_DIRECTORY)\$(NAME_PART)&quot; &quot;$(CURRENT_DIRECTORY)&quot;</Command>
+        <Command name="Build Executable(EXE) with Media" Ctrl="no" Alt="no" Shift="no" Key="120">$(NPP_DIRECTORY)\..\bin\crearexe.bat &quot;$(FULL_CURRENT_PATH)&quot; &quot;$(CURRENT_DIRECTORY)\$(NAME_PART)&quot; &quot;$(CURRENT_DIRECTORY)&quot;</Command>
+    </UserDefinedCommands>
+    <PluginCommands />
+    <ScintillaKeys />
+</NotepadPlus>

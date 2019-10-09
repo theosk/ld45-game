@@ -1,0 +1,2502 @@
+From: <Guardado por Microsoft Internet Explorer 5>
+Subject: Tile Studio Drawing Tutorials
+Date: Wed, 29 Aug 2007 17:54:16 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0064_01C7EA65.9E2E2810"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://tilestudio.sourceforge.net/drawing.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Tile Studio Drawing Tutorials</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252"><LINK=20
+href=3D"favicon.ico" rel=3D"SHORTCUT ICON">
+<META content=3D"MSHTML 6.00.2900.2180" name=3DGENERATOR></HEAD>
+<BODY text=3D#ffffff vLink=3D#e0a0e0 link=3D#a0a0ef bgColor=3D#000000=20
+background=3Dhttp://tilestudio.sourceforge.net/back4.jpg>
+<CENTER><BR>
+<TABLE borderColor=3D#c0d0e0 width=3D"92%"=20
+background=3Dhttp://tilestudio.sourceforge.net/back3.jpg border=3D1>
+  <TBODY>
+  <TR>
+    <TD><BR>
+      <P align=3Dcenter><IMG height=3D48=20
+      src=3D"http://tilestudio.sourceforge.net/logo.gif" width=3D48></P>
+      <CENTER><FONT color=3D#fff8b8>
+      <H1>TILE STUDIO DRAWING TUTORIAL</H1></FONT><I>by Mike Wiering, <A =
+
+      href=3D"http://www.wieringsoftware.nl/" target=3D_blank>Wiering=20
+      Software</A></I> <BR><BR>
+      <TABLE width=3D"94%" border=3D0>
+        <TBODY>
+        <TR>
+          <TD>
+            <P>
+            <CENTER><IMG=20
+            =
+src=3D"http://tilestudio.sourceforge.net/drw-all.png"></CENTER>
+            <P><FONT color=3D#fff8b8>
+            <H3>Introduction</H3></FONT>
+            <UL>This page shows how to draw some simple objects step by =
+step.=20
+              This demonstrates some of the special functions in Tile =
+Studio,=20
+              mainly functions that involve using the color pattern. Of =
+course,=20
+              for a complete overview see the <A=20
+              href=3D"http://tilestudio.sourceforge.net/tutor.html">Tile =
+Studio=20
+              Tutorial</A>. </UL><FONT color=3D#fff8b8>
+            <H3>Drawing a simple grass tile</H3></FONT>
+            <UL>We will start with a simple example of a grass tile that =
+could=20
+              be used in any game seen from above (like some 2D RPG's).=20
+              <P>
+              <P>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-1c.jpg"></CENTER>
+              <P>
+              <UL>
+                <LI>Start Tile Studio.=20
+                <LI>In the palette on the right, left-click somewhere in =
+the=20
+                light green area.=20
+                <LI>Now click again, and again and you'll notice that =
+the color=20
+                pattern under the palette changes each time. Continue =
+until you=20
+                see a nice shade of colors for your grass tile.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-1a.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Now we'll choose a set of colors from this pattern =
+which=20
+                will be used for the grass. Left-click the shade just =
+left from=20
+                the center and drag two shades to the right, you'll see =
+that the=20
+                line above the center becomes an arrow.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-1b.jpg">=20
+                </UL>
+                <P></P>
+                <LI>In the toolbox at the left, select the <I>Filled=20
+                Rectangle</I> ( <IMG=20
+                src=3D"http://tilestudio.sourceforge.net/drw-tbfr.jpg"> =
+) and=20
+                <I>Smooth Random Fill</I> ( <IMG=20
+                src=3D"http://tilestudio.sourceforge.net/drw-tbsrf.jpg"> =
+).=20
+                <LI>Finally, with the left mouse button, draw a =
+rectangle over=20
+                the entire canvas and that's all!=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-1c.jpg">=20
+                </UL>
+                <P></P></LI></UL></UL><FONT color=3D#fff8b8>
+            <H3>Adding a path in the grass</H3></FONT>
+            <UL>We will continue with the grass from the example above =
+and add=20
+              a path/road. This is just one vertical path, but in the =
+same way=20
+              you could draw several different tiles that fit together =
+to make=20
+              any path in your game.=20
+              <P>
+              <P>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-2d.jpg"></CENTER>
+              <P>
+              <UL>
+                <LI>Make a copy of the grass you just made by pressing =
+<B>Ctrl +=20
+                D</B> (<I>Duplicate Tile</I>).=20
+                <LI>In the same way as you selected the green above, =
+select a=20
+                nice shade of brown in the palette and select the three =
+colors=20
+                at the center in the color pattern.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-2a.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Now draw a rectangle in the grass where you want the =
+path to=20
+                be.=20
+                <P>
+                <P></P></LI></UL>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-2b.jpg"></CENTER>
+              <UL>
+                <P>
+                <LI>The edges of the path still need some work, we'll =
+make them=20
+                darker. In the toolbox at the left, select the =
+<I>Darken</I>=20
+                tool ( <IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-tbd.jpg">=20
+                ).=20
+                <LI>Now, draw a vertical rectangle (two pixels wide) =
+over both=20
+                edges of the path so they become darker.=20
+                <LI>Finally, repeat the previous step, but now make the=20
+                rectangle four pixels wide.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-2c.jpg">=20
+                  &nbsp; <IMG=20
+                  src=3D"http://tilestudio.sourceforge.net/drw-2d.jpg"> =
+</UL>
+                <P></P></LI></UL></UL><FONT color=3D#fff8b8>
+            <H3>Adding a tree in the grass</H3></FONT>
+            <UL>Now we'll add a tree. Instead of looking at it from the =
+top,=20
+              we'll use an angle of about 45 degrees, so you can see a =
+bit of=20
+              the trunc.=20
+              <P>
+              <P>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-3g.jpg"></CENTER>
+              <P>
+              <UL>
+                <LI>Again, make a copy of the grass by pressing <B>Ctrl =
++ D</B>.=20
+
+                <LI>We'll start with the shadow. Make sure the =
+<I>Darken</I>=20
+                tool is still selected and now select the <I>Filled =
+Ellipse</I>=20
+                tool ( <IMG=20
+                src=3D"http://tilestudio.sourceforge.net/drw-tbfe.jpg"> =
+).=20
+                <LI>Now, draw an ellipse for the shadow and add a second =
+smaller=20
+                one as well (see the images below).=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-3a.jpg">=20
+                  &nbsp; <IMG=20
+                  src=3D"http://tilestudio.sourceforge.net/drw-3b.jpg"> =
+</UL>
+                <P></P>
+                <LI>Now turn off the <I>Darken</I> tool and select a =
+series of=20
+                three shades of brown that you think are suitable for =
+the=20
+                treetrunc and draw it as an ellipse (as below at the =
+left).=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-3c.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Now choose the two darkest colors in your color =
+pattern, and=20
+                from right to left, so that the arrow points to the left =
+
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-3e.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Use this dark shade to draw the rest of the trunc, =
+which is=20
+                of course darker because of the shadow from the leaves.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-3d.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Now we need the green shades again. Press <B>[</B> =
+or=20
+                <B>]</B> repeatedly until you find the green (or choose =
+a new=20
+                green shade from the palette). This time select a wide =
+range=20
+                (from left to right).=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-3f.jpg">=20
+                </UL>
+                <P></P>
+                <LI>In the toolbox at the left, move the circle in the=20
+                <I>Default Bounds</I> box to a higher position (by =
+holding=20
+                <B>Shift</B> down and clicking at the new position), =
+this will=20
+                make the lighting come from above instead of from the =
+front.=20
+                Also, left-click once on the <I>Line Width</I> box, so =
+that the=20
+                line becomes a little thicker.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-tbbb.jpg">=20
+                  &nbsp; <IMG=20
+                  =
+src=3D"http://tilestudio.sourceforge.net/drw-tblw.jpg"> </UL>
+                <P></P>
+                <LI>Finally, draw the leaves as an ellipse and your tree =
+is=20
+                ready!=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-3g.jpg">=20
+                </UL>
+                <P></P></LI></UL></UL><FONT color=3D#fff8b8>
+            <H3>Drawing a simple cloud</H3></FONT>
+            <UL>Here is a very easy way to draw a cloud in Tile Studio.=20
+              <P>
+              <P>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-4f.jpg"></CENTER>
+              <P>
+              <UL>
+                <LI>Start a new tile.=20
+                <LI>In the palette on the right, choose a nice color =
+blue for=20
+                your cloud.=20
+                <LI>Now hold <B>Shift</B> down and choose white or very =
+light=20
+                blue. You'll notice that the pattern below the palette =
+becomes a=20
+                gradient from blue to white with an arrow above it =
+pointing to=20
+                the right.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-4a.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Left-click the third shade of blue in the color =
+pattern and=20
+                drag the mouse pointer to the left, so that a new arrow =
+appears=20
+                pointing to the left.=20
+                <LI>Again, hold <B>Shift</B> down and now select a dark=20
+                blue/gray color in the palette. Again, notice that your =
+color=20
+                pattern changes. Then select a range starting at the =
+second=20
+                shade and five shades wide.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-4b.jpg">=20
+                  &nbsp; <IMG=20
+                  src=3D"http://tilestudio.sourceforge.net/drw-4c.jpg"> =
+</UL>
+                <P></P>
+                <LI>In the toolbox at the left, hold <B>Shift</B> down =
+and click=20
+                to move the circle in the <I>Default Bounds</I> box as =
+in the=20
+                image below and select the <I>Filled Ellipse</I> tool ( =
+<IMG=20
+                src=3D"http://tilestudio.sourceforge.net/drw-tbfe.jpg"> =
+). Also=20
+                check if the <I>Line Width</I> is set to 1 (if not, =
+right-click=20
+                in the <I>Line Width</I> box until the line doesn't get =
+any=20
+                thinner).=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-tbdb.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Now hold <B>Shift</B> down and draw a few ellipses =
+to create=20
+                the outside (darker) part of your cloud.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-4d.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Now select the lightest four shades of the color =
+pattern=20
+                (from left to right) and go over the higher parts of =
+your cloud=20
+                (again holding <B>Shift</B> down), stay within the area =
+of the=20
+                cloud to preserve the outlines.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-4e.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Finally, you might want to change the background =
+color to=20
+                see how your cloud would look with a blue sky. Select a =
+color=20
+                and use the <I>Flood Fill</I> tool ( <IMG=20
+                src=3D"http://tilestudio.sourceforge.net/drw-tbf.jpg"> ) =
+
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-4f.jpg">=20
+                </UL>
+                <P></P></LI></UL></UL><FONT color=3D#fff8b8>
+            <H3>Drawing a heart</H3></FONT>
+            <UL>Many games use hearts to indicate the health of the =
+character=20
+              you're playing with. In Tile Studio you can draw a heart =
+with=20
+              ellipses.=20
+              <P>
+              <P>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-5f.jpg"></CENTER>
+              <P>
+              <UL>
+                <LI>Start a new tile (perhaps restart Tile Studio to =
+make sure=20
+                you are using the default settings).=20
+                <LI>In the palette, choose a color red and click =
+repeatedly=20
+                until you have a nice pattern to work with. Then select =
+an area=20
+                in the color pattern from left to right.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-5a.jpg">=20
+                </UL>
+                <P></P>
+                <LI>In the toolbox, select the <I>Filled Ellipse</I>. =
+Now start=20
+                with one circle, which will be the main part of the =
+heart. By=20
+                adding a few more smaller circles/ellipses at the bottom =
+(hold=20
+                <B>Shift</B> down so they merge with the existing ones), =
+you can=20
+                make a point at the bottom. Now add two ellipses at the =
+top=20
+                (this is probably the hardest part, you can undo by =
+pressing=20
+                <B>Ctrl + Z</B> and try again (note that the coordinates =
+are=20
+                displayed at the bottom).=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-5b.jpg">=20
+                  &nbsp; <IMG=20
+                  src=3D"http://tilestudio.sourceforge.net/drw-5c.jpg"> =
+&nbsp;=20
+                  <IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-5d.jpg"> </UL>
+                <P></P>
+                <LI>You can still see that this heart was made from =
+ellipses,=20
+                the edges still need a bit of work. You can go on =
+drawing=20
+                ellipses from the center to each side until it looks =
+right.=20
+                Sometimes it might be easier to edit those remaining =
+pixels by=20
+                hand.=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-5e.jpg">=20
+                </UL>
+                <P></P>
+                <LI>Finally, select the brightest four colors in the =
+color=20
+                pattern and add two small ellipses at the top as a =
+little bit of=20
+                reflexion and that's all!=20
+                <P>
+                <UL><IMG =
+src=3D"http://tilestudio.sourceforge.net/drw-5f.jpg">=20
+                </UL>
+                <P></P></LI></UL></UL><FONT color=3D#fff8b8>
+            <H3>Try these yourself!</H3></FONT>
+            <UL>You should be pretty familiar with using the color =
+pattern by=20
+              now. Below is a set of images I made for this tutorial.=20
+              Unfortunately, I didn't have time to describe them all, so =
+you'll=20
+              have to try those yourself. But here are some small hints. =
+
+              <P>
+              <P>
+              <CENTER><IMG=20
+              =
+src=3D"http://tilestudio.sourceforge.net/drw-all.jpg"></CENTER>
+              <P>
+              <UL>
+                <LI>The Egg (Mario style) - First draw the gray ellipse =
+in the=20
+                back, then use the <I>Add Colors</I> tool to add the =
+small green=20
+                ellipses everywhere and finally (still with the <I>Add=20
+                Colors</I> tool, draw a white ellipse in the middle.=20
+                <LI>The Grapes - This is done only with ellipses. Start =
+with the=20
+                outside and in the end add the ligher ellipses.=20
+                <LI>The Bananas - These were done with the <I>Paint =
+Brush</I>=20
+                tool, using a thick <I>Line Width</I> and a color =
+pattern of=20
+                course.=20
+                <LI>The Apple - This was mostly done with the <I>Add =
+Colors</I>=20
+                tool.=20
+                <LI>The Rock - Start with <I>Smooth Random Fill</I> just =
+like=20
+                the grass, but with thicker line width for more noise. =
+Select=20
+                color black and with the <I>Darkening</I> tool on, keep =
+drawing=20
+                thick lines around center until the stone remains, =
+surrounded by=20
+                black. Then use the <I>Flood Fill</I> tool to get rid of =
+the=20
+                black and what remains is the stone.=20
+                <LI>The Brown Wall Tile - Again, start with the =
+<I>Smooth Random=20
+                Fill</I> and <I>Filled Rectangle</I> tool to get the =
+noise. Then=20
+                turn off the <I>Smooth Random Fill</I> and hold =
+<B>Ctrl</B> down=20
+                while drawing a rectangle from the bottom right to top =
+left=20
+                (which will become a gradient). Finally, change the =
+selection in=20
+                the color pattern so that the arrow points the other way =
+and=20
+                make a similar gradient fill the other way. </LI></UL>
+              <P>You can download the project file here: <A=20
+              =
+href=3D"http://tilestudio.sourceforge.net/DrawingExamples.tsp">DrawingExa=
+mples.tsp</A>.=20
+              Have fun! </P></UL><BR>
+            <CENTER><FONT color=3D#e0d0b8><I>Return to <A=20
+            href=3D"http://tilestudio.sourceforge.net/">Tile Studio=20
+            Homepage</A></I>=20
+      =
+<BR></FONT></CENTER></TD></TD></TR></TBODY></TABLE></CENTER><BR></TD></TR=
+></TBODY></TABLE>
+<P>
+<SCRIPT src=3D"http://www.google-analytics.com/urchin.js" =
+type=3Dtext/javascript>
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>
+_uacct =3D "UA-867143-2";
+urchinTracker();
+</SCRIPT>
+</P></CENTER></BODY></HTML>
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/logo.gif
+
+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
+dJFyOjzzjA4GALwBwNBEF2300UgTHRAAOw==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-all.png
+
+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
+AABJRU5ErkJggg==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-1c.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAwIBBAAG/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAEC
+BQb/2gAMAwEAAhADEAAAAfqbYvOcmizNPXIVXRCRoTdH0TcAs6TtHTWRZdQbJKbdTmLA2nMIcpov
+PXocy0//xAAgEAACAgMAAQUAAAAAAAAAAAABAgARAxIhIhMjMTJC/9oACAEBAAEFAlbidjkRvi+1
+EU7OwAOuqVFNnErbZOwMRL4CrBQJkNFCwgd43212j0AiiqOzdmN9YMvlkOrB+Nj3FdRgRuBLWfpx
+ZSorgMxg10xAvB0gdbGYhQzIAY1LjpQFFKhqK/uZHJGMRgAGOwRRrk2EYWPS8FFBhcyCwB4//8QA
+FBEBAAAAAAAAAAAAAAAAAAAAQP/aAAgBAwEBPwEH/8QAHREAAwEAAQUAAAAAAAAAAAAAAAERIUEC
+EiIxUf/aAAgBAgEBPwG0kJUP6xKM6t4NmFqO1exKDeGFuHjyKLBLD//EABwQAAIDAAMBAAAAAAAA
+AAAAAAARARAhEiAxMP/aAAgBAQAGPwKsEK/DDTDlI4N6KvOyEK38FTilFOsNEYOb2trDemV//8QA
+HhAAAwEBAAMAAwAAAAAAAAAAAAERITEQQWFRcYH/2gAIAQEAAT8hc8DRWQpJpT1J+ppClt54knPQ
+iIMekEHSbPoZZaqiAR+SZJYO8VLtz+y3aMuCwi12DVa4JIqtC+AuiJUjFvRcG+FL7HqaF2g2nlCA
+aIzWIbVLChHjvB6oHoqFH9/vhzBZD2Wgu8SNdRNoWt6Liiohq6IzwEkV3T3PhzKJQf/aAAwDAQAC
+AAMAAAAQDEWCwMOcCOUh2sKO/8QAGhEAAgIDAAAAAAAAAAAAAAAAABARMQEhQf/aAAgBAwEBPxAs
+l4crqo2//8QAGhEBAQEBAQEBAAAAAAAAAAAAAQARITFBcf/aAAgBAgEBPxDAUMgHr5HYezVAg0Xb
+Sfc6DAYj+ymrwg1C89uEQ6xq6sGv1yAJ4QAd7f/EACQQAAICAQQCAwADAAAAAAAAAAERACExQVFh
+cYGRobHRweHw/9oACAEBAAE/ECg03g2lfUBdO5iahYrEQIibbhUh1i6LaWYZQ3qzvDN8fMcKSReZ
+g4LUbEaQMD2w4hg9fxHDiBdh8xe/BGaouC+oeFY8iB42qn5FIVx4gzmA5j19Q2ztUS5qFZ9QlDHx
+HLZHMMfU88dRbGDptUMaoGIkA0X9xuEyqOoIMZ3ipQ9mHFbnkwsCVzxAQNrMLMKO11MKGyP5GGoH
+Mta/O8IB119/kNhLFwsdnSFAQQH+3hyCaRW0WDc3iGPcs1+UZCS45h+oKrP1PTHRV1D701+QeSIo
+J0nqC9wGseNjgrmDDVrjiDAchDLO1XPcGo26zAkLShxmkcS+WZ//2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-1a.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAQMEBwL/xAAZAQADAQEBAAAAAAAAAAAAAAAA
+AgMEAQX/2gAMAwEAAhADEAAAAbxsj60iXVW++SyrmlZNxpLS9qMy0p2eYe16Ez+fWqc25pYlo77x
+1m+HjxfZTR6M48dAAAAAD//EACQQAAEEAgAFBQAAAAAAAAAAAAMAAQQSAgURExQzNAYhMDI1/9oA
+CAEBAAEFAhDFyaCVBKglQSoJUEqCWw4NLmSek1gvUF1htrY5GHIaGCOJMPi3Tow+Wtj5m9/AiIHa
+B3Yyw+qlrY+ZTAkZocRk0eOyYY2Tey4ur5p3d1sfM+H/xAAfEQABAwQDAQAAAAAAAAAAAAABAAID
+BBEUURAgITH/2gAIAQMBAT8BdKxnjlkRbQlYfitxNTmQ3WGdplOWonv/AP/EACARAAEEAQQDAAAA
+AAAAAAAAABEAAQIDBBASFBUgMTL/2gAIAQIBAT8BKe2Le3XMqIKhkQs+X0dTpeRXXy3ErHxXqcnz
+/8QAMhAAAQMCAgYGCwAAAAAAAAAAAQACAxEhM5MEEjEygbEQE0FRg5EUIyQwQ3OSoaLC4f/aAAgB
+AQAGPwKL1MWG34Y7lgw5YWDDlhYMOWFgw5YWDDlhYMOWFgw5YT6AAWsBTsQ0jU19WNlq07kfZKeJ
+/FX0f811MsDXsdtDrhO6jR4oa7dRoFVtW99kL1qn8OSd8uP9U5BBO6Wp/Dko2SMa9pjZYivYFbRY
+B4YWBF9IW43yVltK3j5q5JT+HL3X/8QAJBAAAgAFAwQDAAAAAAAAAAAAAAERMWHB8CFBsRAwkaFx
+gdH/2gAIAQEAAT8hQ1mLG21ttaGV2MrsZXYyuxldjK7GV2ER7eJJNkeazyKWf2U6CH6UcbDDs4bo
+ayaobdlWqEYI1ziIVkhhUdNrByeTk8FokCmX7GFQa3BUMdI9On4CSCQqEwiluiCKRD4EuXm6G9/j
+MKjtf//aAAwDAQACAAMAAAAQ53x6D8CoYDAAAAA//8QAHhEBAAICAQUAAAAAAAAAAAAAAQARITEg
+QXGh0fD/2gAIAQMBAT8QeEp7M+g+pj14Y13HcJhrFQHojFrLI75f/8QAHxEAAgIBBAMAAAAAAAAA
+AAAAAAERMSEgQWFxkdHx/9oACAECAQE/EG0krsdnOen6H0SeRUWMIdyZkYmsj+CrV//EACUQAAIB
+AQcFAQEAAAAAAAAAAAERACExUWFxgbHwEDBBkfHB4f/aAAgBAQABPxCsUJkAkkliSSSz2DZs2bNm
+zY6qoBNwAAT+Fd3RSqs8TIzfbf5l6apUkVOTgZCNQogcwDNI9s+BNMp3mIaT8fUaVy9zMVcSWOPR
+Dkb449ZwMU4GKcms3+8s+tIBKwFpEDIEFEA6R1WrUXAaOLAENoEjCwhHaOVPaicDIAXAp9NElAsc
+V77aH//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-1b.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAQMEBwL/xAAZAQADAQEBAAAAAAAAAAAAAAAA
+AgMEAQX/2gAMAwEAAhADEAAAAbxsj60iXVW01snzGzEW1pLS9qMy0p2eYe16Ez+fWqc25pYlo77x
+1m+HjxfZTR6M48dAAAAAD//EACQQAAEEAgAFBQAAAAAAAAAAAAMAAQIEBRIRExQzNAYhMDI1/9oA
+CAEBAAEFAhDFydBLQS0EtBKDAnHQS0Eshwa3cs9JjBeoN1DLbRgDHSkPH46aq1BAr9OjD5ayPmZ3
+8CogdoHdrKH1VtZHzNIErNTqMmr12TDGyb2XF1vNO7usj5nw/wD/xAAfEQABAwQDAQAAAAAAAAAA
+AAABAAIDBBEUURAgITH/2gAIAQMBAT8BdKxnjlkR7QlYfitxNTmQ3WGdplOWonv/AP/EACARAAEE
+AgEFAAAAAAAAAAAAAAEAAgMRBBIQFBUgMTL/2gAIAQIBAT8BtGVo9ldZDdbJmQyT5PBT4S612921
+2sfFMRu/P//EADMQAAEDAgIGBQ0AAAAAAAAAAAEAAgMRITOTBBIygYOxECRBUZEUFSMwMUNzkqGi
+wtHh/9oACAEBAAY/AovQxYbfdjuWDDlhYMOWFgw5YWDDlhB7I4HNIqCGNusGHLCwYcsJ9AALWAp2
+IaRqa+rGy1adyPVKcT+Kvk/3qnmzRctv6R6hoo4TUyGEBkbRQALa+iF61T93JO+HH+KcggndLU/d
+yUbJGNe0xssRXsCtosA4YWBF8oWw3wVl7Sto+KuSU/dy9V//xAAlEAACAAUDAwUAAAAAAAAAAAAA
+ARExYcHwIUGxEJGhMFFxgdH/2gAIAQEAAT8hQ1mLG21ttaGV2MrsZXYyuwgzJtJHJpwMrsZXYRHt
+4kk2R3rPIpZ/ZToIfpRxsKcLEm2NlIgA1NLPcQrJDCo6bWDk8nJ4LRIFMv2MKg1uCoY6R4dPwEkE
+hUJhFLdEEUiHwJcu90N5/GYVHpf/2gAMAwEAAgADAAAAEOcL+g/AqGAwAAAAP//EAB4RAQACAQQD
+AAAAAAAAAAAAAAEAETEgIUFxodHw/9oACAEDAQE/EHhKemfYfUdpeGNcxzCYa2qA8IxayyOdX//E
+AB8RAAICAQQDAAAAAAAAAAAAAAABETEhIEFhcZHR8f/aAAgBAgEBPxBtJK7HZzDp+h9EnkVFjCHc
+mZGJrI/gq1f/xAAmEAEBAAECBAYDAQAAAAAAAAABEQAhMVFhsfAQQXGBkcEgMOHx/9oACAEBAAE/
+ENYomQCqtKqtfxNmzZsWNk2qBCIiJv4mzZ1VoCeAAGfwru6ZNW3lnoZ47b9c4prTVIzO6MtaSFxw
+lPnW365tY8NFbqtVaqqqqqrlWd3znqK4JJz5+CHceOO3752HNnYc2dz3zr+ubfjSBFYC4kKhGIPt
+lrWt4bgacbAjpgkw2RPTLMr3iXBoA4Cz/TZE0DazPn9aH//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbfr.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAPAA8DASIA
+AhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oA
+DAMBAAIQAxAAAAHUUD4//8QAGBABAQEBAQAAAAAAAAAAAAAABAUBAwL/2gAIAQEAAQUCanT+pCtS
+hs7snZM/sVH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAA
+AAAAAAAA/9oACAECAQE/AX//xAAcEAADAAMAAwAAAAAAAAAAAAABAgMAERIhInH/2gAIAQEABj8C
+miSkdzB9lx5vKQ5UEFR9ybpRE0gBDLvHpSiP0oHgaz//xAAdEAACAQQDAAAAAAAAAAAAAAABEQAh
+MVFhccHR/9oACAEBAAE/IW74Sy78lA2SN06mAeKDg7i1JIOiJOdz/9oADAMBAAIAAwAAABB3/8QA
+FBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgB
+AgEBPxB//8QAHRABAAICAgMAAAAAAAAAAAAAAQARIVExQXGRsf/aAAgBAQABPxAQ0niVCsJ9cxlf
+kxXQRXTN7j/10LZIiO3qdqhgzTau/Dif/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbsrf.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAPAA8DASIA
+AhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oA
+DAMBAAIQAxAAAAHaOKI//8QAGBABAAMBAAAAAAAAAAAAAAAABAECAwX/2gAIAQEAAQUCVvQufLTm
+uVgleXNFJbf/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAA
+AAAAAAAA/9oACAECAQE/AX//xAAgEAABAwIHAAAAAAAAAAAAAAABAAISAxEiIyQxUmFx/9oACAEB
+AAY/AqOna+Q8RIoNZGyo44QHG6fmF8utl//EABwQAAEEAwEAAAAAAAAAAAAAAAEAESFhMUFR0f/a
+AAgBAQABPyEh7dIIYq0bRAUTl6HEICBcTnA8WvLgsg9zlf/aAAwDAQACAAMAAAAQN//EABQRAQAA
+AAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Qf//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Q
+f//EABwQAQEAAgMBAQAAAAAAAAAAAAERITEAQVFhgf/aAAgBAQABPxCZeY2RDZVOypJ95kEZRZPt
+hLEm7+pLSLXpisMi7pjHK6VsF2Oaa9K48gf/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-2d.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAABQIEBgEAA//EABgBAQEBAQEAAAAAAAAAAAAAAAAG
+AQMF/9oADAMBAAIQAxAAAAHVjqkz3kyWLvZU3KlmgD6fLaPZuRCxucoMEtqmtD3DN6zOubN9FdNc
+uIlr5Uxj9qoK9nNHs3IpYdysIEr5U16icTO6nL6BN//EACIQAAIBAwQDAQEAAAAAAAAAAAECAwUR
+EgAEISITMTMjMv/aAAgBAQABBQJgE1VOYacbo6m0Kddz86eO8NiB63/ZNj12+T6VtVBm8dO5aMnF
+NVBSkey5i9DLtuTeLYN+4cFVBOqr86YuUMifnayvzt6biGyXUbHVRZrU6/hP8wkW3uKw0zAsUGk5
+1VkHhpRIjOlAtNi0VNUeQE6Tk1NbJTzeF1uvpJbpFT0zljGKQHiq/PYNjE56o2I3BWWKnHGRLlf/
+xAAaEQABBQEAAAAAAAAAAAAAAAAAAgMQM3EB/9oACAEDAQE/AZetVpyX7Facl+xWnJetVp//xAAb
+EQEAAgIDAAAAAAAAAAAAAAABABARQQIxMv/aAAgBAgEBPwG++Mb9amQbJu3KT//EABwQAAMBAQAD
+AQAAAAAAAAAAAAABERAhAiAiMf/aAAgBAQAGPwIW/Qy53KXGOkOlKyv8ODIRYl6Mr9OH0QZ05ih3
+KPOE9IOja3u3yGMp/8QAIRAAAgICAgIDAQAAAAAAAAAAAAERITFB8PFR4RCRscH/2gAIAQEAAT8h
+xryKlOZRNqOWYEkmVSjUKizLlmTwSFoUMl7eyyeChRsUQlHEK9p2KPAaU0EgxMxAv4C7Dp6en8IG
+hN8uUUHNmA2OwjK5r9GdydkCosRUEZI6Nt2Tb7FjGheWK0m5fw0H8EIe/aGdrXZB5J6UDSeKEYPX
+s08oduRDENvA9nPIinJLk5E8sMUumTUipIavGUayxFlkVFWU3aj9PqP9J9mf/9oADAMBAAIAAwAA
+ABDer4CfpqLfqb4NZ4L/xAAcEQABBAMBAAAAAAAAAAAAAAAAARChsSExQXH/2gAIAQMBAT8QTbzF
+myPh7LEZR5Szh5iz/8QAGhEBAAIDAQAAAAAAAAAAAAAAAREhABAxQf/aAAgBAgEBPxCEJWzaKXih
+g97uhHjFwTuyljjMw2IC1n//xAAkEAACAgICAQUBAQEAAAAAAAABEQAhMVFBYXGBkaGx0fDB4f/a
+AAgBAQABPxA+AzwMxTO4AJYK3BAkEeIDkhj3OpaMUDfIj8MEwuoA5UXnZjiOQ/uIqaX6IGAtx6oF
+rC8QxcYynFAUxuBkKJV6QclaRfZgRlHbgUFg/ohPNV9mEgZZfMWh/RDE3S+xBAhRPuBoLHN78R0B
+ftcanECBMM19w4MfruCzyx1cQ3rQGV03qD3fzcMSyCSEwMmtiHbR9wX9hfUPADG77gwoSnnSXIj0
+dQYVYDGf2Gfvk5nwDfsM4rpWN6Q7sDMGA6JjRPkvYjiV5ahglDywPuYBGS8yiRwXYgiOK+4WSWq7
+hS/QesUu0p9/9gyxilzwf5LMYrjs/sHKojHzAhqjCjsS57MBEXb3lnHlj2iaShZ08ahEcfKoG0dK
+huf/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-2a.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAQMEBwL/xAAYAQADAQEAAAAAAAAAAAAAAAAA
+AgMBBP/aAAwDAQACEAMQAAABvGyPq8KXhWczay/MdOGcyV57pRWTr1+W+36OW/nVrnt3LXM9CbNS
+wR/B890KaKrHjQAAAAA//8QAIxAAAQQCAQMFAAAAAAAAAAAAAwABAgQFEjMTFDQGESEwNv/aAAgB
+AQABBQIQxdHQS0EtBLQSgwJx0EtBLIezW7tns8YP1Duh5faIw46UhY7HTVSkINftUcXTWR8zPfn6
+yr8VflqIXGryyPmaQJWalTZNWrsmGNk3wtpLeaeUnWR8z6f/xAAdEQABBAIDAAAAAAAAAAAAAAAB
+AAIDEhMxEDBR/9oACAEDAQE/AWsLtLC7xGMjfMclQs4T5bDo/8QAHhEAAQQCAwEAAAAAAAAAAAAA
+AQACA1ERFAQQIDH/2gAIAQIBAT8BfK1n1bUdrajtA56nhMi0nWhwzaaMDHv/xAAyEAABAwIDBAUN
+AAAAAAAAAAABAAIDESESM5MEMoGRJEFRg7EQFBUjMENzkqGiwtHh/9oACAEBAAY/AovUxZbfdjsW
+TDphZMOmFkw6YWTDphB7I4HNIqCGNusmHTCyYdMJ9AALWAp1IbRgx4Y2WrTsR6JTvP4sXm/3rD6M
+2XTb+kegbKO6amRQ0jjaKBoC3/ohetU/h4J3w4/xTkEE5DyMT+Hgo2SMa9pjZZwr1BW2SDTCtBF8
+gVmN5K1lvHmt93NXJKfw8PZf/8QAJRAAAgAFAwQDAQAAAAAAAAAAAAERQWHB8CExsRBRcfEwgZHR
+/9oACAEBAAE/IUNZixttbbWhldjK7GV2MrsIMybSR7NOBldjK7CI5eJNkkfoZ5FLv9lMig+hGXoJ
+cDGYJS2WwlmQkZ3ELyclAwqOk1o5fJy+Cx0i3LljCoNbgqEOkzYD4/gIoJKgNIpuiiK0EtQS0PeC
+E6Z3cTCo+L//2gAMAwEAAgADAAAAENsIvA6WDDgwAAAAP//EABsRAAMAAgMAAAAAAAAAAAAAAAAB
+ESExIGHw/9oACAEDAQE/EE1Q8oK6hgexUmjqFQSJmj3y/8QAHhEAAwEAAAcAAAAAAAAAAAAAAAER
+MSBhkaHR8PH/2gAIAQIBAT8QsXOp70/Am52sjqYsKCTn05QTeC2ws4v/xAAnEAEAAgAEBAYDAAAA
+AAAAAAABABEhMVHwEEFhsSBxgZGhwTDR4f/aAAgBAQABPxDGKJkAqrZVVt8Js2bNixsm1YFERETP
+ibNnVWAJ0AAn8X7umqxZcp5ddV3f1mr35tUp2zMdeaqheyaDnnXd/WZd+CSLeK2q2qtVVVVljW33
+n6bqq6uvBDYdY3PWbbqm26pt+s7nuzL40gUrATSQsEaQfMl3jOdO4El2QAPiBSrJAnxLipbOlXDw
+pkCCbu+50l6+nv8AjQ//2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-2b.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAQIDBAAG/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAEG
+AwIF/9oADAMBAAIQAxAAAAH1iqZ7yQxgqnYjZwekec23Cqyk63KnNXPYIaDDqbKWqsknzqpWoUGi
+R1Nl15ZVmrqpzLrsELSRzf8A/8QAHhAAAgIDAQEBAQAAAAAAAAAAAQIAEQMSISIxBCP/2gAIAQEA
+AQUCdQkbq3bMprCnk/WHMVFRE9F/K7PFafoZtj1cZOiGIpSZOz4NvR7Gb0HBVQTGgXaZE/nVLi6p
+1C7LMbGBm3hvXCRWXVZ4KFBE7HQUhIJigUurShATE6dek3HW1+IlpGTeJ5T85jRm1jkao2otcsJo
+JZX/xAAaEQACAwEBAAAAAAAAAAAAAAACAyAzcQAQ/9oACAEDAQE/AfXWlsHWlsHWFsG2lvf/xAAd
+EQACAgEFAAAAAAAAAAAAAAAAARARAiEiMTJB/9oACAECAQE/AZ5Q5W7wtJzjY+1Tqz//xAAcEAAD
+AQEAAwEAAAAAAAAAAAAAEBEhAQIgIjH/2gAIAQEABj8CI/pVaQpXpDSl6Xv4YoTinrpjw+iLTFhq
+rwnpDS8eu+S6U//EAB4QAQEAAwADAQEBAAAAAAAAAAEAESExEEFRYYFx/9oACAEBAAE/IeC9gUcs
+xM1smdIaGDxXSs0ryCYftbPmTBiAAIP1QNFkGqVlOUP5J+835HhAhZpcALgWdgsN/ZZvVgJmY+W1
+bKfqyObHLSQYS8Ih/LSvcmTqQ9stliX+FjAfV6LJNcSjd5LA09suT2E9jVHvBsZfxZfN2wOxYrd8
+2zwYZZv/2gAMAwEAAgADAAAAEFYsjp2nutmstKvrpf/EABsRAAIDAAMAAAAAAAAAAAAAAAABEKGx
+ITFx/9oACAEDAQE/EF3Nhop4ejRKbTRTcaf/xAAbEQEAAQUBAAAAAAAAAAAAAAABEQAQITFBUf/a
+AAgBAgEBPxCEJXJ28O3tKGDu7wh4pcE3cDTUpC8BlxNf/8QAIxAAAgIBBAIDAQEAAAAAAAAAAREA
+ITFBUWGBcZGhwfDx4f/aAAgBAQABPxDUzwP7WAmB37gCGGr4lRI6e4DUtPZ2hRxAbmrsDIUEgggc
+Rrkf20BSFrB2Fmx3AsVl4hjjBipGaY4hyARadw4JRSLghAWL/kKALB/kJgtRgZZfMAmiTkDciAUb
+nMQjGv4SvFvxcAQv2sIRDMcGPxzBZ5Y4uE14/mJs+28KjV5uEEARw+YzIwMmtouTAyhXVd8Q8AMb
+3zElDzmCdg8HeEmjAxmEe7JzEdzwfszirrH1BTwisQODAhZe64TIryhZJ5liAGumXmM1GhQQjiJJ
+Lb3Cl3oHcIhGTo4ESGONY9BODioQl8wYBJ2ijLRcA7z3LOPLHqIMJgs/5tDiDFdw1t0qE//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbd.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAPAA8DASIA
+AhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAM
+AwEAAhADEAAAAd86OP/EABgQAQEBAQEAAAAAAAAAAAAAAAMEBRQj/9oACAEBAAEFAm8oc5RqNhVY
+s6TlP//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Bf//EABQRAQAAAAAAAAAAAAAAAAAA
+AAD/2gAIAQIBAT8Bf//EABwQAAICAwEBAAAAAAAAAAAAAAECABEDEhMhUf/aAAgBAQAGPwLqmBMh
+VLo+TouJVINMPhnJHGMstWRc0B2JNkz/xAAZEAEBAQEBAQAAAAAAAAAAAAABESEAMXH/2gAIAQEA
+AT8hQxbNtAbseuA6QcL78TpvFeWTcpwXyfnrJ58Dv//aAAwDAQACAAMAAAAQd//EABQRAQAAAAAA
+AAAAAAAAAAAAAAD/2gAIAQMBAT8Qf//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Qf//E
+ABgQAQEBAQEAAAAAAAAAAAAAAAERITEA/9oACAEBAAE/ECTYanFg2lQmuU8ByhWAggpVYd4c8rl2
+aUBBslBud31ZQMFYophBK877/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-2c.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAA4AEADASIA
+AhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAQFAgMGCAH/xAAZAQADAQEBAAAAAAAAAAAAAAAA
+BQYBAwL/2gAMAwEAAhADEAAAAepsK/dOs/NYo1YB6QQSBTPzlRedV5rFGrdNu6zDqkjciVToWcLl
+U501hUBaWVFe5MS8Yzzn3A91GvmQJtodJVJA/8QAGxAAAgIDAQAAAAAAAAAAAAAAAwQCBQAgQBT/
+2gAIAQEAAQUC5b5UC24HqaAb5yqHi8Cwhsov5+P/xAAYEQADAQEAAAAAAAAAAAAAAAABESAQEv/a
+AAgBAwEBPwGyEd6KVf/EABsRAAIDAQEBAAAAAAAAAAAAAAECABAREiAx/9oACAECAQE/Ab48M2HL
+GgFQfs5tY0//xAAmEAABAwMCBQUAAAAAAAAAAAACAQMRBBITADEFFCAhQCIkUWFx/9oACAEBAAY/
+AvFoMAW5aJt0++5LMr1gLvAshoKIR82SXL8xqgz8GzXUTZB7khsHvA/f7qHXsqzvbHW96rsjqubb
+T4f/xAAfEAACAgEEAwAAAAAAAAAAAAABMREhUQAgQEFhcaH/2gAIAQEAAT8h4vmbyOUEkK3pO8XB
+cAqXGvfWnPQCZWdEDSEURiBv+RURXD//2gAMAwEAAgADAAAAEAgAAwgAyxpqogoggv/EABsRAQAD
+AAMBAAAAAAAAAAAAAAEAEBEgMWHw/9oACAEDAQE/EL3gaA797lgIdM22E//EAB4RAQABBAIDAAAA
+AAAAAAAAAAERABAxQSCRIVFx/9oACAECAQE/EL/fAUCIbJh7B7L4UIT49Yoju+1aV//EAB8QAAIC
+AQQDAAAAAAAAAAAAAAERITEAIEBRYbHw8f/aAAgBAQABPxDa+bknoGSUAoA11XfFYIw4FEBoZ8qa
+SETyE1jn2VCAVAyCX31re9boktK4fGz/AP/Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3g.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGwAAAwEAAwEAAAAAAAAAAAAABAUGAwACBwH/xAAZAQADAQEBAAAAAAAAAAAAAAAA
+AQQDAgX/2gAMAwEAAhADEAAAAavHtF+H5Bebau1XnutxKg3IhLXJ5RV1DbKyqPP28/VRK9k4kHoc
+Bc0L6saDzdSA72KpocbobkGhAhMs487WgoleOg1uu3L2YJViGGH/xAAhEAACAgMAAgIDAAAAAAAA
+AAABAwIEABESExQFISIjQf/aAAgBAQABBQKQEMfNcFWb85M1daCz5I5S+QktolBqk6I/lthtWKqY
+xxFZcTOmrVpMZZTYaz1k8tlMJqcjKkuZQn9MmNWSN2cEwYiJlk4+rZS/WefPPjn7yAFmx1HFyOXK
+/tZZW2ozz558rrbblTqqrpMBgIx8xptj9Ta05LVXnCCbOgGjcJdB3RFkSDN9YlkkFrS+ZB5rLlI0
+hKKVcmLk5OqOPFomt9esStKiIKH4f//EABwRAAEFAQEBAAAAAAAAAAAAAAEAAgMEERATIf/aAAgB
+AwEBPwElBpciCECimuxOdqHK1T337is1PHPu72CwYToU87pnaef/xAAfEQABBAIDAQEAAAAAAAAA
+AAABAAIDERIhBDEyQVH/2gAIAQIBAT8BijzO1JOyLQCZNHNbcVNFh0oOiApoC51hQwlpsrkDTQg/
+BybyGn0E7kNHkKyd2vtKvxVaIK//xAAoEAABAwEHBAMBAQAAAAAAAAABAAIRIQMQEjEyQVFhgZGh
+BCIjE7L/2gAIAQEABj8CWJ5gcoM+KYA35X87V0M7Kp/ysPyTI54QtbMy03VVHTZjTRBgUgV5WiO6
+LCoc6LJ2dFCcW2eN3EwueizqpCk0QHCaoFz7EmY3VTBWn2tPtfUyeU2zxYRzfDjBGRQa77M26rT7
+Wn2iBRm/RYc3HUeVRSaKLPyi3Fi7I2rRRC1cM8lV0dFD/KltQoGW6rltcafmsvzupluq5bIgokeF
+pw9VGP0tfpD6z3Uv8Xf/xAAkEAACAgEDAwUBAAAAAAAAAAABEQAhMUFRgRBhcZGxweHwof/aAAgB
+AQABPyHGnMO1/KEztZEHvFQ3wMlab0gJfxg0ePb2AvSaaFV3UyeIDc6Ya77UVesaNPJgXX7jAVDd
+2PzGpawZuHzZoV3yYIaTZRHzpcJ88FGiQsQWoBmgAQgA3lM+XRAAIeRBWDDFabTOU6rPXbOYZTED
+dh4vR44iBUsKlAeoJXEKkzOh+X12KWrOj2e0PH7p1FU+jJkqamNc2kHBHipKArJfEpO5HxCho9jU
+Tcn1heTYSzJsOsXGEo+vj5gpod4QzhASgZfuzBDbmQUYAYchw0LQmiRRvPSBZfP3h8aAxP/aAAwD
+AQACAAMAAAAQu9poAEbo0Lc2SD0k/8QAHBEAAgMBAAMAAAAAAAAAAAAAAAERIUExUWHw/9oACAED
+AQE/EIBxCGtkhljXlDHlmxqUMoqjJ7PteBl3Zkcj2/JSowd7E+r7TmFLi+0R/8QAHxEBAAIDAAEF
+AAAAAAAAAAAAAQARITFRcUFhgZHR/9oACAECAQE/EN4wbZQ3X075WFYHxT5lKlY6fb9Ix22GFt8f
+zuaZLfuZwwygMndS129u4vXZexu4inAhcVGCLi5//8QAJBAAAgICAgICAwEBAAAAAAAAAREAITFB
+UWFx8IHBkbHxodH/2gAIAQEAAT8QPgM8DHpuBUGQBQDl2VC5cAtOSx3No/dI0aHIEugA9MSnU0gF
+SPaEh1L4kdg0zKOQdQDlReeTCDRmfRLHakEkHRAJkbh3JVJLTOCZTJSDzgRglYqGjDig+ICti0kL
+BwDBK2eYmABBaIclaRfZiTEAEGByWqhc5DkZmWr3F9mGD0XKs1zjE8zg5zHsBFFhpT0vENBY3fPi
+ArlDA4iY4Twh5c8wK4ZF1noBCev8Q09P1Ez0WKLRF1MYwX49DpmHu/m4YlkIsDrpKJoQC0rlgBVo
+gB0CSEdp6/xPX+JSadNgE0JBLOmIKlbSNCZACBVZhhVgMZ/7A+i4T+oZX/kinR+ZgqhzL5UdlKKt
+spk/UXjcUaRagfqBt41zh2r5hGHDyfFB4ECLzGD1u8uEPYGLOu/xOuooYQeLzzFcuUOKtND0SswX
+DI0uh0DkQRNFiu58HYHa3HLdMB2YvJ3FJlUz9QaZkCX7cKkQXDvhw9eHPswGYH8f9nZrzL4cuKXV
+2VQ+DGoLQZ2XP//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbfe.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAANAA0DASIA
+AhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oA
+DAMBAAIQAxAAAAHVWR+P/8QAGRABAQADAQAAAAAAAAAAAAAABAMAAgUU/9oACAEBAAEFAnr8+cy2
+iYIDJMiHmeX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AX//xAAUEQEAAAAAAAAAAAAA
+AAAAAAAA/9oACAECAQE/AX//xAAdEAACAgMAAwAAAAAAAAAAAAABAgADERIhEzFh/9oACAEBAAY/
+Aq6qqqy+gYlhNxWFIOGH2IHyCo4y+546+KJ//8QAHBABAAEEAwAAAAAAAAAAAAAAAQARITFRYZHw
+/9oACAEBAAE/IbkRUeA2LFNMT0tIY8SLqUwBxAB9hXbP/9oADAMBAAIAAwAAABB3/8QAFBEBAAAA
+AAAAAAAAAAAAAAAAAP/aAAgBAwEBPxB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPxB/
+/8QAGxABAAIDAQEAAAAAAAAAAAAAARFBACExYXH/2gAIAQEAAT8QtdJFQCJVuIi5yKZ3qADpjYiH
+2KwIfTgCE7CIxxHzOp+bVBVRZVbz/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3a.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAgMEAQUABv/EABgBAQEBAQEAAAAAAAAAAAAAAAAB
+AgUG/9oADAMBAAIQAxAAAAH6vB3z/J3G5EzBfoJp9kWY4A5/UTEMFvKeNBiC0uAiO/7gVV255Kia
+DsxETdRHmr2h7Mlh/8QAIBAAAgIDAQACAwAAAAAAAAAAAQIAAxESIiEEEBMxMv/aAAgBAQABBQJl
+CRvVxyFxLcyvkN6KsED2J0R/VpxK/YQCuOKzyhiKUh9a6UJ9O/QcFVBMaeq9uScNXP3DqF2WVsYG
+bcgNOYX3LczkqUEBEucYZrNE6CLrK3cQWjKPkW7EanO20XwbZhB1/HsPghlppwRdTDWwBfBx4VsZ
+KaiEqHH/xAAUEQEAAAAAAAAAAAAAAAAAAABA/9oACAEDAQE/AQf/xAAdEQACAwACAwAAAAAAAAAA
+AAAAAREhMRIyQUJh/9oACAECAQE/AbOTwb9R4Mi0O3JvglJnEpYL4PtBE4RODTP/xAAgEAACAgEE
+AwEAAAAAAAAAAAAAEQEhEAIgMZEDEkEi/9oACAEBAAY/AsIsocntHGLFtQix7lGEKSh4vY8Iosoc
+0Lx9nrq1CxzQtfY9NwKOPuXsvj4TpkmY6GqFj8xQ9fWP/8QAIBAAAwEBAAEFAQEAAAAAAAAAAAER
+ITFBEGFxgfBR4f/aAAgBAQABPyHzPRFLyJfcOcM6hZCqhC6ykLYBJDKDuz36Mj08FLA0NKZpQxbp
+xjHMz0AMMLaNIKuOqbo1OiCwsi8GqzYvTKtF/wAhcdjU3fokbZHllnt4FyxfB2uC70Tz6IRvsLPu
+wd1P5waNvhoaINcGKvDoujF+9dI5w6PPAo0p5phdHGMFt1+SFtvz/sfziXD/2gAMAwEAAgADAAAA
+EPZUC/ACGtkqmPhlpP/EABkRAAMBAQEAAAAAAAAAAAAAAAABERAxQf/aAAgBAwEBPxClE30ruURw
+hcZ5qP/EABoRAQEBAQEBAQAAAAAAAAAAAAERACExQVH/2gAIAQIBAT8QoKvTCMPumVqWD9yjD77j
+7uYqVRwBh4y4J7ui3hmn4MUKtVDPgN0MYIvLv//EACUQAAEEAQQCAgMBAAAAAAAAAAEAESFBMVFh
+cYGR4cHwobHR8f/aAAgBAQABPxDEu+v6ggY1doERfc+6MDjkWmVQPSvuP6U9Dh2yMsAfa10UMsDW
+miHXwppvsI2GMho8pvdhMyggnxQ1lG40QxfcoQg1iUUAXB/z5UkRL7wiD+vSOSGGI8qs0mEZbeEe
+CkX2r4f8pkLv9oCMVeEQTczPhRSZyI4+U5AOCiPH5HVGX55lEEBj7J3I4GTGiCRgpukAFkFyoMcf
+vwnXa+lOuYudUbEgOVDNtAS2iHPzbygmD2FIws4aLekTr+gvujhkiYYeUHR1YjN8ojDB8nUAcBAU
+rjB6vd1vJqJxbfROKDYmltG0OZrwgBCHKATZSN0Sb+H2nFvHAeBOTaF/RNDnUmkICRNDwMk9rUOj
+BvR0R3Yc1uh3B/CzYBixe/CkKTFmS0DwU6gqDNl1/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3b.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAwQBAgYABf/EABgBAQEBAQEAAAAAAAAAAAAAAAAB
+AgUG/9oADAMBAAIQAxAAAAHVxWfPcmYLWFjUPpQgei3QWKWB2l7huCYsuTQi0PXyqca6cj6FaMKT
+dLZ3WomVL6ykecVw9KapRxf/xAAhEAACAgIDAAIDAAAAAAAAAAABAgADERIEISITMRQjMv/aAAgB
+AQABBQJgEjdjHkLiW5MQ6q/YqwVH0nqD+rTiVdxgCpHisnRIqlJ9tdKU6jN6DgqoJjTsPYCThq59
+w6hdllbGBm3IBmUE3Dlup5KlBAwl9gxbyP1pfsqW6yrk4AuXKMWFuxHIVhZnaDoZzCPPGrZpwwVp
+qwVupj8Ua/D2eL1+MTXVVqlY8f/EABYRAAMAAAAAAAAAAAAAAAAAAAABMP/aAAgBAwEBPwG6P//E
+AB0RAAMAAgIDAAAAAAAAAAAAAAABERIhAjEiQUL/2gAIAQIBAT8BK7Bv5JoZNj26Ly9GSTMTS6OJ
+HTGmN6Gmf//EACIQAAEDAgcBAQAAAAAAAAAAAAABESECEBIgIjEyQZFhof/aAAgBAQAGPwKzWgkx
+WnMwxI+ZrMMpA9pIu63gkgdYGo9GxYhloOJNTfBqvR6diNuydusr9E7dCooqp4cWGdfDl+CaXNfl
+v//EAB8QAAMBAQABBQEAAAAAAAAAAAABESExQRBRYXHBgf/aAAgBAQABPyHmvoimTic7OIKsUUXD
+pFC9NCyGWGDZ8sEghgNU16MapmlDc6cY984RAaFspmFceQ6boe1NIIaPEN1iK2kFo5Xgpl2hqbv0
+BFNseSy+ewamt8JD9QG39j0r+BwgeEdRuZwrR8DY2uCsO1Ro0c8hnuhMYjR0IWvtTo2U5CGGGM+y
+wel6fkfX9kf/2gAMAwEAAgADAAAAENt6r5oAI9pqoVSXQP/EABoRAAIDAQEAAAAAAAAAAAAAAAAB
+EBEhMVH/2gAIAQMBAT8Qhei7F4IWMouF0rCmaJp//8QAGhEBAAMBAQEAAAAAAAAAAAAAAQARITFB
+Uf/aAAgBAgEBPxCkLXSCUewjU1QfYqaOPYZ7kClrGApXEUBOyiXeRs+IE0Y2QIrASyIXi5c//8QA
+IhABAAICAgIDAAMAAAAAAAAAAQARITFBUWFxgZHwseHx/9oACAEBAAE/EHws9GH9XuCkM9yjbacx
+BTg9Qoef3Usj6woRQ6ly2SUbioQYajo1niK8c4gY+RnMMuBoihVMU3BM1fMdS4YiV9+Yy7xDsUev
+ufPU6cb8yhOuYQR/uAxcTgVx9S9t+cRrryGIWB08TOh8okHL3mNoZaSySw5x1CVUbjQzjnMvZK6z
+F7SS6Vctxbhg1ErClqWJDP5U5wxvsxnmz3UZCVx+kEYldH+Y8susv2qXhEDZy/RAPVHX8y7PHsZe
+I9Y6gGCi9eYXVzHU2rzqWyFRJdK1EJBzrLmoXWFcdW3DfMxhuKEkRVMfdxyA43G+rl65bYAqr+dz
+FenKzfVxCsPhu3kjlbofBmf/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3c.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAwQCBQYBAP/EABoBAQEAAwEBAAAAAAAAAAAAAAAB
+AgMEBQb/2gAMAwEAAhADEAAAAdXyPfnvJ7wsYWNA+SBA+iXuFiEgeyTmGYJiS52BFoerKpWdt7Y4
++yTRhSby41s7rUTK+u1JvrDuHpTVKONP/8QAIBAAAgICAwADAQAAAAAAAAAAAQIAAwQREiEiExQx
+Mv/aAAgBAQABBQJgEjdjXkLqW7MQ8VfsVaKj8T1B/Vp1Ku4wBUjxWTwSKpSfrXSlOozeg4KqCY07
+D2Ak6aufsPELyWVsYGbmQDMnOpqNGdXkM3U8lSggYS+watyD8WB6XO8GrJ0Bcu0YsLeRGQrCzfKV
+O9Jssa9yPONWzTDBWmrRW6mPijj8PZxevrE11VcUrHj/xAAeEQACAgICAwAAAAAAAAAAAAABAwAC
+BBEQQRIiMP/aAAgBAwEBPwH44eOGk+XUzMcKt698ofZJ2I99nW2YJ//EABwRAAMBAAIDAAAAAAAA
+AAAAAAABESESQQIiQv/aAAgBAgEBPwErsG/kmDJo9dF7dHJJkFh4kdI+jjRpn//EACcQAAEDAgUD
+BQEAAAAAAAAAAAABESECEAMiMUGREiAyI0JRUmGh/9oACAEBAAY/ArNaCTqtPcwxI/c1mGUge0kX
+dRaKM+KntEw6suJ9SCSB1gajkWnqcXEXyXcTEpir5Jqb8Gq5Hp0I03J02ssemaZLPsTpsKiiqnB4
+sM68Hl/BMrmfi3//xAAfEAADAQEAAQUBAAAAAAAAAAAAAREhMUEQUWFxgaH/2gAIAQEAAT8h5r6I
+pk4nOziCrFFFw6RQvTQshlhg2fLBIIYDVNejGqZpQ3OnGPfOEQGhbKZhXHkOm6HtTSCGjxDdYito
+lW/3L+iDKW6c/SmXaGpu/QEU2x5LL57Baj8ZBVoe3oXT0r8DhA8I6jczhWj4GzHt/QUW8fA7VGjR
+zyGe6ExiNHQha+1OjZTkIYYYz7LB6Xp+R9f2R//aAAwDAQACAAMAAAAQ23qvmgAj24qhVLcA/8QA
+HhEAAgICAgMAAAAAAAAAAAAAAAERMRAhQfBRcZH/2gAIAQMBAT8QwvIrxOhC0yB3Uh30I3Dr4KyN
+ETJTtEA4ikJs/8QAGREBAAMBAQAAAAAAAAAAAAAAAQARITFB/9oACAECAQE/EKQtdIJR7CNTVB9i
+po49hnuQKWsYClcRQE7EV2IECaMbIEWwQSKi8XLn/8QAIRABAAICAgIDAQEAAAAAAAAAAQARITFB
+UWFxgZGx8OH/2gAIAQEAAT8QfCz0Yf1e4KQz3KNtpzEFOD1Ch5/upZH1hQih1Llsko3FQgw1HRrP
+EV45xAx8jOYZcDRFCqYpuCZq+Y6lwxEr78xl3iHYo9fc+ep0435lCdcwgj/sBi4nArj6l7b84jXX
+kMQsDp4mdD5RIOXvMbQy0lklhzjqEqo3EvBFw26XMTA3EJFWEpniDguL2kl0q5bi3DBqJWFLUsSG
+fypzhlyDin+1QYsR7Nmtai10a5YUHDjUeWXWX7VLwiBs5fogHqjr9l2ePYy8R6x1AMFF68zeZI67
+lKAYxjGXbKyFlW3107IkulaiEg51lzULrCuOrbhvmYw3FCSIqmPu45AcbjfVy9ctsAVV/ncxXpys
+31cQrD4bt5I5W6HwZn//2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3e.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAgQHAwH/xAAYAQADAQEAAAAAAAAAAAAAAAAA
+AgMBBP/aAAwDAQACEAMQAAABvGUZRY06eqc3JpFlvmRyV17pRX067fLe3+HLfnVrnvblr9noT01L
+BH6GPdCmiqx40AAAAAP/xAAiEAABBAICAQUAAAAAAAAAAAADAAEEEgIFMzQTERQhMDb/2gAIAQEA
+AQUCEMXhwYGeNBKglQSoJUEqCWw9Gl7Igw6gE3XVjbMeARy7ZCe6xBbH2qOLxrY9zffn4yj8Ufli
+IXGpy2PcpgSM0KGyaNHZMMbJvhWyV80+WTrY9z6f/8QAHREAAQQCAwAAAAAAAAAAAAAAAQACAxIT
+MRAwUf/aAAgBAwEBPwFrC7Swu8RjI3zHJULOE+Ww6P/EAB4RAAEEAgMBAAAAAAAAAAAAAAEAAgNR
+ERQEECAx/9oACAECAQE/AXytZ9K2o7W1HaBz1PCZFpOtDhm00YGPf//EAC8QAAEDAgIIAwkAAAAA
+AAAAAAEAAgMRITOTBBIyQYGRobEFEzEQIzBDUXOSwcL/2gAIAQEABj8Ci9zFht+WPog9kcDmkVBD
+G3WDDlhYMOWFgw5YWDDlhYMOWFgw5YT6AAWsBTcvMlgbOwRx1Y70PotUeC6NRopeh/Sa2LQ2xs3N
+aaAdFq+X1R3Kut0W30QvWqfw7J324/5TkEE5D2MT+HZRskY17TGyzhXcFbRIMsK0EX4BWY3krWW0
+ea23c1ckp/Dt8L//xAAkEAACAQMEAgIDAAAAAAAAAAAAAREhwfAxQWFxELFR8TCB0f/aAAgBAQAB
+PyFCsyxttbbXgQZk2kj0acGV2MrsZXYyuxldjK7CI9vEmjZCxTTPZ7p9/ofVUglS+25vtiiWmHqP
+hCHoTv8AU2qgiKMhC7ObQYXDxNaPb9nt+ix4i1LljC4FbgqIfEzQD1/ARQkuAaSm+FEVoJahLQ+8
+ETTPlyYXD8X/2gAMAwEAAgADAAAAEIPcvA6WDDgwAAAAP//EABsRAAMAAgMAAAAAAAAAAAAAAAAB
+ESExIGHw/9oACAEDAQE/EE1Q8oK6hgexUmjqFQSJmj3y/8QAHhEAAgIBBQEAAAAAAAAAAAAAAAER
+MdEgIWGh8PH/2gAIAQIBAT8QmNo908CbXV4IcpiokEnH04gm6E2wq1f/xAAmEAEAAgEDAQgDAAAA
+AAAAAAABABExIVHwYRBBcYGRobHRIDDB/9oACAEBAAE/ENYomQCqtlVW2Cxsm1YFERETP5mzZs2b
+NnVWgJ2AAlPBhKwC6GimDqPGPzFK0FFqmmqK5W5lquEEtAC1XGVm5z7yqF+E8HPfd3f1N8Rpq763
+ljXH1n03VV1d+xDgd45POcbqnG6px+c+T8sx9tIFKwE0kLBGkHxJd6zmncCS7AAPaBSrCBPaXFS2
+aVcPCmAQTl39nSXr6ev60P/Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3d.jpg
+
+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
+HBgFHRZc/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-3f.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAwQHAQL/xAAZAQADAQEBAAAAAAAAAAAAAAAA
+AgMEAQX/2gAMAwEAAhADEAAAAbxkj6eidAUaVmtk+Y3Yi24ksL2oz1pTc5h2vAmfn1qnMuaXktHf
+eOs3o6fl9lNHozjx0AAAAAP/xAAjEAAABgEEAgMAAAAAAAAAAAAAAQIDBAUSERMUNCEzMDI1/9oA
+CAEBAAEFAmm2tnBoYNDBoYNBRMJLBoYNCw0KXMk8SsVbx5YQ5XKShiuUpuvrlg6euWnjh5vbFj3L
+38CIGPUx7YwR9RLFj3MEORihxCBR45Am2yBeBqYzWDMzFj3Ph//EAB8RAAEDBAMBAAAAAAAAAAAA
+AAEAAgMEERRRECAhMf/aAAgBAwEBPwF8rGeOWRHtCVh+K3E1OZDdYZ2mU5aie/8A/8QAIBEAAQQC
+AQUAAAAAAAAAAAAAAQACAxEEEhAUFSAxMv/aAAgBAgEBPwG0ZWj2V1kN1smZDJPk8FPhLrXb3bXa
+x8UxG78//8QAMRAAAQMBBAULBQAAAAAAAAAAAQACAxEEITOTEjEygbEFEBUjQVGDkZKh0SQwQ3PC
+/9oACAEBAAY/Aoupiw2/jHcsGHLCwYcsLBhywsGHLCq6OACtL2NWDDlhYMOWE+gAF1wFOxC0aGno
+xsurTuXX8mRSaOrTIdT2VeiLL6W/Cp0ZZctvwj9BZR4TVfYrNrrdEFteyF9ap+7gnfrj/lOQQTud
+qfu4KNkjGvaY2XEV7ArrLAPDCwIvSFsN8lctZW0fNXklP3cPtf/EACQQAAIBAwMEAwEAAAAAAAAA
+AAABETHB8CFBYRBxgbEwkaHR/9oACAEBAAE/IUNZljba22vBldjK7GV2MrsTJ5JJatwlTdtIyuxl
+dhEe3iSjZH3WeSlr5I/zOisTpoLcWSqcWSbY2VBMgKGgUc7dqbiFZIYXDptYPZ9ns+i0UBVL9jC4
+GtwVGPiPx0/gJISFwTCUt8IIqEdhLp93Q37+MwuHxf/aAAwDAQACAAMAAAAQ8wv6D8CoYDAAAAA/
+/8QAHhEBAAIBBAMAAAAAAAAAAAAAAQARMSAhQXGx0fD/2gAIAQMBAT8QUEp6Z9h9R2l5jXMcwmGt
+qgPCMWssjnV//8QAHxEAAgIBBAMAAAAAAAAAAAAAAAERMSEgQWFxkdHx/9oACAECAQE/EG0k/sdn
+MOn6H0SeRUWMIdyZkYmsj+CrV//EACYQAQEAAQIFAwUBAAAAAAAAAAERACExQVFhsfAQgZEgMHHB
+4fH/2gAIAQEAAT8Q1iiZAKq0qq1+k2bNmxZcYRNc7gBxUDV9TZs6q0BPIADP4V3dMmrbhnEVflCW
+qLN4cs3R1paRmN0Za0kLjlKeNbf1wPilXpjUClF2CiIo1Z5fOfkVySTr19EPI88eP3zwOrPA6s8n
+vnf982/WkCKwFxIVCMQfbLWtbw3A042BHbBJhsie2WZXvEuDQByFn+myJoG1mfP20P/Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbbb.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAgACIDASIA
+AhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwUH/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEC
+A//aAAwDAQACEAMQAAAB6CgZ0PVcGEQUtpkmWzVgYopS/8QAHRAAAQQDAQEAAAAAAAAAAAAAAwAB
+AhESEzNCEP/aAAgBAQABBQIs5NLIqyKmedEd9hekrqFryToXp88k6SkPPMSzEtg6JJtn/8QAFBEB
+AAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEB
+PwFf/8QAIxAAAQMCBQUAAAAAAAAAAAAAAAECITFBUXFyouEQMoGRof/aAAgBAQAGPwKLricnJK/R
+03E1EF/Io7MTV1UdmS5K4ldxXcdyex0pU//EACIQAAIBAgYDAQAAAAAAAAAAAAABESGhMUFRYZGx
+ccHREP/aAAgBAQABPyGCs22qsNTxc/h4ufwfZxRoxjNj7Ll0ypz5GJMllCory9l5Ll0/1Xl7LyPy
+ahmoU2vA2vAdAsTSbkmZ/9oADAMBAAIAAwAAABBrbK54L//EABQRAQAAAAAAAAAAAAAAAAAAACD/
+2gAIAQMBAT8QX//EABcRAQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQIBAT8Q5GMR/8QAIRABAAIC
+AgEFAQAAAAAAAAAAAQARUfAhYTEQIEGxwdH/2gAIAQEAAT8Q8v4FBwu8TsmdkyuYQFq7voxGIq5e
+3prYcXWGi+zzoXHPFb96LEb3L7NeixG9yxmWrAt5O/hZtn5Ns/Jbm2FVvF/2NUYamuWf/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tblw.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAUACIDASIA
+AhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAIDAQQFBv/EABcBAAMBAAAAAAAAAAAAAAAAAAAB
+AgP/2gAMAwEAAhADEAAAAffwlTnVk6NgOGKXfwS2AOEKX//EAB0QAAEEAwEBAAAAAAAAAAAAAAEA
+AgMREhMzIjL/2gAIAQEAAQUClJDva9oXUnSXprK1lNFRydHfWTlk5WVJ0//EABQRAQAAAAAAAAAA
+AAAAAAAAACD/2gAIAQMBAT8BX//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BX//EAB8Q
+AAEDBAMBAAAAAAAAAAAAAAABAjEDESFxM0GRcv/aAAgBAQAGPwLHakN9Ib6ZsO2J9HLUOWoWuq7H
+bFJUlSR2z//EACAQAQABAwQDAQAAAAAAAAAAAAEAESGhMXHR8EGB8bH/2gAIAQEAAT8hoECqXd5W
+BWAayRszMzJfjOkcTpHErCuS+rzMzElNS7PpT6UU1T7mZn//2gAMAwEAAgADAAAAEChgHPQP/8QA
+FBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxBf/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAA/9oA
+CAECAQE/EIU3/8QAHxABAAICAQUBAAAAAAAAAAAAAQARUfExEEFh0fAh/9oACAEBAAE/EO2XEA/F
+hxNs9TbPUaMBAsbu/Bifdy9Ne8lvJIwhxVvKgJ93LF5jmGu82ebPD6K5pTPu5Z//2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-4f.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAAYCBAUDAQf/xAAZAQACAwEAAAAAAAAAAAAAAAAA
+AQIDBAX/2gAMAwEAAhADEAAAAYAdzmhKIBLxHgDC/RcYO9lNvPJZm5TXzD5bF6T9Vfd4+cb6bLNV
+24OyVsZjErd8aUa4FqL1ERq5kQABn//EACEQAAEEAQQDAQAAAAAAAAAAAAECAwQRAAUQEhMUIDAh
+/9oACAEBAAEFAvkBewF+sJrtdbiBLbsEKMeGhkTYyaIo7aawphKTYAPKxjiRUmE26JDRaXp9eSV/
+jblYXMUo523hcoaiUqUDRalA55VLbXYWvHJHWtyUni8vmrdl8oxyVeE2fl//xAAaEQEBAQADAQAA
+AAAAAAAAAAABABECEiAh/9oACAEDAQE/AfB9upPEkyHI5Wy75//EABwRAAICAgMAAAAAAAAAAAAA
+AAECAAMRIBIhQf/aAAgBAgEBPwHR2wILT7FtIPcVwY6coaxBWMRVA1//xAAjEAACAQMEAQUAAAAA
+AAAAAAAAARECECESIDFRIjAyQEFC/9oACAEBAAY/Avgw1g4EqcdmENqnJDvqr+7Td1P3dmllLeyS
+LT+iToxkzbIidkPg8SX6f//EACEQAQACAgEEAwEAAAAAAAAAAAEAESExURAgMJFhgbHw/9oACAEB
+AAE/IfEmh0TSIjT2VNg7hYI3Fn+biFyJlirdTmMgUnQFaJ6beNwbiCwT5onOAhpRwj8a4lOjL/GC
+6/UF1cS8QQj1KnLMwLLYYqIvrYQgMYJ2zCBBmOFwSDdx7nZXJhKF4MZktfH/AP/aAAwDAQACAAMA
+AAAQ91294jpUSZzv9+O9/8QAGhEAAwADAQAAAAAAAAAAAAAAAAERECAxIf/aAAgBAwEBPxDRKg3D
+SiGdY1PByc2v/8QAGhEAAwADAQAAAAAAAAAAAAAAAAERECFhMf/aAAgBAgEBPxApVZhHQTbHYDWi
+WrZdVsYpniYapN3H/8QAIxAAAgIBAwQDAQAAAAAAAAAAAREAITFBUWEQcZGhIDCBsf/aAAgBAQAB
+PxD6jRDl0JIWcwyAiPgPVA2kwVrxFUAGUzv3hcmM1nkZhuAcMOnDM1l0uF5MZwCI6CQGTDqo5KMD
+qBLzATwQquek3PSE5o+8QDrRPYUCjGIDoxY0OTmEWEW2zlQk/qCNw04j1agwcCAGDB49R0VkWIIP
+4jOL/IrA1zEeoAmy/UJmpJIKyORD0FuIqjWVEhuoEFP1Hjt1dV2jUPY4rb4BnJWlnjEIGhyDb9Rt
+AMn6/wD/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-4a.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGgABAAMBAQEAAAAAAAAAAAAAAAMFBgQBAv/EABgBAAMBAQAAAAAAAAAAAAAAAAAB
+AgME/9oADAMBAAIQAxAAAAHcSctJc6Vn56Vyq5Yff8wyw8q9D0VNonZjT9nb9XMfXD7k7GHm859M
+cJuvDAAAAAD/xAAgEAABAwQDAQEAAAAAAAAAAAABAAMFAgQSMRETNBAw/9oACAEBAAEFAmm2unBp
+YNLBpYNLBpYNIBgmQ4F28GzYhiOKFtHIWUchHxxQjI5CIjk1Y21mZH2P+ChU6p3QqdU7uFI+ygAs
+dbawoXA+8lEkqR9n4//EAB0RAAICAgMBAAAAAAAAAAAAAAECAAMRExAUIDH/2gAIAQMBAT8BaxV+
+zak2LAwPFlJc5nXM0GLXg+//xAAeEQACAwABBQAAAAAAAAAAAAABAgADBEEQERITIP/aAAgBAgEB
+PwFM9lg7qIcto4npsEKsOmbWKVKkRtyniHUDxHs8h9//xAAvEAABAwEFBAkFAAAAAAAAAAABAAID
+kwQRITOxEyM1gRASICIxMjSR0TBBQ1Fz/9oACAEBAAY/AotzFlt/GP0smGmFkw0wsmGmFkw0wsmG
+mFkw0wiBHAS03HuNwT7gAMMALvsmCWJsrNmy9rhgcAuGWWm34XDbLTb8Lh1lpNXD7LSavQ2Wi1ei
+stFqcbPDHHtDe7qtuT+WiZ/Nmg7YT+WiiBF+7bovI32XlHsvAdPiViU/lp9L/8QAJBAAAgEDAwQD
+AQAAAAAAAAAAAAHwETHBQWFxECFR8TCBodH/2gAIAQEAAT8hQ7zVjba22uxK8ErwSvBK8ErwSvBS
+VwV3lE6Pt4af2Ij08SWaIeylJnsD6QhpVGNOkTgkN+DSrM4GHSdwM1OsSiovXPlkLZ0EaiyWTUWS
+yZyFsEMkttbRI/n6G9cJJWSKvye+LgPlkLZ8X//aAAwDAQACAAMAAAAQ342hDJaNWDAAAAA//8QA
+GxEBAAMAAwEAAAAAAAAAAAAAAQARQSAhMbH/2gAIAQMBAT8QTp9y7fsv2LUR9hAOQDYBsYm4+8v/
+xAAeEQEAAgIBBQAAAAAAAAAAAAABABEx0aEQIEGxwf/aAAgBAgEBPxBteBrJ9ZkuRuOYcm4bbDEW
+g2361PKelBoCGO7/xAAkEAEAAgEDAwQDAAAAAAAAAAABABEhMXGxEEFhIDBRwYHR8P/aAAgBAQAB
+PxDMUTIBVWyqrb6zZs2bNmzf4dlwgYOAewdEh1VgE/AAE7XQkEbBGmnTUJYYqkF0rkB0LlvcFQk6
+VwA6FwGwAJFlgMAHZRaqtHogF+mczmczifXOdzOZxP7fjog5C22B8c0QNv0QIoM2QNsB2TRBsQAo
+QeGBtgO6U+D0sa9tD//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-4b.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAMGAQQFAv/EABgBAAMBAQAAAAAAAAAAAAAAAAAB
+AgME/9oADAMBAAIQAxAAAAG8etKsk3VXe9opGZZcLc8w6QyH2anffGmHG6O766pj24c510YdbHPp
+ThN88MAAAAAP/8QAIhAAAQMEAgIDAAAAAAAAAAAAAQACAwQFERIxNBATMDM1/9oACAEBAAEFAoo4
+vSwQPbpEtIlpEtIlpEtIlcMCrqzGLbALdqyntzmiRA5QCEakZorj3Lh+VTKD6m8sTeG81CuPca1r
+qcQQhBjAsDzkoklXHufD/8QAHREAAgICAwEAAAAAAAAAAAAAAQIAAxETEBQgIf/aAAgBAwEBPwFr
+FX4ZtSbEgZTxbSXOZ1zNBi14Pv8A/8QAIREAAQMDBAMAAAAAAAAAAAAAAgABAxIUMQQQERMgQVH/
+2gAIAQIBAT8BECLCtpfi6ZGTiTZ2iloV6PGE+qZ/SOSpvP8A/8QAMRAAAQMBBAULBQAAAAAAAAAA
+AQACAyERMTOTBBATgbEFEhUgIzAyQUNRwXFzkZLR/9oACAEBAAY/Aouxiw2+mPZB7I4HNItBDG1W
+DDlhYMOWFgw5YWDDlhYMOWFgw5YT7AAKUAs8k0yxNmZs2WsdcblzRyVo1jRZVoPwrejdFy2/xXa7
+0Kp+7gh9uP4TkOqE/dwUbXAEbNtD9AqQx/qvA38K4a7yqlP3cO6//8QAIRAAAgEDBAMBAAAAAAAA
+AAAAAAERMcHwUWFxsSFB8TD/2gAIAQEAAT8hQ8zLG21ttdhBmTaSOjTgyuxldjK7GV2MrsZXYRH6
+8SUekeJHMp+DUOqqQSRfLcnyxbjySVx3NMSqZJXHU1hOxhbDNaG0dnsonsUSiXzC2DHbnRKKhDhB
+NCQtkPnCSVEiXqfeKgPlmFs/L//aAAwDAQACAAMAAAAQs705DXTNWDAAAAA//8QAGxEBAQACAwEA
+AAAAAAAAAAAAAQARQSAhMaH/2gAIAQMBAT8QXF7h9/GzblMDPsLLjqC3AbmJzPvL/8QAHREBAAIC
+AgMAAAAAAAAAAAAAAQARITEQ0SChsf/aAAgBAgEBPxBfGJl/R3HcPZ3Dbg1BeS8xYFuKDQENeX//
+xAAlEAEAAgEDAwMFAAAAAAAAAAABABEhMbHwQWFxEFGBIDChwdH/2gAIAQEAAT8QzFEyAVVsqq2w
+WNk2rAoiIia/WbNmzZs2dVYBPsABAonoCPYEw06OQj8hQqCi0TGUV1W5qDrFlU1FPhvnpM/RXeVe
+C+0p8N89Z5T+yqr++qCDk+ZwO6bzafrm+3m82nN8eiFKnU0pCxxqS/zetO/xBJhoCNoG2A+E0QeC
+AFCDswNsB8pT4PSxr7aH/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-4c.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAUGAgMEAf/EABgBAAMBAQAAAAAAAAAAAAAAAAAB
+AgME/9oADAMBAAIQAxAAAAG8bOaAJtCu9OimcY2Sl5OzGHSHoczU77hphDSPbl1Tr69PudSOnm85
+9KcJuPDAAAAAD//EACIQAAEEAgEEAwAAAAAAAAAAAAMAAQIEBRIREBMxNDAzNf/aAAgBAQABBQIQ
+xdnQS0EtBLQSgwJx0EtBLIcNbMXsUZ2a9tQr46UWpY5Nj8c6rAEADDRIaLI+5kPyqyB9UfMFHxHz
+YWR9yMYyrsALJoQZcN15dO7usj7nw//EAB0RAAICAgMBAAAAAAAAAAAAAAECAAMRExAUICH/2gAI
+AQMBAT8BaxV+GbUmxIGU8W0lzmdczQYteD7/AP/EACARAAICAQMFAAAAAAAAAAAAAAECAAMxBBIU
+EBEgQVH/2gAIAQIBAT8BVGbE41vyGmwQqwz0qt2Tmr2xDqgfUezcPP8A/8QAMhAAAQMCAwQFDQAA
+AAAAAAAAAQACAxGTBCEzEjGBsRATFSM1IDAyQUNRcXORkqHB0f/aAAgBAQAGPwKLuYtNvsx7low2
+wtGG2Fow2wtGG2EHsjgc0ioIY3NaMNsLRhthPoABlkBT1JkuztUjZlwC7/AxSbO7bo6n4VezcLbb
+/F4dhbTV4fhbTUyGFgZG0UAC3oZp/Dkh8uP9JyHkhP4clG1wBHVtyPwCyhj+1eg36LcOneVmU/hy
+81//xAAiEAACAQMEAwEBAAAAAAAAAAAAARExwfAhUWFxQbHxMKH/2gAIAQEAAT8hQ1mWNtrba8GV
+2MrsZXYyuwgzJtJHRpwZXYyuwiPx4ko8I7QMiZQQ/E7UVidFBbjyRpxidGQ38Ntkps3JXHqbwngw
+uBmtjaPZ9lE8iiUS+YXAY7c6JRUIdIJoSFwh84SSokS9z7xUB9swuH5f/9oADAMBAAIAAwAAABDT
+qbkNdM1YMAAAAD//xAAcEQEBAAICAwAAAAAAAAAAAAABABFBITEgsdH/2gAIAQMBAT8QXF5h9+/k
+NuUwM9wsuOILcBuYnM9+X//EAB0RAQACAgIDAAAAAAAAAAAAAAEAESExENEgobH/2gAIAQIBAT8Q
+XxmO/o7m0PZ3Dbg1BeS8xYFuKDQENeX/xAAmEAEAAgECBAYDAAAAAAAAAAABABEhMbEQUXHwIDBB
+YYHRkaHB/9oACAEBAAE/EMxRMgFVbKqtvhNmzZsWNk2rAoiIia8TZs6qwCeQAE+zyoVNa3pPVPfy
+hLKl1rRymoOsWVTUA6Fy3uCoa+WmwLzlyq2qtVVVVlPhvv6zqn5Kqvvigg7nzOw903m0/nN9vN5t
+O98cEKVOppSFjjUl/m9ad/qCTDQEbQNsB6Jog6EAKEHswNsB6pT4PSxry0P/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbdb.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAgACIDASIA
+AhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwUH/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEC
+A//aAAwDAQACEAMQAAAB6ChXnVjwwYRBS2mSZbNWBiilL//EAB0QAAEEAwEBAAAAAAAAAAAAAAMA
+AQISERMzQhD/2gAIAQEAAQUCLOTSsVWKmeeCO+wvSdsryToXp88k6SkO9xK4lsHgkm2f/8QAFBEB
+AAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwFf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEB
+PwFf/8QAJBAAAQMBBwUAAAAAAAAAAAAAAAECITEQQVFxcqLhETJhkaH/2gAIAQEABj8Ci9cTk5JX
+6Om8TUR18WKOzE1WqOzJclcSu4ruO5PY6Uqf/8QAIhAAAgAFBAMBAAAAAAAAAAAAAAERMWGRoRBR
+cbEhwdFB/9oACAEBAAE/IYFZttXmDc4r/hxX/B9nChsxOafsyXTG4CRTddFmXszJkunqsy9mZH4m
+oM1BSlsKWwfgKZtKkn6f/9oADAMBAAIAAwAAABBrbK54L//EABQRAQAAAAAAAAAAAAAAAAAAACD/
+2gAIAQMBAT8QX//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAgBAgEBPxBWIjH/xAAgEAEAAQME
+AwEAAAAAAAAAAAABABFRYSExQfAQIMHR/9oACAEBAAE/EN38Cg0WbTJMyTKcwgKqta4LRiKt3Lxr
+KtLiBNXSw2tzjx0Vo7276a+itHe3YzLUwKupnhZ2z5O2fJVzahVbav7GqMNJpuz/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-4d.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAUBAgMEBv/EABkBAAMBAQEAAAAAAAAAAAAAAAAD
+BAECBf/aAAwDAQACEAMQAAAB9CAARJgRIABpBu9PUsfcN008LfDReWw8+qz9B00p6t1DmheVxWDZ
+J0cautq2PNsimg3ik2NyJBLP/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDEQASIQQQEzAUIDL/2gAI
+AQEAAQUC9RIHYkD60Wf466SxvGU6ZAJo/H3OdLttYqZ6xXGG5C0Dx4jXn6kyTgogAkTIq1eqfiVx
+iT8GYbK1iRuPPqzz5HZOEA5QoO6FpWYgVgAHq//EABsRAAEFAQEAAAAAAAAAAAAAAAIAAQMQIREg
+/9oACAEDAQE/AfEpcblhKxYpcKw0mo42JBGw1//EACARAAICAQMFAAAAAAAAAAAAAAECAAMhBBAR
+EiAxQUL/2gAIAQIBAT8B7NOnU3MChsGBfRllLJmafgpwI3jE+cy4hayNq7WrMtvazb//xAAjEAAB
+AwMEAgMAAAAAAAAAAAABABEhAhBxIjFBUSAwYYGR/9oACAEBAAY/AvVJtJ8RTLdhMZPytJqOVqer
+Kel8ceFRNNTWdntC0F8piJQpO1oUynF453TjddZWxuzH6XeEajzaQmQ5C0j9tA9X/8QAIhABAAIC
+AQMFAQAAAAAAAAAAAQARITFBEFFhIDBxgZGh/9oACAEBAAE/Ifa0AfL00AfLBEsbPQHNFvghSGrn
+KCHuJlMoL9qj3uJwgRLG+iAtjIRbFk3LnIF4IozuYnSCBQ5vGvQG5RgyzCqxVR4H9TCFvMGnB8TU
+KGLAyvL/AIREMI5h2FfyhrKVzWId1lwRAkybNbpCxV/tKV12dNMM4grtBZvv7YFFzukPyeV2zSB7
+X//aAAwDAQACAAMAAAAQ8/z8rTxd3OGh/dff/8QAGhEBAQEBAQEBAAAAAAAAAAAAAQARITEQUf/a
+AAgBAwEBPxC0tNz5yD1lTo250eyAuMFF8Y6y4xcUg8YH8nd9YA4X/8QAGxEBAAMAAwEAAAAAAAAA
+AAAAAQARIRAxUXH/2gAIAQIBAT8QlMpq+NAYQCjICI5BHsT1giqi+zXSJDVgo2RwmjAAcPIqts//
+xAAjEAEBAAMAAgEEAwEAAAAAAAABEQAhMUFxYRAwUZEggbHw/9oACAEBAAE/EPtKAm80X6RtnyBc
+JCTiNP4CiSoGo5vDxDSQv3MEcmnPUNAfOOLn8welMrCRPU8B833hIAfI0+lUAYwQCXNTxnJCe8PR
+U5a8zb8PQ5hEBfX8f9MJAlhIeofOXS50h8Ys/op2jhmfFnMp9DoOjBUvy7T1hb6ZTCIPyJ525Yiv
+z4wVzrAbkNc5kIFCeU8mKBRoP8N4CAKTSvzcKofIuUQDtcDck9PTXnJ407GnveRt1hCJNefoyMvl
+LivrsaMNIgwX+z953CW0BMJdr/4i5b3PYS/a/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-4e.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAMCBQYBBP/EABkBAQEBAQEBAAAAAAAAAAAAAAMB
+AAIEBf/aAAwDAQACEAMQAAAB0IGwRlYETaQEpKFs4+qq1S3Dw1GpVLj+3dCDt0eXY5aCeYuXP0d8
+tVdfUPUl00D5/sFNO+FM6dQAJP/EACAQAAICAgIDAQEAAAAAAAAAAAECAAMEERITECIwICH/2gAI
+AQEAAQUC+TMB4LAQEH8KnZYmKFrbD96cVKhl0agOxCdTDqaqKdwAg7EsA1bjBgOavU3HIL/yuzUN
+kZjO3lDZoXHlc45AXFYbypRwRY87XDm8tEDb8+6EmxiBofL/xAAcEQACAgIDAAAAAAAAAAAAAAAA
+AQIRAxASITH/2gAIAQMBAT8BLRa81ll1RxOJHJfTMtp2WWQTb1KCl6QxqOv/xAAeEQABBAIDAQAA
+AAAAAAAAAAABAAIDERAhEjFBE//aAAgBAgEBPwFUVRq8QN3a+p9TZDe0+KthQcXCvUWDsLiKsqUt
+a0j3EcjmGwpJnSd4/8QAIhAAAQMDBAMBAAAAAAAAAAAAAQACERAgMRIhIkEwQlED/9oACAEBAAY/
+AvFveB69rCbo4owMovYN7D+jvbqk1Lhs49osfkJnykWyM9qFzEKYkLekBswuIlFzs2DRj4safJ//
+xAAkEAACAgECBQUAAAAAAAAAAAAAAREhMUFRECAwYYFxkbHB0f/aAAgBAQABPyHpQO7twzItlPke
+zU3/ACKiWBKh5XLMqWTE+RxUnBCSyIMPLZAlZRWR3hu5XIgiC1JLQ4g5Ev6CXt6DJrAkm17EaJ2V
+LLRn4TKoJzJxqJiTMOcixKxCTSY2PlUFRNWdCYFtOTchLnkcpiol0//aAAwDAQACAAMAAAAQ8w28
+tRGQpwgj8vN8/8QAGxEBAAMAAwEAAAAAAAAAAAAAAQARIRBBUbH/2gAIAQMBAT8QgjQzbW8Eer8i
+MqIrIaA2BPRh1lrohNBr3gmo0zj/xAAbEQEAAwEBAQEAAAAAAAAAAAABABEhEDGhsf/aAAgBAgEB
+PxCJApkqwzib+H7DUk2NjKC1krW0PsWukr8sPiK5YmVV/Of/xAAlEAACAwABAgYDAQAAAAAAAAAB
+EQAhMUFRYRAgMHGRoYGx8MH/2gAIAQEAAT8Q9E1sDkR0kRgIOERU5vECf1AF4HqF5H9Cj8Pu0Qfw
+Bqff3g0mFINVWn3h+AoXm0+H3maEO2YOTBACTwWFfhc5ZQcwy5YDsNBtvwCFFj4c/sJxx8mEwQCr
+Symp3VUCwcyMj3E+KlbCPLQYsH03tHK9kFXmNAB9Rn1GxmRYnQQsl2fwjHYQWnhnzqluuCXitk7q
+VQbNLlbE0VytmYwJK6HtBA4QunyLnRWcUOM8gBCm+IX5N6SYu03/AIGBg0B6f//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-tbf.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAANAA0DASIA
+AhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgQFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oA
+DAMBAAIQAxAAAAHZ2wbl/8QAGRAAAgMBAAAAAAAAAAAAAAAAAgMBBBQS/9oACAEBAAEFArb88V+C
+jMsxQoVB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwF//8QAFBEBAAAAAAAAAAAAAAAA
+AAAAAP/aAAgBAgEBPwF//8QAHRAAAgICAwEAAAAAAAAAAAAAAQIAEgMhBCIxEf/aAAgBAQAGPwLj
+qmFMj5NBfIegBGmHzyLcW6VlE0BP/8QAHxAAAgICAQUAAAAAAAAAAAAAAREAIUFRYYGRscHw/9oA
+CAEBAAE/IRXvpRGhb+tDMqp/sifgiFEtgYKPoRce66k5PM//2gAMAwEAAgADAAAAEK//xAAWEQEB
+AQAAAAAAAAAAAAAAAAARAAH/2gAIAQMBAT8Q0L//xAAXEQEAAwAAAAAAAAAAAAAAAAABABEx/9oA
+CAECAQE/EHSp/8QAGhABAQEAAwEAAAAAAAAAAAAAAREhAEFRYf/aAAgBAQABPxAbV0URGhABelUR
+cIkKwLFDno9iUGgnalmG19Gtj0eHDvUhVKqqFUVVKqqq8//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-5f.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGwAAAwADAQEAAAAAAAAAAAAAAAUGAgMEAQf/xAAaAQACAwEBAAAAAAAAAAAAAAAA
+BQECAwYE/9oADAMBAAIQAxAAAAGhAAErQvuNKsHQBQjrGBow7OD6LML3KLrpOclPYwF+wSkHeJ5y
+9xQP0/RGOSANN8ncOedAJ8k6qt5vNksa40gAGi3/xAAfEAACAwEAAgMBAAAAAAAAAAABAwIEBRAA
+ExIVIDD/2gAIAQEAAQUC/l9rQ8Q2DlPbBKvtaH41rE2vVRgFrnPNYyTNObqIkMmxNT+Z0i55XD0v
+VGca64qq+Xya7uECvphhK+EgCHxtaPNasX16dwSHNCyIjJrFFfunRLDTtxnK5bjCWZRKz+dTP9ss
+vP8AVLv/xAAiEQABAwIGAwAAAAAAAAAAAAACAAEDBBIFEBETMUEhIjL/2gAIAQMBAT8BRRmP0yGM
+y+Wyw+JjO5+kQCY6OgjEB0ZYhEwHc3ao5tqTzw6Z06rJt2Tx1lR1lvofCrKy70DjL//EAB0RAAID
+AAMBAQAAAAAAAAAAAAECAAMRBBASIiD/2gAIAQIBAT8B/Dt5UmVco+vqPymLfMRvS7GGjJZWazhl
+VZsbIBgzqysOMMrrCDB1/8QALxAAAQIDBAYLAQAAAAAAAAAAAQIDABESECIxUiAhIzJBgQQTFDNC
+UWKRotHwMP/aAAgBAQAGPwL+Xf8AxMB1o1JOBguumlIxMd/8ToK6GkSQne9XGADBUkTT4k5v04rI
+uDBOX9KJJ5wnoahNCt308bevdNThxMAQdUzHmPLnYHmbq04G1xlm6hMpDlEgbtszDTTl5tU5jlbN
+tFTydzX7xRjbc1yibiKXlb+v20C+wNr4k5/qKZyEUzmID742vhTk+9LtDA2vEZo7Q+NrwGXQ/8QA
+JBAAAgEEAQQCAwAAAAAAAAAAAREhADFBcWEQIFHwkdEwgbH/2gAIAQEAAT8h/F6frqTS4CGis1Bp
+cBKZWK9P19kHwKxeAGlUSBHvmn8HOMImUqQf54X3mG6CMgPrNSfArFoJbfU+1CtAiwi1QCgceZq4
+cWaOx/N0GQ2hMAZ31Epygm+d1MqXHVyEBX6k2NPibjqR6DkyNLeaMGcWx546xk2fxQHsOaJ0t47H
+tiycAJJSD5qy8wt8VdeYWuKW2DJyBkFMPjuvdHPxAklBCrXTz8wZBRY7P//aAAwDAQACAAMAAAAQ
+8xx88tx2qDT08fv8/8QAHxEBAAEDBAMAAAAAAAAAAAAAAQARYbEhMVFxEIGh/9oACAEDAQE/EILV
+QuJBaqlhfDEKmTs/GOiqbQQdAhEKGRu/SH0Drh9YWVIqEPgaO+X3gPGnSx4s2x1tr0uebFs9bz//
+xAAfEQACAQIHAAAAAAAAAAAAAAAAAREgITFBUWGRofD/2gAIAQIBAT8Qo25F2bSn0TyxL1yO1iXN
+mcdCABakwVJgx//EACEQAQACAgICAwEBAAAAAAAAAAERITFBAGEQUSBxgbEw/9oACAEBAAE/EP8A
+PftwoQKgOR1zpwoQCguU18d93iw3egzmm9+uItYkt28Ud3QVReKaVZw8E+3eoCiU0rxxhrUMeozx
+q8WG7wWd21r15o4OgoHAKBjg84M12ZmufqlpMJ36ORMmjJ2blcvi8Jq8wVIaRZ53jN9wuS2m3h7S
+RA3Pqc+Xe8mJ59jcMQuAgN681t7P9/IpL/F8elPg5SfJQdqRl0T75e3s/wA/KIZ/V/CkCMDplBLR
+wKHZjMiz2OKl2YRAs9nloEZHbKSGz5PxbncrCEWi/vn6tzqXhKDZX38P/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-5a.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCAAhAEMDASIA
+AhEBAxEB/8QAHAABAAIDAQEBAAAAAAAAAAAAAAMGAQUHBAII/8QAGQEBAAMBAQAAAAAAAAAAAAAA
+AAIDBAEF/9oADAMBAAIQAxAAAAG8SaylQs6Q5d7V/RPmnb6mW1Zl5RTGWmmXiX6Q8kdHB7L1SVvo
+9i3UmGb1Q55hp49HHrx0AAAB/8QAJhAAAQMDAgUFAAAAAAAAAAAAAwACBAEFEhE0BhATFDMVMDEy
+Nv/aAAgBAQABBQIQxdHASwEsBLASZQD24CWAlcNKS7hL7G1N4r1RLzDM9kq3OcOtueobxCjNrq51
+NFcd5xL+aGm/APLGQPEL7kVx3nTGWL6fAXYQVSJFoqABRUYynO47z2f/xAAhEQABAwIHAQAAAAAA
+AAAAAAADAAECFDEEBRASFSBRUv/aAAgBAwEBPwGI3lZUZvFQn+VMMoXbQRNibMIs1lycfEbEMTv/
+AP/EAB0RAAICAgMBAAAAAAAAAAAAAAECABEDBBAgQSH/2gAIAQIBAT8B9h+Q50HsTYRzQPANGMbj
+axY3cw6pxtd9/wD/xAA1EAABAwEEBgQPAAAAAAAAAAABAAIDEQQhM5MQEzSBkrEFMVHREhUiIyUw
+QUNzgpGjssLh/9oACAEBAAY/AovMxYbfdjsWDDlhYMOWFgw5YWDDlhB7I4HNIqCGNvWDDlhYMOWE
++gAF1wFPYhatXrPAjj8mtOwLYPu/xGSXoaB7z1ucQT+Kp4msvC3uR9E2UfI3uTI4YRHG0UDQVTQ/
+dyT/AIcX6o6AnIIaH7uSjjlY17DGyrXCo6gths2UFsdnygtmh4AroY+FXMb9NL93L1X/xAAjEAAC
+AQMEAgMBAAAAAAAAAAAAARExwfAhQVFhELEwcZHR/9oACAEBAAE/IUNZljba22vRldjK7GV2MrsI
+MybSR0acGV2MrsIj28SUbI/ZBKVWh8mpoOvm0ptVhbiyHbCBtPwIzkioRJotZMLoZbnwqJ7PotHv
++/C2GF0HBjkLOpiXROPBhthhKQ+v5FEH0omhBdIJJOUoY23VmF0+L//aAAwDAQACAAMAAAAQz3g/
+DyfftDAAAAA//8QAHREBAAMAAQUAAAAAAAAAAAAAAQARMdEgIZGh4f/aAAgBAwEBPxDL3Biz3OYJ
+9HMCurxHYdVLhgv2gJuEUFR3q//EAB0RAQACAgIDAAAAAAAAAAAAAAEAESExIFFxgdH/2gAIAQIB
+AT8Qy0IEWx+nL3Bl5fMNTIygnceiD7DXyGuX/8QAJRABAAIABAYCAwAAAAAAAAAAAQARITFRYRBB
+cbHB8CChMIHx/9oACAEBAAE/EMYomQCqtlVW34mzZs2LGybVgURERM+Js2dVYAnQACfx0hwKx5OU
+2grXFNXsAUBaFoA6BM0dY2VRc6SnnXd+MXPq0hFvFLVbVWqqqqzXkY3fKbkbcUA/g8zvu89DdPZ+
+57W6d/2Z5fHBDBFKEqFgjSD1CcwDSYEoM2gCnmSFi5x/Ojf1BJdkCD6hIQZIUzMB6v40P//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-5b.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAYFBAcC/8QAGAEBAAMBAAAAAAAAAAAAAAAAAAIE
+BQb/2gAMAwEAAhADEAAAAaEAAAABmyUbd+gK00hKoB55US9Vm9V8y9VKnoY0uVAnce64oaElsava
+BPP/AP/EAB0QAAICAgMBAAAAAAAAAAAAAAEEAgMAIAUQEkD/2gAIAQEAAQUC+p9uKsJ1sNmFbChQ
+bi1DSJLjYAAIBEiU29EvS13Tvpm7Tk0TYV3YnGHYjOMRNZ1aVoZxVWhbT//EAB4RAAEDBQEBAAAA
+AAAAAAAAAAECAwQAEBIhMSIg/9oACAEDAQE/AfmPDW9vgqRDWzvou2AE+acAKfV404tDFXKkzi6M
+U8t//8QAHBEAAgEFAQAAAAAAAAAAAAAAAQIxAAMEEBIg/9oACAECAQE/AfJYLNBg0bzCeqwyetvb
+V5pLapGv/8QAJxAAAAQEBAcBAAAAAAAAAAAAAAECEgMRITETIDJCBBAiI1FS0UD/2gAIAQEABj8C
+/UVHLVpT5BFxMR8tNCIGXDRGT1UIwdGrTqT4yqjsk/bO1BIhIwmOybNs70y4MRPWVynzwYaes7FP
+KceAXd3J9/gvQhehgo8cu7tT6fcycdDm2qFYCGuvXJ//xAAiEAACAQMEAwEBAAAAAAAAAAABETEA
+IXEgQVFhgZHwEED/2gAIAQEAAT8h/qLx5bVqd1aaZKPsjmMCmSi7oonJovDlt3tXV40jWhXcsSfF
+KQgKUhg0daHVi5J86WyOOMEiM/qZnPEATONL2xbnQC5KQe6eDB+FLBg/Cltg3OwNwUw9auXNOE5g
+9Vw5py1EnvR//9oADAMBAAIAAwAAABDzzzzzvfzzvfzxyzz/xAAhEQABAwIHAQAAAAAAAAAAAAAB
+ETFhABAhQVFxkcHRIP/aAAgBAwEBPxD5AY5PBQDHJ6LigYgTbKjQMQrtncYCoNqInrgUcBQn1MR3
+yLf/xAAaEQEBAAMBAQAAAAAAAAAAAAABEQAQMUEg/9oACAECAQE/EPkiqYRVdwh55lIOe7JhwmHX
+/8QAIRAAAgEEAgMBAQAAAAAAAAAAAREhADFBUSBhgZGxEED/2gAIAQEAAT8Q/qm7idMywQNN0hVp
+p32DD7NRVpp32DK6NzUXcTpmGDBos0ePiO6S4NysKG8ZBujvOQarzHdJckpWPEdR7jmBgWAMH9GY
+9jDMCAIEZPGECLDpkiJgUXqaplvPan62qYSz2qUCLjtkyBkcnxzjMB2X1X1zjMhXW3w//9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-5c.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGQABAQEBAQEAAAAAAAAAAAAAAAYBBQIH/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAIF
+AQQGA//aAAwDAQACEAMQAAABoQAAAAM5kpHcvtgKs6glpgfPKiXqq3qvMvVSp9DFlyponuPczvnZ
+cbteKTLGp1v/xAAfEAACAgICAwEAAAAAAAAAAAABBAIDBSAREwAQEkD/2gAIAQEAAQUC/GSB4CDs
++5FWBqvZIqvWKDkWoaVkuNAcAjkWEptaJ/St3pz6au0yaPb4o2JTZc4ljEerbJ4/ulisf0af/8QA
+HxEAAQIHAQEAAAAAAAAAAAAABAIDAAEQERIiMSEg/9oACAEDAQE/AfkcNT3vJQQGpn3sqt2x1hy2
+O1QzMNF8gwzPRHKf/8QAHhEAAgAHAQEAAAAAAAAAAAAAAQIAAwQQERIxICH/2gAIAQIBAT8B8swX
+sKwbl6wnaKPO15ksOMGElhB8t//EACgQAAADBgUEAwAAAAAAAAAAAAABAwIREhMgQSEjMTJSBCJR
+gRBAsv/aAAgBAQAGPwL6eJuGBvq0iUPayCLqFDbdtBl06hsP3DSFQtzNLS8Lo7eg4g4wyvC+C3qm
+SoXezr8yUy72tKZyJZty5CE8HCHzYTlizbFxqnolneOQnr4rfmj/xAAiEAEAAQQBBAMBAAAAAAAA
+AAABEQAhMUEgUXGBsRDB0UD/2gAIAQEAAT8h/jwh3NYQ7HkUAeaRE31ZpsTuAjrjsU2J1Az0z3aa
+CPFJmL7scYX7MzxEPqiiIKKIkqF+7E8zD74hpTBnEinv5BSuDOYBfXFWm/FC7iCpXJ0St1ehSsN+
+qNzMnK0WGfCZ1BTqCXB5GsycP//aAAwDAQACAAMAAAAQ88888sc88738wSgw/8QAHxEAAQMEAwEA
+AAAAAAAAAAAAARFhcQAQMVEhQbEg/9oACAEDAQE/EPkVzc3FAubmpuIgMECR1QmQwQrHdzkCMOmL
+eRgqiOO2Dexmv//EABoRAAICAwAAAAAAAAAAAAAAAAERABAgMUH/2gAIAQIBAT8QxDMlAzJ2iB1y
+E4DXcDCsFf/EACAQAQEAAgMAAgMBAAAAAAAAAAERACExQVEgcRBAYYH/2gAIAQEAAT8Q/Tl77iBc
+t67mDPlYUdVC2wDpQvMy6pNcr6OezzJqk1yPs46PckKOKpbQg2ozi/FI+x5cd6t2wZA8GLKHkwI+
+R5M97k2+MJpaacgGmgwRKNxQKsyk0tMOQHRBfEDTWrDvEkCkN4U79TsXswD/AKRLID0f7iGm8WnW
+JKBaa/MfHI+OR8cL25mFB1MgXRvDQvqU3ipSdayPjkfHI+Of/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-5d.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAUGAgQD/8QAGgEAAgMBAQAAAAAAAAAAAAAAAAUC
+AwQGAf/aAAwDAQACEAMQAAABoQABK0J+x4qwdAECOsYCDD35qhXhdK+nraAnsYC/3JSBvlsqeXcv
+UKOiMblw3fLWTfnQD3LOqrebrZLGuaQACxb/AP/EACAQAAICAgEFAQAAAAAAAAAAAAIDAQQFEAAR
+EhMVIDD/2gAIAQEAAQUC/L2tDiGg5T2glXtaHxlrBteFHotZnjWMM8kw6PVeJsGp+qEzYdy6gXcp
+IFOr8zXdo+2rkRKC2RQPA7bWR1fqDaCpJofq3JvfQqDVDeToyyadsTK5bECxlGVz85TH+UsXj/EW
+/wD/xAAhEQABAwMEAwAAAAAAAAAAAAACAAEDBBESBRAhMSIyQf/aAAgBAwEBPwFFGY+zIYzL1bbT
+4mM8n+I4xIbOgjERsy1CJgPJvqpJ2hPnpCWTXRFi11VztMfHW1HWY+B9KsrMvAOtv//EAB4RAAEE
+AgMBAAAAAAAAAAAAAAEAAgMRBBIQEyIg/9oACAECAQE/Afh7tW2osl23pS5LtvKY7ZtoixSmi63U
+oYux1IChXEkYeKKjjDBQ4//EAC8QAAECAgYHCQEAAAAAAAAAAAECAwAREBIhIzJSBBMgIjFBQhQz
+UWKBkaLR8DD/2gAIAQEABj8C/l3/AMTAdaNZJ4GC66aqRxMd/wDE7CtDSJITi83OCPaCpImnqTm/
+TgKUJJ6U5f0oA94ToahNCsPl50l57eWriaAJWmCJWigPM7q08DS603utplIekWGm0w005vNqnMel
+ItqrThV4RqnU3gxCnVNJvDhEG2stWJXjsF9gXvUnP9RVnIRVnMQH3xe9Kcn3tdoYF7zGaO0Pi95D
+Lsf/xAAkEAACAQMEAQUBAAAAAAAAAAABESEAMUEQIGFx0VGBkaHwMP/aAAgBAQABPyH+X4+OpNLg
+IaKzUGlwEplYr8fHsg+BWLwA6VEtBC880/g5xhEylRfBzjCZhuhLwS/HNSfArFoJdvUyHSGgRjrT
+7hHVfcI70Mh2hMAZ7195Nib5m5p9MtV0Tr2k2NPibjUPH0bc04c2o25WCIJFotqLcrBMAm8WoPD0
+bUWocX2PbFk4ASSkHzVl5hd8VdeYXXFLbBk5AyCmHxuvdHPxAklBCrXTz8wZBRY2f//aAAwDAQAC
+AAMAAAAQ8xx86GK29LH98fv8/8QAIREBAAEDAgcAAAAAAAAAAAAAAREAMWEhsRBBUXGhwdH/2gAI
+AQMBAT8QoWVDIlCyqYF4MQk3Nnw0yORokcBREINxd8lTm9o/Y5x7oIFBIqc2tD7HKfXDTpg9MONu
+1temT1wY37Xr/8QAGhEBAAIDAQAAAAAAAAAAAAAAAQARICFRMf/aAAgBAgEBPxDC+5jqvTDVeiV3
+cNl4zvBnOBDIeGJgx//EACEQAAIBAwUBAQEAAAAAAAAAAAERIQAxQRAgUWFxgfAw/9oACAEBAAE/
+EP579uFCAoAG4OK6cKEAQBNyMbd83iwzeQC8YM54oWzYF8/h1B3cBEhOCc0Xsam7uQmAjBOabWFG
+2bAtn8KsXiwzeAS85MY41jCaO0EIBACBoEO75bDcjAoINVy2W5ODpOE0d4IYGCEjX0bheEsTJnNc
+GpwQn7ryalBLXlejcLQlAQM41m7idMwwYJNmxSbaOSyDEyFjq22zgsggIDc1F3E6ZlggSLpnZCBF
+h0yREwKBQdmFsFfsKKi7MCQK/Y1KBFx2yZAyNz4tzmIwSEwJ9r6tziJwaAyI92f/2Q==
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-5e.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEP
+ERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4e
+Hh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wgARCABAAEADASIA
+AhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAQUGAAQCA//EABoBAAMBAAMAAAAAAAAAAAAAAAAB
+BQMCBAb/2gAMAwEAAhADEAAAAaHYAcibHP77mWDeEEzEXZQfCj0clRy9Cyh6m/3TU2EBf0IYg7xM
+8/PpA/j+i3j1PsF4pbWPODHPqziq4m86Sl2KAQO2k7//xAAkEAABBAEDAwUAAAAAAAAAAAADAQIE
+BRAAERMVICMSFDAyM//aAAgBAQABBQL4XKiJ1aFoBWHHIOOOPqsLsszEPJbB2GwhK4jlJYFJC3ZU
+nIORp/1rvMTRhI9oxtYmpiqCRj8LFF3TDlRqR9pNli2jKcEOXvmfI1WR/bxs2UH1rElo50qV5K2D
+w91nX8rqyBwLn//EACERAAEDAgcBAAAAAAAAAAAAAAEAAgMEEQUQEhMhIkEx/9oACAEDAQE/AU6J
+7eXBNie4XAyw6IOfqPifGHixTIw0WCxCIMfceqim2pOfUDdE2VXNuycZUdZp6PVZWa+jPmX/xAAd
+EQACAwADAQEAAAAAAAAAAAABAgADEQQQEiIg/9oACAECAQE/AfxY3ldlfKbfqPymJ+Yjel2MNGSy
+s1nDKqzY2QDBnVlYcYYlYQYOv//EAC8QAAEDAQUFBgcAAAAAAAAAAAEAAgMREBITITEEICIzUiMy
+QUKRkjBRYnGBorL/2gAIAQEABj8C+DUrmO9pQkjNWlYkrqBcx3tO47ZdGM1HUiPREsFW+Lfmr79P
+KOlAeqGyHNp0+mw/ZYsnE86mw5ZoUFgki4XV1tljj4WA5D8KotqUxsnGzO29G2sre6VcOtt2MVKF
+5tJT39zHgHH5h1K6TSiwxnVYsvN/nex4G9r4jqWNKO1P67n/xAAkEAEAAQMDBAIDAAAAAAAAAAAB
+EQAhQRAxYSBRcYGRsTCh8P/aAAgBAQABPyH8Kt4DRLHfFNYHxNDIblQiSMmpvJAScH1FdwaTJHPb
+tv7oEcf1c7VlylsdLfgT70SObiprZSmdLUVUeXjOjHxwBzGiCI7NJGo6oRbDq5SKINKJPBbWAnKI
+gm9Q2RHe2jYlpXhBTgPehmW8froZu4/angqbo4RQklxEVaHK2PrzPVZZyI+TtFH4LfD30f/aAAwD
+AQACAAMAAAAQ454g0VKDbrJIwTjg/8QAIhEBAAECBgIDAAAAAAAAAAAAAQARYRAhMVFxsUGBwdHh
+/9oACAEDAQE/ENYTUhclTNLGCIK/J8xadRgcqBCJUOxrB2GTi8AQBVhs6DI+/eGTTLw7WbdcRGpc
+7/nfGH//xAAcEQACAgIDAAAAAAAAAAAAAAAAARFBIFEQITH/2gAIAQIBAT8QwltRa5MnPREFuJc1
+8dIw8FKSsTFj/8QAHxABAQACAwEAAwEAAAAAAAAAAREAITFBURAgYYHw/9oACAEBAAE/EPzOT4GE
+1VcHKMf66yNCqkR5TY7OHL7mCiW2EDbtw60QFDb/ADDQk4Ro4cnyKrSCJBXVp47yUMKA8O+8pxnA
+EkTCk8ZFCVVIJsHTTW8rSKKfW67wX5VQSiCHJe3WHJiNRAfGYg/nZQIaIcB8HLUVVO8HhFDbvEpH
+JqG3CEE3TYuHJhNUInpgohjoCFi7drj1XgZ9m0B5cTiooha0kTZhyfGKtKWcPNmw7whSoEqLXzBE
+o3EIkDExBtjlqdTCNTdSnoZyOMOT6ZzfYhwKTqDoN5wuFa8XzHwlwVzr9ZquJ30DRCMhHfHw5Mj4
+5HxyPjjVTtwqFUkDo3jwzx1TVQIyidZHxyPjgNNOf//Z
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/drw-all.jpg
+
+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
+8ykoyCCuGFTcPZKOJYWz/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/back4.jpg
+
+/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABAAEADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzEMDT
+xiodu0U3zCDXapW3PA5b7FhwCtUpIju4qVZSTzUnDCiVpDjeBTVWzVhIuMml24NO344qUrFSk3sH
+CmnbwBTdhbmhkOKpXI0Ak4qFhU4ApCgNS0NOxXUHOamDY4oYBRSKAeaNim76kwAIqvLkNxUxOBxT
+AN3WmyY6akkTDAp0h4qDlTxUgbI5qufSwnHW5AkhJ61ZQZFVEQhqsq20VMfMqa7CmLcaY67RgVOr
+DFRSMDVyUbXRCbuM5xzT0WoC5zUsclZLcuSdiRlA61A74HFTOwPeoXTIqpLsKPmSIAeaHBzTlXaK
+VhmjoK+owAkUbPWnHKioWm5xQNXexIYxjNVnfa2KnEoK4qtKCWyKUrW0LgtdQMjZqdJcrzUUcZYc
+ipRCaSuOXLsf/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://tilestudio.sourceforge.net/back3.jpg
+
+/9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABAAEADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDxoMGp
+4xUQXatM8xs1upJbnHy32J3AK1TeI7jUwlOcGn8MKUrS2HG8CoFYGp44sjJpdvzU7fjipSsVKTew
+fKppxcAUzyyTmlaM4qlcjQTJxUR4qcAUhQGk0NOxAoOc1KHxxSNhBQoDc0tim76kqgEZqCTKvU2c
+LxTAN/WqZMdNSSJwRTpDxVfBRuKmDZHNVzaWE463K6SEmrCDiqqId1WgcCoj5lTXYRotxprrsGBU
+ysMc1HIwNaSUbXRCbuMGcc09FquXOaljk9azW5ck7EjAVDI+OlSuc1FJGSKJLsKPmSRgHmhwc8U5
+RtFKRmn0FfUZgkUbMdadkqKiabmkNXew8xgrmqzNtbFWBKCuKqSgl8iiVraFwWuopkcGpklyvNRx
+oWGCKlEJzUq45cux/9k=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google-analytics.com/urchin.js
+
+//-- Google Analytics Urchin Module=0A=
+//-- Copyright 2007 Google, All Rights Reserved.=0A=
+=0A=
+//-- Urchin On Demand Settings ONLY=0A=
+var _uacct=3D"";			// set up the Urchin Account=0A=
+var _userv=3D1;			// service mode (0=3Dlocal,1=3Dremote,2=3Dboth)=0A=
+=0A=
+//-- UTM User Settings=0A=
+var _ufsc=3D1;			// set client info flag (1=3Don|0=3Doff)=0A=
+var _udn=3D"auto";		// (auto|none|domain) set the domain name for cookies=0A=
+var _uhash=3D"on";		// (on|off) unique domain hash for cookies=0A=
+var _utimeout=3D"1800";   	// set the inactive session timeout in seconds=0A=
+var _ugifpath=3D"/__utm.gif";	// set the web path to the __utm.gif file=0A=
+var _utsp=3D"|";			// transaction field separator=0A=
+var _uflash=3D1;			// set flash version detect option (1=3Don|0=3Doff)=0A=
+var _utitle=3D1;			// set the document title detect option =
+(1=3Don|0=3Doff)=0A=
+var _ulink=3D0;			// enable linker functionality (1=3Don|0=3Doff)=0A=
+var _uanchor=3D0;			// enable use of anchors for campaign =
+(1=3Don|0=3Doff)=0A=
+var _utcp=3D"/";			// the cookie path for tracking=0A=
+var _usample=3D100;		// The sampling % of visitors to track (1-100).=0A=
+=0A=
+//-- UTM Campaign Tracking Settings=0A=
+var _uctm=3D1;			// set campaign tracking module (1=3Don|0=3Doff)=0A=
+var _ucto=3D"15768000";		// set timeout in seconds (6 month default)=0A=
+var _uccn=3D"utm_campaign";	// name=0A=
+var _ucmd=3D"utm_medium";		// medium (cpc|cpm|link|email|organic)=0A=
+var _ucsr=3D"utm_source";		// source=0A=
+var _uctr=3D"utm_term";		// term/keyword=0A=
+var _ucct=3D"utm_content";	// content=0A=
+var _ucid=3D"utm_id";		// id number=0A=
+var _ucno=3D"utm_nooverride";	// don't override=0A=
+=0A=
+//-- Auto/Organic Sources and Keywords=0A=
+var _uOsr=3Dnew Array();=0A=
+var _uOkw=3Dnew Array();=0A=
+_uOsr[0]=3D"google";	_uOkw[0]=3D"q";=0A=
+_uOsr[1]=3D"yahoo";	_uOkw[1]=3D"p";=0A=
+_uOsr[2]=3D"msn";		_uOkw[2]=3D"q";=0A=
+_uOsr[3]=3D"aol";		_uOkw[3]=3D"query";=0A=
+_uOsr[4]=3D"aol";		_uOkw[4]=3D"encquery";=0A=
+_uOsr[5]=3D"lycos";	_uOkw[5]=3D"query";=0A=
+_uOsr[6]=3D"ask";		_uOkw[6]=3D"q";=0A=
+_uOsr[7]=3D"altavista";	_uOkw[7]=3D"q";=0A=
+_uOsr[8]=3D"netscape";	_uOkw[8]=3D"s";=0A=
+_uOsr[9]=3D"cnn";	_uOkw[9]=3D"query";=0A=
+_uOsr[10]=3D"looksmart";	_uOkw[10]=3D"qt";=0A=
+_uOsr[11]=3D"about";	_uOkw[11]=3D"terms";=0A=
+_uOsr[12]=3D"mamma";	_uOkw[12]=3D"query";=0A=
+_uOsr[13]=3D"alltheweb";	_uOkw[13]=3D"q";=0A=
+_uOsr[14]=3D"gigablast";	_uOkw[14]=3D"q";=0A=
+_uOsr[15]=3D"voila";	_uOkw[15]=3D"rdata";=0A=
+_uOsr[16]=3D"virgilio";	_uOkw[16]=3D"qs";=0A=
+_uOsr[17]=3D"live";	_uOkw[17]=3D"q";=0A=
+_uOsr[18]=3D"baidu";	_uOkw[18]=3D"wd";=0A=
+_uOsr[19]=3D"alice";	_uOkw[19]=3D"qs";=0A=
+_uOsr[20]=3D"seznam";	_uOkw[20]=3D"w";=0A=
+_uOsr[21]=3D"yandex";	_uOkw[21]=3D"text";=0A=
+_uOsr[22]=3D"najdi";	_uOkw[22]=3D"q";=0A=
+_uOsr[23]=3D"aol";	_uOkw[23]=3D"q";=0A=
+_uOsr[24]=3D"club-internet"; _uOkw[24]=3D"q";=0A=
+_uOsr[25]=3D"mama";	_uOkw[25]=3D"query";=0A=
+_uOsr[26]=3D"seznam";	_uOkw[26]=3D"q";=0A=
+_uOsr[27]=3D"search";	_uOkw[27]=3D"q";=0A=
+=0A=
+//-- Auto/Organic Keywords to Ignore=0A=
+var _uOno=3Dnew Array();=0A=
+//_uOno[0]=3D"urchin";=0A=
+//_uOno[1]=3D"urchin.com";=0A=
+//_uOno[2]=3D"www.urchin.com";=0A=
+=0A=
+//-- Referral domains to Ignore=0A=
+var _uRno=3Dnew Array();=0A=
+//_uRno[0]=3D".urchin.com";=0A=
+=0A=
+//-- **** Don't modify below this point ***=0A=
+var =
+_uff,_udh,_udt,_ubl=3D0,_udo=3D"",_uu,_ufns=3D0,_uns=3D0,_ur=3D"-",_ufno=3D=
+0,_ust=3D0,_ubd=3Ddocument,_udl=3D_ubd.location,_udlh=3D"",_uwv=3D"1";=0A=
+var _ugifpath2=3D"http://www.google-analytics.com/__utm.gif";=0A=
+if (_udl.hash) _udlh=3D_udl.href.substring(_udl.href.indexOf('#'));=0A=
+if (_udl.protocol=3D=3D"https:") =
+_ugifpath2=3D"https://ssl.google-analytics.com/__utm.gif";=0A=
+if (!_utcp || _utcp=3D=3D"") _utcp=3D"/";=0A=
+function urchinTracker(page) {=0A=
+ if (_udl.protocol=3D=3D"file:") return;=0A=
+ if (_uff && (!page || page=3D=3D"")) return;=0A=
+ var a,b,c,xx,v,z,k,x=3D"",s=3D"",f=3D0;=0A=
+ var nx=3D" expires=3DSun, 18 Jan 2038 00:00:00 GMT;";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ _udh=3D_uDomain();=0A=
+ if (!_uVG()) return;=0A=
+ _uu=3DMath.round(Math.random()*2147483647);=0A=
+ _udt=3Dnew Date();=0A=
+ _ust=3DMath.round(_udt.getTime()/1000);=0A=
+ a=3Ddc.indexOf("__utma=3D"+_udh);=0A=
+ b=3Ddc.indexOf("__utmb=3D"+_udh);=0A=
+ c=3Ddc.indexOf("__utmc=3D"+_udh);=0A=
+ if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ if (_utimeout && _utimeout!=3D"") {=0A=
+  x=3Dnew Date(_udt.getTime()+(_utimeout*1000));=0A=
+  x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ }=0A=
+ if (_ulink) {=0A=
+  if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+  s+=3D_udl.search;=0A=
+  if(s && s!=3D"" && s.indexOf("__utma=3D")>=3D0) {=0A=
+   if (!(_uIN(a=3D_uGC(s,"__utma=3D","&")))) a=3D"-";=0A=
+   if (!(_uIN(b=3D_uGC(s,"__utmb=3D","&")))) b=3D"-";=0A=
+   if (!(_uIN(c=3D_uGC(s,"__utmc=3D","&")))) c=3D"-";=0A=
+   v=3D_uGC(s,"__utmv=3D","&");=0A=
+   z=3D_uGC(s,"__utmz=3D","&");=0A=
+   k=3D_uGC(s,"__utmk=3D","&");=0A=
+   xx=3D_uGC(s,"__utmx=3D","&");=0A=
+   if ((k*1) !=3D ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) =
+{_ubl=3D1;a=3D"-";b=3D"-";c=3D"-";xx=3D"-";z=3D"-";v=3D"-";}=0A=
+   if (a!=3D"-" && b!=3D"-" && c!=3D"-") f=3D1;=0A=
+   else if(a!=3D"-") f=3D2;=0A=
+  }=0A=
+ }=0A=
+ if(f=3D=3D1) {=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+c+"; path=3D"+_utcp+";"+_udo;=0A=
+ } else if (f=3D=3D2) {=0A=
+  a=3D_uFixA(s,"&",_ust);=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ } else if (a>=3D0 && b>=3D0 && c>=3D0) {=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+ } else {=0A=
+  if (a>=3D0) a=3D_uFixA(_ubd.cookie,";",_ust);=0A=
+  else a=3D_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ }=0A=
+ if (_ulink && xx && xx!=3D"" && xx!=3D"-") {=0A=
+   xx=3D_uUES(xx);=0A=
+   if (xx.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmx=3D"+xx+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ if (_ulink && v && v!=3D"" && v!=3D"-") {=0A=
+  v=3D_uUES(v);=0A=
+  if (v.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmv=3D"+v+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ _uInfo(page);=0A=
+ _ufns=3D0;=0A=
+ _ufno=3D0;=0A=
+ if (!page || page=3D=3D"") _uff=3D1;=0A=
+}=0A=
+function _uInfo(page) {=0A=
+ var p,s=3D"",dm=3D"",pg=3D_udl.pathname+_udl.search;=0A=
+ if (page && page!=3D"") pg=3D_uES(page,1);=0A=
+ _ur=3D_ubd.referrer;=0A=
+ if (!_ur || _ur=3D=3D"") { _ur=3D"-"; }=0A=
+ else {=0A=
+  dm=3D_ubd.domain;=0A=
+  if(_utcp && _utcp!=3D"/") dm+=3D_utcp;=0A=
+  p=3D_ur.indexOf(dm);=0A=
+  if ((p>=3D0) && (p<=3D8)) { _ur=3D"0"; }=0A=
+  if (_ur.indexOf("[")=3D=3D0 && =
+_ur.lastIndexOf("]")=3D=3D(_ur.length-1)) { _ur=3D"-"; }=0A=
+ }=0A=
+ s+=3D"&utmn=3D"+_uu;=0A=
+ if (_ufsc) s+=3D_uBInfo();=0A=
+ if (_uctm) s+=3D_uCInfo();=0A=
+ if (_utitle && _ubd.title && _ubd.title!=3D"") =
+s+=3D"&utmdt=3D"+_uES(_ubd.title);=0A=
+ if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+ s+=3D"&utmr=3D"+_ur;=0A=
+ s+=3D"&utmp=3D"+pg;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() {_uVoid();}=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uVoid() { return; }=0A=
+function _uCInfo() {=0A=
+ if (!_ucto || _ucto=3D=3D"") { _ucto=3D"15768000"; }=0A=
+ if (!_uVG()) return;=0A=
+ var =
+c=3D"",t=3D"-",t2=3D"-",t3=3D"-",o=3D0,cs=3D0,cn=3D0,i=3D0,z=3D"-",s=3D""=
+;=0A=
+ if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+ s+=3D_udl.search;=0A=
+ var x=3Dnew Date(_udt.getTime()+(_ucto*1000));=0A=
+ var dc=3D_ubd.cookie;=0A=
+ x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ if (_ulink && !_ubl) {=0A=
+  z=3D_uUES(_uGC(s,"__utmz=3D","&"));=0A=
+  if (z!=3D"-" && z.indexOf(";")=3D=3D-1) { =
+_ubd.cookie=3D"__utmz=3D"+z+"; path=3D"+_utcp+";"+x+_udo; return ""; }=0A=
+ }=0A=
+ z=3Ddc.indexOf("__utmz=3D"+_udh);=0A=
+ if (z>-1) { z=3D_uGC(dc,"__utmz=3D"+_udh,";"); }=0A=
+ else { z=3D"-"; }=0A=
+ t=3D_uGC(s,_ucid+"=3D","&");=0A=
+ t2=3D_uGC(s,_ucsr+"=3D","&");=0A=
+ t3=3D_uGC(s,"gclid=3D","&");=0A=
+ if ((t!=3D"-" && t!=3D"") || (t2!=3D"-" && t2!=3D"") || (t3!=3D"-" && =
+t3!=3D"")) {=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"utmcid=3D"+_uEC(t);=0A=
+  if (t2!=3D"-" && t2!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmcsr=3D"+_uEC(t2); }=0A=
+  if (t3!=3D"-" && t3!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmgclid=3D"+_uEC(t3); }=0A=
+  t=3D_uGC(s,_uccn+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmccn=3D"+_uEC(t);=0A=
+  else c+=3D"|utmccn=3D(not+set)";=0A=
+  t=3D_uGC(s,_ucmd+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcmd=3D"+_uEC(t);=0A=
+  else  c+=3D"|utmcmd=3D(not+set)";=0A=
+  t=3D_uGC(s,_uctr+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmctr=3D"+_uEC(t);=0A=
+  else { t=3D_uOrg(1); if (t!=3D"-" && t!=3D"") =
+c+=3D"|utmctr=3D"+_uEC(t); }=0A=
+  t=3D_uGC(s,_ucct+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcct=3D"+_uEC(t);=0A=
+  t=3D_uGC(s,_ucno+"=3D","&");=0A=
+  if (t=3D=3D"1") o=3D1;=0A=
+  if (z!=3D"-" && o=3D=3D1) return "";=0A=
+ }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { c=3D_uOrg(); if (z!=3D"-" && =
+_ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { if (_ufns=3D=3D1)  c=3D_uRef(); if =
+(z!=3D"-" && _ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") {=0A=
+  if (z=3D=3D"-" && _ufns=3D=3D1) { =
+c=3D"utmccn=3D(direct)|utmcsr=3D(direct)|utmcmd=3D(none)"; }=0A=
+  if (c=3D=3D"-" || c=3D=3D"") return "";=0A=
+ }=0A=
+ if (z!=3D"-") {=0A=
+  i=3Dz.indexOf(".");=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  t=3Dz.substring(i+1,z.length);=0A=
+  if (t.toLowerCase()=3D=3Dc.toLowerCase()) cs=3D1;=0A=
+  t=3Dz.substring(0,i);=0A=
+  if ((i=3Dt.lastIndexOf(".")) > -1) {=0A=
+   t=3Dt.substring(i+1,t.length);=0A=
+   cn=3D(t*1);=0A=
+  }=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) {=0A=
+  t=3D_uGC(dc,"__utma=3D"+_udh,";");=0A=
+  if ((i=3Dt.lastIndexOf(".")) > 9) {=0A=
+   _uns=3Dt.substring(i+1,t.length);=0A=
+   _uns=3D(_uns*1);=0A=
+  }=0A=
+  cn++;=0A=
+  if (_uns=3D=3D0) _uns=3D1;=0A=
+  _ubd.cookie=3D"__utmz=3D"+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; =
+path=3D"+_utcp+"; "+x+_udo;=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) return "&utmcn=3D1";=0A=
+ else return "&utmcr=3D1";=0A=
+}=0A=
+function _uRef() {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k,n;=0A=
+ if ((i=3D_ur.indexOf("://"))<0) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  k=3Dh.substring(h.indexOf("/"),h.length);=0A=
+  if (k.indexOf("?") > -1) k=3Dk.substring(0,k.indexOf("?"));=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ h=3Dh.toLowerCase();=0A=
+ n=3Dh;=0A=
+ if ((i=3Dn.indexOf(":")) > -1) n=3Dn.substring(0,i);=0A=
+ for (var ii=3D0;ii<_uRno.length;ii++) {=0A=
+  if ((i=3Dn.indexOf(_uRno[ii].toLowerCase())) > -1 && =
+n.length=3D=3D(i+_uRno[ii].length)) { _ufno=3D1; break; }=0A=
+ }=0A=
+ if (h.indexOf("www.")=3D=3D0) h=3Dh.substring(4,h.length);=0A=
+ return =
+"utmccn=3D(referral)|utmcsr=3D"+_uEC(h)+"|"+"utmcct=3D"+_uEC(k)+"|utmcmd=3D=
+referral";=0A=
+}=0A=
+function _uOrg(t) {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k;=0A=
+ if ((i=3D_ur.indexOf("://")) < 0) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ for (var ii=3D0;ii<_uOsr.length;ii++) {=0A=
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {=0A=
+   if ((i=3D_ur.indexOf("?"+_uOkw[ii]+"=3D")) > -1 || =
+(i=3D_ur.indexOf("&"+_uOkw[ii]+"=3D")) > -1) {=0A=
+    k=3D_ur.substring(i+_uOkw[ii].length+2,_ur.length);=0A=
+    if ((i=3Dk.indexOf("&")) > -1) k=3Dk.substring(0,i);=0A=
+    for (var yy=3D0;yy<_uOno.length;yy++) {=0A=
+     if (_uOno[yy].toLowerCase()=3D=3Dk.toLowerCase()) { _ufno=3D1; =
+break; }=0A=
+    }=0A=
+    if (t) return _uEC(k);=0A=
+    else return =
+"utmccn=3D(organic)|utmcsr=3D"+_uEC(_uOsr[ii])+"|"+"utmctr=3D"+_uEC(k)+"|=
+utmcmd=3Dorganic";=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+ return "";=0A=
+}=0A=
+function _uBInfo() {=0A=
+ var sr=3D"-",sc=3D"-",ul=3D"-",fl=3D"-",cs=3D"-",je=3D1;=0A=
+ var n=3Dnavigator;=0A=
+ if (self.screen) {=0A=
+  sr=3Dscreen.width+"x"+screen.height;=0A=
+  sc=3Dscreen.colorDepth+"-bit";=0A=
+ } else if (self.java) {=0A=
+  var j=3Djava.awt.Toolkit.getDefaultToolkit();=0A=
+  var s=3Dj.getScreenSize();=0A=
+  sr=3Ds.width+"x"+s.height;=0A=
+ }=0A=
+ if (n.language) { ul=3Dn.language.toLowerCase(); }=0A=
+ else if (n.browserLanguage) { ul=3Dn.browserLanguage.toLowerCase(); }=0A=
+ je=3Dn.javaEnabled()?1:0;=0A=
+ if (_uflash) fl=3D_uFlash();=0A=
+ if (_ubd.characterSet) cs=3D_uES(_ubd.characterSet);=0A=
+ else if (_ubd.charset) cs=3D_uES(_ubd.charset);=0A=
+ return =
+"&utmcs=3D"+cs+"&utmsr=3D"+sr+"&utmsc=3D"+sc+"&utmul=3D"+ul+"&utmje=3D"+j=
+e+"&utmfl=3D"+fl;=0A=
+}=0A=
+function __utmSetTrans() {=0A=
+ var e;=0A=
+ if (_ubd.getElementById) e=3D_ubd.getElementById("utmtrans");=0A=
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) =
+e=3D_ubd.utmform.utmtrans;=0A=
+ if (!e) return;=0A=
+ var l=3De.value.split("UTM:");=0A=
+ var i,i2,c;=0A=
+ if (_userv=3D=3D0 || _userv=3D=3D2) i=3Dnew Array();=0A=
+ if (_userv=3D=3D1 || _userv=3D=3D2) { i2=3Dnew Array(); c=3D_uGCS(); }=0A=
+=0A=
+ for (var ii=3D0;ii<l.length;ii++) {=0A=
+  l[ii]=3D_uTrim(l[ii]);=0A=
+  if (l[ii].charAt(0)!=3D'T' && l[ii].charAt(0)!=3D'I') continue;=0A=
+  var r=3DMath.round(Math.random()*2147483647);=0A=
+  if (!_utsp || _utsp=3D=3D"") _utsp=3D"|";=0A=
+  var f=3Dl[ii].split(_utsp),s=3D"";=0A=
+  if (f[0].charAt(0)=3D=3D'T') {=0A=
+   s=3D"&utmt=3Dtran"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmtst=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmtto=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmttx=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmtsp=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmtci=3D"+_uES(f[6]);=0A=
+   f[7]=3D_uTrim(f[7]); if(f[7]&&f[7]!=3D"") =
+s+=3D"&utmtrg=3D"+_uES(f[7]);=0A=
+   f[8]=3D_uTrim(f[8]); if(f[8]&&f[8]!=3D"") =
+s+=3D"&utmtco=3D"+_uES(f[8]);=0A=
+  } else {=0A=
+   s=3D"&utmt=3Ditem"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmipc=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmipn=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmiva=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmipr=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmiqt=3D"+_uES(f[6]);=0A=
+  }=0A=
+  if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+   i[ii]=3Dnew Image(1,1);=0A=
+   i[ii].src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+   i[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+  if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+   i2[ii]=3Dnew Image(1,1);=0A=
+   =
+i2[ii].src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D=
+"+c;=0A=
+   i2[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uFlash() {=0A=
+ var f=3D"-",n=3Dnavigator;=0A=
+ if (n.plugins && n.plugins.length) {=0A=
+  for (var ii=3D0;ii<n.plugins.length;ii++) {=0A=
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=3D-1) {=0A=
+    f=3Dn.plugins[ii].description.split('Shockwave Flash ')[1];=0A=
+    break;=0A=
+   }=0A=
+  }=0A=
+ } else if (window.ActiveXObject) {=0A=
+  for (var ii=3D10;ii>=3D2;ii--) {=0A=
+   try {=0A=
+    var fl=3Deval("new =
+ActiveXObject('ShockwaveFlash.ShockwaveFlash."+ii+"');");=0A=
+    if (fl) { f=3Dii + '.0'; break; }=0A=
+   }=0A=
+   catch(e) {}=0A=
+  }=0A=
+ }=0A=
+ return f;=0A=
+}=0A=
+function __utmLinker(l,h) {=0A=
+ if (!_ulink) return;=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ if (!l || l=3D=3D"") return;=0A=
+ var iq =3D l.indexOf("?"); =0A=
+ var ih =3D l.indexOf("#"); =0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh,";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh,";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh,";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { _udl.href=3Dl+"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) _udl.href=3Dl+"?"+p;=0A=
+   else if (ih=3D=3D-1) _udl.href=3Dl+"&"+p;=0A=
+   else if (iq=3D=3D-1) =
+_udl.href=3Dl.substring(0,ih-1)+"?"+p+l.substring(ih);=0A=
+   else _udl.href=3Dl.substring(0,ih-1)+"&"+p+l.substring(ih);=0A=
+  }=0A=
+ } else { _udl.href=3Dl; }=0A=
+}=0A=
+function __utmLinkPost(f,h) {=0A=
+ if (!_ulink) return;=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ if (!f || !f.action) return;=0A=
+ var iq =3D f.action.indexOf("?"); =0A=
+ var ih =3D f.action.indexOf("#"); =0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh,";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh,";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh,";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { f.action+=3D"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) f.action+=3D"?"+p;=0A=
+   else if (ih=3D=3D-1) f.action+=3D"&"+p;=0A=
+   else if (iq=3D=3D-1) =
+f.action=3Df.action.substring(0,ih-1)+"?"+p+f.action.substring(ih);=0A=
+   else =
+f.action=3Df.action.substring(0,ih-1)+"&"+p+f.action.substring(ih);=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function __utmSetVar(v) {=0A=
+ if (!v || v=3D=3D"") return;=0A=
+ if (!_udo || _udo =3D=3D "") {=0A=
+  _udh=3D_uDomain();=0A=
+  if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ }=0A=
+ if (!_uVG()) return;=0A=
+ var r=3DMath.round(Math.random() * 2147483647);=0A=
+ _ubd.cookie=3D"__utmv=3D"+_udh+"."+_uES(v)+"; path=3D"+_utcp+"; =
+expires=3DSun, 18 Jan 2038 00:00:00 GMT;"+_udo;=0A=
+ var s=3D"&utmt=3Dvar&utmn=3D"+r;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+}=0A=
+function _uGCS() {=0A=
+ var t,c=3D"",dc=3D_ubd.cookie;=0A=
+ if ((t=3D_uGC(dc,"__utma=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utma=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmb=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmb=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmc=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmc=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmx=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmx=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmz=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmz=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmv=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmv=3D"+t+";");=0A=
+ if (c.charAt(c.length-1)=3D=3D"+") c=3Dc.substring(0,c.length-1);=0A=
+ return c;=0A=
+}=0A=
+function _uGC(l,n,s) {=0A=
+ if (!l || l=3D=3D"" || !n || n=3D=3D"" || !s || s=3D=3D"") return "-";=0A=
+ var i,i2,i3,c=3D"-";=0A=
+ i=3Dl.indexOf(n);=0A=
+ i3=3Dn.indexOf("=3D")+1;=0A=
+ if (i > -1) {=0A=
+  i2=3Dl.indexOf(s,i); if (i2 < 0) { i2=3Dl.length; }=0A=
+  c=3Dl.substring((i+i3),i2);=0A=
+ }=0A=
+ return c;=0A=
+}=0A=
+function _uDomain() {=0A=
+ if (!_udn || _udn=3D=3D"" || _udn=3D=3D"none") { _udn=3D""; return 1; }=0A=
+ if (_udn=3D=3D"auto") {=0A=
+  var d=3D_ubd.domain;=0A=
+  if (d.substring(0,4)=3D=3D"www.") {=0A=
+   d=3Dd.substring(4,d.length);=0A=
+  }=0A=
+  _udn=3Dd;=0A=
+ }=0A=
+ if (_uhash=3D=3D"off") return 1;=0A=
+ return _uHash(_udn);=0A=
+}=0A=
+function _uHash(d) {=0A=
+ if (!d || d=3D=3D"") return 1;=0A=
+ var h=3D0,g=3D0;=0A=
+ for (var i=3Dd.length-1;i>=3D0;i--) {=0A=
+  var c=3DparseInt(d.charCodeAt(i));=0A=
+  h=3D((h << 6) & 0xfffffff) + c + (c << 14);=0A=
+  if ((g=3Dh & 0xfe00000)!=3D0) h=3D(h ^ (g >> 21));=0A=
+ }=0A=
+ return h;=0A=
+}=0A=
+function _uFixA(c,s,t) {=0A=
+ if (!c || c=3D=3D"" || !s || s=3D=3D"" || !t || t=3D=3D"") return "-";=0A=
+ var a=3D_uGC(c,"__utma=3D"+_udh,s);=0A=
+ var lt=3D0,i=3D0;=0A=
+ if ((i=3Da.lastIndexOf(".")) > 9) {=0A=
+  _uns=3Da.substring(i+1,a.length);=0A=
+  _uns=3D(_uns*1)+1;=0A=
+  a=3Da.substring(0,i);=0A=
+  if ((i=3Da.lastIndexOf(".")) > 7) {=0A=
+   lt=3Da.substring(i+1,a.length);=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  if ((i=3Da.lastIndexOf(".")) > 5) {=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  a+=3D"."+lt+"."+t+"."+_uns;=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+function _uTrim(s) {=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  while ((s.charAt(0)=3D=3D' ') || (s.charAt(0)=3D=3D'\n') || =
+(s.charAt(0,1)=3D=3D'\r')) s=3Ds.substring(1,s.length);=0A=
+  while ((s.charAt(s.length-1)=3D=3D' ') || =
+(s.charAt(s.length-1)=3D=3D'\n') || (s.charAt(s.length-1)=3D=3D'\r')) =
+s=3Ds.substring(0,s.length-1);=0A=
+  return s;=0A=
+}=0A=
+function _uEC(s) {=0A=
+  var n=3D"";=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  for (var i=3D0;i<s.length;i++) {if (s.charAt(i)=3D=3D" ") n+=3D"+"; =
+else n+=3Ds.charAt(i);}=0A=
+  return n;=0A=
+}=0A=
+function __utmVisitorCode(f) {=0A=
+ var r=3D0,t=3D0,i=3D0,i2=3D0,m=3D31;=0A=
+ var a=3D_uGC(_ubd.cookie,"__utma=3D"+_udh,";");=0A=
+ if ((i=3Da.indexOf(".",0))<0) return;=0A=
+ if ((i2=3Da.indexOf(".",i+1))>0) r=3Da.substring(i+1,i2); else return =
+"";  =0A=
+ if ((i=3Da.indexOf(".",i2+1))>0) t=3Da.substring(i2+1,i); else return =
+"";  =0A=
+ if (f) {=0A=
+  return r;=0A=
+ } else {=0A=
+  var c=3Dnew =
+Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T'=
+,'U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');=0A=
+  return =
+c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r=
+&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5=
+&m]+c[t&m];=0A=
+ }=0A=
+}=0A=
+function _uIN(n) {=0A=
+ if (!n) return false;=0A=
+ for (var i=3D0;i<n.length;i++) {=0A=
+  var c=3Dn.charAt(i);=0A=
+  if ((c<"0" || c>"9") && (c!=3D".")) return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uES(s,u) {=0A=
+ if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+  if (u) return encodeURI(s);=0A=
+  else return encodeURIComponent(s);=0A=
+ } else {=0A=
+  return escape(s);=0A=
+ }=0A=
+}=0A=
+function _uUES(s) {=0A=
+ if (typeof(decodeURIComponent) =3D=3D 'function') {=0A=
+  return decodeURIComponent(s);=0A=
+ } else {=0A=
+  return unescape(s);=0A=
+ }=0A=
+}=0A=
+function _uVG() {=0A=
+ if((_udn.indexOf("www.google.") =3D=3D 0 || _udn.indexOf(".google.") =
+=3D=3D 0 || _udn.indexOf("google.") =3D=3D 0) && _utcp=3D=3D'/') {=0A=
+  return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uSP() {=0A=
+ var s=3D100;=0A=
+ if (_usample) s=3D_usample;=0A=
+ if(s>=3D100 || s<=3D0) return true;=0A=
+ return ((__utmVisitorCode(1)%10000)<(s*100));=0A=
+}=0A=
+function urchinPathCopy(p){=0A=
+ var d=3Ddocument,nx,tx,sx,i,c,cs,t,h,o;=0A=
+ cs=3Dnew Array("a","b","c","v","x","z");=0A=
+ h=3D_uDomain(); if (_udn && _udn!=3D"") o=3D" domain=3D"+_udn+";";=0A=
+ nx=3D"Sun, 18 Jan 2038 00:00:00 GMT;";=0A=
+ tx=3Dnew Date(); tx.setTime(tx.getTime()+(_utimeout*1000));=0A=
+ tx=3Dtx.toGMTString()+";";=0A=
+ sx=3Dnew Date(); sx.setTime(sx.getTime()+(_ucto*1000));=0A=
+ sx=3Dsx.toGMTString()+";";=0A=
+ for (i=3D0;i<6;i++){=0A=
+  t=3D" expires=3D";=0A=
+  if (i=3D=3D1) t+=3Dtx; else if (i=3D=3D2) t=3D""; else if (i=3D=3D5) =
+t+=3Dsx; else t+=3Dnx;=0A=
+  c=3D_uGC(d.cookie,"__utm"+cs[i]+"=3D"+h,";");=0A=
+  if (c!=3D"-") d.cookie=3D"__utm"+cs[i]+"=3D"+c+"; path=3D"+p+";"+t+o;=0A=
+ }=0A=
+}=0A=
+function _uCO() {=0A=
+ if (!_utk || _utk=3D=3D"" || _utk.length<10) return;=0A=
+ var d=3D'www.google.com';=0A=
+ if (_utk.charAt(0)=3D=3D'!') d=3D'analytics.corp.google.com';=0A=
+ _ubd.cookie=3D"GASO=3D"+_utk+"; path=3D"+_utcp+";"+_udo;=0A=
+ var sc=3Ddocument.createElement('script');=0A=
+ sc.type=3D'text/javascript';=0A=
+ sc.id=3D"_gasojs";=0A=
+ =
+sc.src=3D'https://'+d+'/analytics/reporting/overlay_js?gaso=3D'+_utk+'&'+=
+Math.random();=0A=
+ document.getElementsByTagName('head')[0].appendChild(sc);  =0A=
+}=0A=
+function _uGT() {=0A=
+ var h=3Dlocation.hash, a;=0A=
+ if (h && h!=3D"" && h.indexOf("#gaso=3D")=3D=3D0) {=0A=
+  a=3D_uGC(h,"gaso=3D","&");=0A=
+ } else {=0A=
+  a=3D_uGC(_ubd.cookie,"GASO=3D",";");=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+var _utk=3D_uGT();=0A=
+if (_utk && _utk!=3D"" && _utk.length>10) {=0A=
+ if (window.addEventListener) {=0A=
+  window.addEventListener('load', _uCO, false); =0A=
+ } else if (window.attachEvent) { =0A=
+  window.attachEvent('onload', _uCO);=0A=
+ }=0A=
+}=0A=
+
+------=_NextPart_000_0064_01C7EA65.9E2E2810--

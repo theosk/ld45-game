@@ -1,0 +1,25 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; The renames of the folder
+;
+; The first one is the existing folder.
+; The second is the Name, that will displayed in Chars.EX
+; /resource-folder/Name in Charas
+;
+/battle#1/Gevecht#Pose1
+/battle#2/Gevecht#Pose2
+/battle#3/Gevecht#Pose3
+/normal/Mid
+/small/Klein
+/big/Groot
+/fighter/Vecht-soldaten
+/kids/Kinderen
+/teddy/Teddybeer
+/fat/Overgewicht

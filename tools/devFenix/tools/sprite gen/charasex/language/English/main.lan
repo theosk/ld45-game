@@ -1,0 +1,119 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; Terms for CHARAS.EX
+;
+; | stands for new line
+;
+Background
+Group 1
+Group 2
+Group 3
+Group 4
+Warning!|Background color is used in char
+Delete-Group
+Can't open a window
+Import image
+Save resource
+Load resource
+Exit
+Can't open file.
+Can't save file.
+Out of memory.
+File is destroyed.
+open...
+save...
+Create pictures
+Overwrite file?
+Changes lost!|Realy close?
+Line behind Char|(only Item)
+move
+red
+green
+blue
+Link spin
+Save picture
+Reset
+Blue
+Yellow
+Green
+Violet
+Orange
+Pink
+Red
+Cyan
+Black
+Gray
+White
+Costom
+Default
+Body
+Head
+Hair
+Suit
+Item 1
+Item 2
+Item 3
+Left
+Mid
+Right
+Method 1 (max)
+Method 1 (mid)
+Method 2 (max)
+Method 2 (mid)
+Item
+Open set
+File saved.
+Close
+Help
+File
+Import new resource
+About
+Sets
+Language
+Charas Team
+Manual
+Work in progress.
+Preview
+Zoom
+Export to clipboard
+Import from clipboard
+Can't import from clipboard.
+Export to image
+Thanksgiving
+Load CHAR
+Save CHAR
+CharSet-generator
+Copy to CharSet
+CharSet is full!
+Please click in the background.
+Multi-Select range
+Auto background
+Blink
+;Short for back
+b
+;Short for right
+r
+;short for front
+f
+;short for left
+l
+Small-Feets-Correction
+Import from clipboard grouped
+Import battle-image
+Pose 1
+Pose 2
+Pose 3
+Export to battle-image
+Convert char to activ set.
+Zoom factor
+Did you know?
+Previous
+Next
+Don't show me this again

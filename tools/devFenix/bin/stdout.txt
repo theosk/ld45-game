@@ -1,0 +1,24 @@
+FXC 0.93 (Jul  1 2007 15:00:15)
+Copyright (C)1999 Jose Luis Cebrian
+Copyright (C)2002 Fenix Team
+Fenix comes with ABSOLUTELY NO WARRANTY; see COPYING for details
+
+File added:                      ejemplo.fpg (    292232 bytes)
+
+Fichero D:\DevFenix\Examples\1_Basic\BasicSamples1\Ejemp1.exe grabado (824563 bytes):
+
+          Procesos:          2 procesos
+    Datos globales:       3364 bytes 
+     Datos locales:        236 bytes
+    Datos privados:          0 bytes
+    Datos publicos:          0 bytes
+            Codigo:        400 bytes
+Variables globales:         40 variables 
+ Variables locales:         28 variables 
+Variables privadas:          0 variables
+Variables publicas:          0 variables
+   Identificadores:          0 identificadores
+       Estructuras:         12 estructuras
+           Cadenas:          2 cadenas  (21 bytes)
+          Ficheros:          1 ficheros (811464 bytes)
+

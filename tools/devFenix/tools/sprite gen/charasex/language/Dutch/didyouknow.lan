@@ -1,0 +1,19 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; Did you know entries
+;
+; | stands for new line
+;
+Charas.EX is een offline versie van de Charas-Project. Je kan het vinden op Charas-Project.net.
+Er zijn vijf verschillende typen resources. Het lichaam, gezicht, kleding, haar en items.
+The three items tags are linked to the same directory. Basically, you can use three times the same item.
+If you switch to a different style and two resources of the same type have the same name, then the resource will automatically be changed to the new style.
+You can access the importing screen very quickly by right-clicking on the main window.
+If you use Charas.EX in your own language and click on the Charas-Project link in the About window, you might see the Charas site in your language too if your language exists.

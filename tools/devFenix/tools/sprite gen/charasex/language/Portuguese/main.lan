@@ -1,0 +1,119 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; Terms for CHARAS.EX
+;
+; | stands for new line
+;
+Cor de fundo
+Cor 1
+Cor 2
+Cor 3
+Cor 4
+Atenção: A Cor de Fundo é usada no Char!
+Escolha pro Fundo
+A Janela não pode ser aberta.
+Importar Imagem
+Salvar Recurso
+Abrir Recurso
+Sair
+Não pode abrir o arquivo.
+Não pode salvar o arquivo.
+Sem Memória.
+Arquivo está destruido.
+Abrir...
+Salvar...
+Criar Figura
+Sobrescrever arquivo?
+As Mudanças serão perdidas! Quer Realmente Fechar?
+Cores por Trás|(Somente para Itens)
+Animar
+Vermelho
+Verde
+Azul
+Ligar Cores
+Salvar Imagem
+Reinicar
+Azul
+Amarelo
+Verde
+Violeta
+Laranja
+Rosa
+Vermelho
+Azul Turqueza
+Preto
+Cinza
+Branco
+Personalizado
+Padrão
+Corpo
+Rosto
+Cabelo
+Roupa
+Item 1 
+Item 2
+Item 3
+Esquerdo
+Meio
+Direito
+Metodo 1 (máx)
+Metodo 1 (meio)
+Metodo 2 (máx)
+Metodo 2 (meio)
+Item
+Abrindo a Escolha
+Arquivo Salvo.
+Fechar
+Ajuda
+Arquivo
+Importar Novo Recurso
+Sobre
+Escolha
+Linguagem
+Tempo dos Charas
+Manual
+Trabalho em Progresso.
+Pré-Visualização
+Aumento
+Copiar pra Area de Trab.
+Importar da Area de Trab.
+Não pode importar da Area de Trabalho!
+Exportar Imagem
+Agradecimentos
+Abrir Char
+Salvar Char
+CharSet-generator
+Copy to CharSet
+CharSet is full!
+Please click in the background.
+Multi-Select range
+Auto background
+Blink
+;Short for back
+b
+;Short for right
+r
+;short for front
+f
+;short for left
+l
+Small-Feets-Correction
+Import from clipboard grouped
+Import battle-image
+Pose 1
+Pose 2
+Pose 3
+Export to battle-image
+Convert char to activ set.
+Zoom factor
+Did you know?
+Previous
+Next
+Don't show me this again

@@ -1,0 +1,119 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; Terms for CHARAS.EX
+;
+; | stands for new line
+;
+Sfondo 
+Gruppo 1 
+Gruppo 2 
+Gruppo 3 
+Gruppo 4 
+Attenzione: Il colore di sfondo é usato nel Char! 
+Elimina-Gruppo 
+Impossibile aprire la finestra 
+Importa Immagine 
+Salva Risorsa 
+Carica Risorsa 
+Esci 
+Impossibile aprire il file. 
+Impossibile salvare il file. 
+Out of memory. 
+File corrotto. 
+apri... 
+salva... 
+Crea immagini 
+Sovrascrivere? 
+Le modifiche verranno perse!|Chiudere? 
+in background|(solo Accerssori) 
+muovi 
+rosso 
+verde 
+blu 
+link spin 
+salva immagine 
+reset 
+blu 
+giallo 
+verde 
+viola 
+aracione 
+rosa 
+rosso 
+turchese 
+nero 
+grigio 
+bianco 
+personalizzato 
+default 
+Corpo 
+Faccia 
+Capelli 
+Vestito 
+Accessorio 1 
+Accessorio 2 
+Accessorio 3 
+sinistra 
+centro 
+destra 
+Metodo 1 (max) 
+Metodo 1 (mid) 
+Metodo 2 (max) 
+Metodo 2 (mid) 
+Accessorio 
+Apri Set 
+File salvato. 
+chiudi 
+Aiuto 
+File 
+Importa nuova Risorsa 
+About 
+Sets 
+Lingua 
+Charas Team 
+Manuale 
+Work in progress. 
+Preview 
+Zoom 
+Copia in Clipboard 
+Importa dalla Clipboard 
+Impossibile importare dalla Clipboard! 
+Esporta Immagine 
+Ringraziamenti 
+Carica CHAR 
+Salva CHAR 
+CharSet-Generator 
+Copia in CharSet 
+Il CharSet é pieno! 
+Fai click nel background 
+Multi-Select range
+Auto background
+Blink
+;Short per dietro
+f
+;Short per destra
+d
+;short per davanti
+s
+;short per sinistra
+r
+Small-Feets-Correction
+Import from clipboard grouped
+Import battle-image
+Pose 1
+Pose 2
+Pose 3
+Export to battle-image
+Convert char to activ set.
+Zoom factor
+Did you know?
+Previous
+Next
+Don't show me this again

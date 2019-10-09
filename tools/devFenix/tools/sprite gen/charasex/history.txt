@@ -1,0 +1,191 @@
+History
+
+Current Version 1.4.7.17
+------------------------------------------
+* New Importer Dark Savant0
+* New Program Manager and Coder GaryCXJK
+* New Multipurpose member Chronic
+* First official release by this three man team following two unnoficials
+* Many, many, MANY new resources in almost every place, from items(yes, ITEMS! I know your excited), to bodies
+* Fixes zoom function and adds variable zoom.
+* New spanish Language Translation for charas.ex
+* New division in the monsters section in which some become tall monsters in the "TALL MONSTERS 2" section
+* New source
+
+v1.3.5.9
+--------
+* New Importer 3Darkman
+* When you now change the set, Charas.EX will try to load the same resources in the actual set (Build a Char in Battle>1 and switch to Battle>2 and you see, what i mean)
+* Now a little "Statusbar" on the right side show the activ set-folder and the name of the resource under the mouse. The tooltip doesn't work right...
+* I convert (very quick and dirty) all the mid head, hair, items and body to the battle>1-3 sets
+Importer
+* Can now import battle-images from the battle-charset-generator
+* And also export (for pose1&2 simple give the same imagename, because Charas.EX will only write in the upper/lower part of the image)
+* Import from clipboard grouped: When you export in to the clipboard and edit it with a paint-programm and then you can import this with this function, then charas take the actual grouping-tabel. If you only change a little bit (for example, move the head only one pixel to the right) you must not set all colorgroups again and again.
+NOTE: Maybe there are problems with some programm. Paint Shop Pro for example. When use the clipboards to export to PSP and then back to Charas.EX the colors have changed! But when i export and import a resource in Charas.EX, no problem. When i copy the picture in PSP, no problem. Use the Windows-Paint programm for this small changings.
+
+V1.3.5.5
+--------
+* First Version of the english manual
+* Charas.EX can now handle 100 Languages and 100 Sets
+* New Sections: Battle (Sorry JeremaiSealocke, i saw your resource and thougth, they could fit). At the moment only a template exist.
+* Submenus in sets by useing # in the foldername
+* New About Screen
+* When Charas.EX start first time, it will show a welcome message.
+* A Default-Button is added for easier reset the current resource to default.
+* New importer DFXY
+* New Language: Portuguese from 3Darkman 
+CharSet Generator
+* Add the possiblity to load a complete CharSet
+* Now you can Save the Char by clicking on it
+Updater
+* Remove the bmp with ico
+
+V1.3.4.27
+---------
+Only many new resources from Zelion
+
+
+v1.3.4.13
+---------
+* When you try to import a resource with more than 127 Colors ->Crash
+* Compact the menu
+* When no resource is in one Section, Charas.EX makes nonsens
+* Do small-feet-correction for many resources
+* New Importer: Zelion
+
+Importer
+* Small-Feet-Correction - Function
+  Needed, when a suit has smaller feet than the body-resource
+
+V1.3.4.12
+---------
+* New Auto-Back-Ground-Color-Finder
+* Fixed a bug with XP
+* Charas.EX does now automatic close, when windows shutdown.
+* Links in about-window are now clickable
+* Hide Message-Window from Taskbar
+* Change some Text
+
+Importer
+* Hide Zoom-Window from Taskbar
+* Blink is now optional
+
+v1.3.3.26
+---------
+* many new resources (thanks to Blatolo and GaryCXJk / look in the thanksgiving)
+* New PureBasic-Version 3.62
+* Show the filename, when asking to confirm the overwrite
+
+Import
+* Correct error in Export to clipboard
+
+Updater
+* Add CRC-Filecheck
+
+
+v1.3.3.23
+---------
+Charas.Ex
+* and changed the draw-order back to (item in background), body,head,suit,hair,item ;)
+  (I have changed it, because of the old-man-faces, but then i import more suits...)
+* Remove a Resize-Window-Bug
+* Autodetect a good backgroundcolor 
+  (sometimes it doesn't work good, so then you can set it manual)
+
+Updater
+* New art of finding the date of the updaterfile (now the name is used)
+* GID ignored
+* possible to update the updater (charas.ex-file will do this)
+
+V1.3.3.11
+---------
+Charas.EX
+* changed draw-order to (item in background),body,suit,head,hair,item
+
+Import
+* "set to background"-Color will now white on the icon
+* Now it is possible to hold down the mousebutton and move around to set easier more than one color.
+* Multi-Select with right-click
+
+
+V1.3.3.9
+--------
+Charas.EX
+* Include Charset-Generator to create Charset, ready for import in RPG-Maker
+  (the "Copy to Clipboard"-Function is now in the File-Menu)
+* Save the Position of the Preview-Window.
+* New Language: Dutch (thanks to GaryCXJk)
+* Update Language: Italian (thanks to Alex)
+* Translate on the fly the Import/Preview/Charset-Window.
+* When the Zoom-Function of the importer is activate, the importer-window is now not always in foreground.
+* Save-Bug (forgotten path) fixed
+* Black-Icon-bug removed (error in the cmr-file; easy load and save it in the importer)
+* Less flickering, when switching between Head/Hair/etc.
+* Credits updated
+* some resources
+
+Import
+* Forgot to include PNG-load-support
+* Zoom-Window is on top, when the Import-Window is activ
+
+
+V1.03.03.08
+-----------
+ARGH. Some problem with my updater (he has killed nearly all my charas.ex files :(
+Don't worry: I will always test my update-files, so it is secure for you.
+(It seems, that i don't lost a resource. If you found a forgotten resource, tell me)
+
+Charas.EX
+* Remove a little Bug: I write first the hair, then the suit, so the suit was over the hair.
+* Clipboard
+* automatic start the updater, if a update-file exist
+* Now i use the FreeImage-DLL.
+* Little Change in the .CMR-File: Now a little bit smaller (but compatible!)
+* Autoselect the Language (get by the system-language)
+* Set-name are also translated
+* PNG-Support!
+* Ask on every File, bevor overwrite.
+* New FileFormat "CHAR"
+  only in the "File"-Menu
+  When a file is saved as char, all the data is saved, so after loading a CHAR you can change it (recolor, other hair).
+
+Import
+* While the import-window is open, the main-window is now also open.
+
+Updater
+* automatic update all founded updatefiles, not only one. Sorted by Date.
+* auto-create path of file, if the path not exist
+* Correct my FileTimeToDate - function
+* is now date/time-sensetiv
+
+
+V1.03.03.02
+-----------
+* more resources
+* credits
+
+V1.03.03.01
+-----------
+* Charas.Updater included
+* more resources
+* fixed a bug in the Backcolorcheck
+* remove clipboard, because the programm crashed (maybe a bug in PureBasic)
+
+Import
+* Import from Clipboard
+* Export to Clipboard
+* Export BMP
+
+V1.03.02.28
+-----------
+* Rename to Charas.EX
+* A ToolTip show the filename of the resource
+* Inbuild Language is now English
+* Copy to Clipboard
+* New Language: Italy (some items are missing, i this case, i use english terms)
+* New Resources
+
+Import
+* Changes Routines for Background of the Icon
+* zoom

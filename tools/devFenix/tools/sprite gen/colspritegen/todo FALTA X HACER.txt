@@ -1,0 +1,2 @@
+* transparencia afecte a las armas
+* opcion de ocultar modelo , para renderizar armas

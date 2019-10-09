@@ -1,0 +1,119 @@
+;
+; CHARAS.EX Language-File
+;
+; Revised by GaryCXJk
+;
+; Comment are introduced by a ;
+; WARNING: Never insert empty lines or Charas.EX will this interpreted as
+;          use the English-Term for this term
+;
+; Terms for CHARAS.EX
+;
+; | stands for new line
+;
+Hintergrund
+Gruppe 1
+Gruppe 2
+Gruppe 3
+Gruppe 4
+ACHTUNG!|Hintergrundfarbe nicht eindeutig!
+Lösch-Gruppe
+Kann kein Fenster öffnen,
+Importiere Bild
+Resource speichern
+Resource laden
+Beenden
+Kann Datei nicht öffnen.
+Kann Datei nicht speichern.
+Nicht genügend Speicher.
+Dateiformat defekt.
+öffne...
+speichere...
+Erzeuge Bilder
+Bestehende Datei überschreiben?
+Änderungen werden gelöscht.|Wirklich schließen?
+Zeile hinter Char|(nur Item)
+Bewegen
+Rot
+Grün
+Blau
+Regler verbinden
+Bild Speichern
+zurücksetzen
+Blau
+Gelb
+Grün
+Lila
+Orange
+Rosa
+Rot
+Zyan
+Schwarz
+Grau
+Weiß
+Benutzerdefiniert
+Standard
+Körper
+Kopf
+Haare
+Anzug
+Item 1
+Item 2
+Item 3
+links
+mitte
+rechts
+Methode 1 (maximal)
+Methode 1 (mittel)
+Methode 2 (maximal)
+Methode 2 (mittel)
+Item
+öffne Set
+Datei gespeichert.
+schließen
+Hilfe
+Datei
+Importiere neue Resourcen
+Über
+Sets
+Sprachen
+Charas Team
+Anleitung
+In Arbeit.
+Vorschau
+Lupe
+Exportiere ins Clipboard
+Importiere Clipboard
+Kann kein Bild aus den Clipboard laden.
+Exportiere Bild
+Danksagung
+CHAR Laden
+CHAR Speichern
+CharSet-Generator
+Ins CharSet damit
+CharSet ist voll!
+Bitte den Hintergrund anklicken.
+Multi. Genauigkeit
+Auto Hintergrund
+Blinken
+;Kurz für hinten
+H
+;Kurz für rechts
+R
+;Kurz für Vorne
+V
+;Kurz für links
+L
+Kleine-Füße-Korrektur
+Importiere Clipboard "grouped"
+Importiere Battle-Bild
+Pose 1
+Pose 2
+Pose 3
+Exportiere Battle-Bild
+Konvertiere Char.
+Zoom factor
+Did you know?
+Previous
+Next
+Don't show me this again
